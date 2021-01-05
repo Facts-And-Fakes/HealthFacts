@@ -1,8 +1,5 @@
 from flask import Flask,render_template,url_for,request, Response, redirect
-import random
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
