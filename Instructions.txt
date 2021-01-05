@@ -1,0 +1,22 @@
+PROJECT STILL IN PROGRESS
+
+NOTE - To open Windows Command Line, press Windows Key + R, type in "cmd" and press Enter.
+
+
+*INSTRUCTIONS ON HOW TO USE*
+
+1. Install required libraries (use command "pip install [module name]" in Command Line to install)
+   - Flask (pip install Flask)
+   - Scikit-Learn (pip install sklearn)
+   - Numpy (pip install numpy)
+   - Pandas (pip install pandas)
+   - Matplotlib (pip install matplotlib)
+   
+2. Download the repository to your computer (it will be in a zip file)
+3. Extract the repository to a folder
+4. Go to the folder and find a file called app.py
+5. Run app.py
+6. After it runs successfully, go to the localhost i.e. this link in your browser http://127.0.0.1:5000/ (this link will also be printed onto the screen after the program has run)
+7. Thats it. Now you should see a screen asking for input.
+
+Hope it works!

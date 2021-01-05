@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results!</title>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+		
+	</div>
+	</header>
+			<div class="topnav">
+			  <a class="active" href="/">Home</a>
+			<a href = "{{url_for('home')}}">Fake News Predictor</a>
+  <a href="{{url_for('fakereviews')}}">Fake Review Predictor</a>
+  <a href="#contact">Contact</a>
+  <a href="https://aryaman-das.github.io/Facts-And-Fakes/">About</a>
+			<a href="https://github.com/Aryaman-Das/Facts-And-Fakes">View On GitHub</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+	<p style="color:black;font-size:20;text-align: center;"><b>Results for the news headline</b></p>
+	{% if prediction == 1%}
+	<h2 align = "center" style="color:green;">The news has been predicted to be True</h2>
+	{% elif prediction == 0%}
+	<h2 align = "center" style="color:red;">The news has been predicted to be Fake</h2>
+	{% endif %}
+	<br>
+	{% if resultsConf == 1%}
+	<h3 align = "center" style="color:green;">Results are confirmed!</h3>
+	{% elif resultsConf == 0%}
+	<h3 align = "center" style="color:red;">Results not confirmed!</h3>
+	{% endif %}
+	<div class="go-back" align="center">
+	<a class = "btn2" href = "/" target = "_blank">Go back</a>
+	</div>
+<br>
+<br>
+
+	<br>
+	<h3 align = "center" style = "color:red;"> Important - Other fake news articles you should know about! </h3>
+	<div class = 'table'>
+	<center>
+	{% for table in tables %}
+		    {{titles[loop.index]}}
+		    {{ table|safe }}
+	{% endfor %}
+	</center>
+	</div>
+
+
+</body>
+</html>

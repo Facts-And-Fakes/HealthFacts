@@ -1,0 +1,165 @@
+
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background-color:#229c6b;
+}
+
+.h1{
+    position: fixed;
+}
+
+.container{
+	width:100%;
+	text-align: center;
+}
+
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  margin-top: -8px;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: all 0.4s ease 0s;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.comment {
+        width: 50%;
+        height: 100px;
+        padding: 10px;
+        border-left: 6px solid #000000;
+	border-right: 6px solid #000000;
+    	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+        background-color: #d0e2bf;
+        color: #000000;
+}
+.date {
+        background-color: #d0e2bf;
+        color: #000000;
+	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+}
+.source {
+        background-color: #d0e2bf;
+        color: #000000;
+	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+}
+
+.newshere {
+	font: 20px/1.0 Georgia, sans-serif;
+	text-align:center;
+	color: #ffffff;
+	text-shadow: 1px 1px;
+}
+
+
+.ml-container{
+text-align: center;}
+
+.go-back{
+	text-align: center;
+}
+
+.table {
+	text-align: center;
+}
+
+.h2{
+    color: black;
+}
+.btn {
+color: #fff ;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+
+.btn:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+
+.btn2 {
+color: #fff ;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+
+.btn2:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.btn3 {
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+.btn3:hover {
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
