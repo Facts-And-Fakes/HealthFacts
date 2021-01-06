@@ -17,8 +17,8 @@ def index():
 
 @app.route('/fakenews')
 def home():
-    df = pd.read_csv('NewsData.csv')
-    sources = pd.read_csv('newssources.csv')
+    df = pd.read_csv('data/NewsData.csv')
+    sources = pd.read_csv('data/newssources.csv')
     df1 = pd.DataFrame(df)
     df2 =  df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
     df2 = df2[['title', 'date','avgReview']]
@@ -27,7 +27,7 @@ def home():
 @app.route('/predict',methods=['POST'])
 def predictFake():
     exist = 0
-    df = pd.read_csv('NewsData.csv')
+    df = pd.read_csv('data/NewsData.csv')
     df1 = pd.DataFrame(df)
     df2 =  df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
     df2 = df2[['title', 'date','avgReview']]
@@ -84,7 +84,7 @@ def fakereviews():
 
 @app.route("/fakereviewresults")
 def fakereviewresults():
-    df = pd.read_csv("deceptive-opinion.csv")
+    df = pd.read_csv("data/deceptive-opinion.csv")
     source = df['source']
     deceptive = df['deceptive']
     x = df['source'] + ' - ' + df['hotel'] + ' - ' + df['text']

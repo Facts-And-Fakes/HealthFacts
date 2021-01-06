@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("spam.csv", encoding="latin-1")
+df = pd.read_csv("data/spam.csv", encoding="latin-1")
 x = df['v2']
 y = df['v1']
 le = LabelEncoder()

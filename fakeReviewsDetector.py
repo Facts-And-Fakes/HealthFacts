@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("deceptive-opinion.csv")
+df = pd.read_csv("data/deceptive-opinion.csv")
 source = df['source']
 deceptive = df['deceptive']
 x = df['source']+' - '+df['hotel']+' - '+df['text']
