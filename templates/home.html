@@ -3,26 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-	<link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
+	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
 	<div class="container">
-
-		<div class="topnav">
-
-			<a href = "{{url_for('home')}}">Fake News Predictor</a>
-  <a href="{{url_for('fakereviews')}}">Fake Reviews</a>
-			<a class="active" href="/"><img src="../assets/howtouse.jpg" height="128" width="128"></a>
-  <a href="#contact">Contact</a>
-  <a href="https://aryaman-das.github.io/Facts-And-Fakes/">About</a>
-			<a href="https://github.com/Aryaman-Das/Facts-And-Fakes">View On GitHub</a>
-
-</div>
-		<br>
-		<br><h1>Click on any of the above links to get started!</h1>
-	<a href="https://aryaman-das.github.io/Facts-And-Fakes/">
-            <center><img id="howtouse_1" src="../assets/howtouse.jpg"width="128px" height="96px"></center>
-          </a>
+		{% include 'nav.html' %}
+		{% block content %}
+		{% endblock %}
 	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1 align="center">Click on any of the above links to get started!</h1>
 </body>
 </html>

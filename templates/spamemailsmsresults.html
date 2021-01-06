@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Results!</title>
-    <link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
+    	<link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
@@ -11,14 +11,13 @@
         {% block content %}
         {% endblock %}
       <br><br><br>
-
         <center>
             {%if prediction==1%}
             Yes
             {%elif prediction==0%}
             No
             {%endif%}
-            <br><br><br><a class = "btn2" href = "/fakereviews">Go back</a>
+            <br><br><br>	<a class = "btn2" href = "/spamdetection">Go back</a>
         </center>
 </body>
 </html>

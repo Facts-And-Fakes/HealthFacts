@@ -3,8 +3,8 @@
 <html>
 <head>
 	<title>Results!</title>
-<link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
-
+<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
 	<header>
@@ -12,16 +12,10 @@
 		
 	</div>
 	</header>
-			<div class="topnav">
-			  <a class="active" href="/">Home</a>
-			<a href = "{{url_for('home')}}">Fake News Predictor</a>
-  <a href="{{url_for('fakereviews')}}">Fake Review Predictor</a>
-  <a href="#contact">Contact</a>
-  <a href="https://aryaman-das.github.io/Facts-And-Fakes/">About</a>
-			<a href="https://github.com/Aryaman-Das/Facts-And-Fakes">View On GitHub</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				{% include 'nav.html' %}
+				{% block content %}
+				{% endblock %}
 
-</div>
 	<p style="color:black;font-size:20;text-align: center;"><b>Results for the news headline</b></p>
 	{% if prediction == 1%}
 	<h2 align = "center" style="color:green;">The news has been predicted to be True</h2>
@@ -35,7 +29,7 @@
 	<h3 align = "center" style="color:red;">Results not confirmed!</h3>
 	{% endif %}
 	<div class="go-back" align="center">
-	<a class = "btn2" href = "/" target = "_blank">Go back</a>
+	<a class = "btn2" href = "/fakenews">Go back</a>
 	</div>
 <br>
 <br>

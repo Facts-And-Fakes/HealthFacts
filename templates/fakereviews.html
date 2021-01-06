@@ -4,22 +4,14 @@
     <meta charset="UTF-8">
     <title>Facts-And-Fakes - Fake Review Detector</title>
 	<link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
-
-		<div class="topnav">
-			  <a class="active" href="/">Home</a>
-			<a href = "{{url_for('home')}}">Fake News Predictor</a>
-  <a href="{{url_for('fakereviews')}}">Fake Review Predictor</a>
-  <a href="#contact">Contact</a>
-  <a href="https://aryaman-das.github.io/Facts-And-Fakes/">About</a>
-			<a href="https://github.com/Aryaman-Das/Facts-And-Fakes">View On GitHub</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-</div>
+	{% include 'nav.html' %}
+    {% block content %}
+    {% endblock %}
 		<br>
 		<br>
-
 		<div class = 'space'>
 		</div>
 		<div class="ml-container">

@@ -1,19 +1,57 @@
-from flask import Flask,render_template,url_for,request, Response, redirect
+from flask import Flask,render_template,url_for,request, Response, redirect, session, g, abort
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import PassiveAggressiveClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix
+from fakeReviewsDetector import fakereviewsdetection
+from fakenewsdetection import fakenewsdetection
+from spamsms import spamsmsdetection
+from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import generate_password_hash, check_password_hash
+import json
+
+db = SQLAlchemy()
+
+class User:
+    def __init__(self, id, username, password):
+        self.id = id
+        self.username = username
+        self.password = password
+
+    def __repr__(self):
+        return "User: {}, Password: {}>".format(self.username, generate_password_hash(self.password))
+
+admin = User(id=1, username="admin", password="admin")
 
 app = Flask(__name__)
+secure = open("database.json", "r+")
+
+users = json.load(secure)
+
+update = {admin.id:{"username": admin.username, "password": generate_password_hash(admin.password) }}
+
+users.update(update)
+
+with open("database.json", "w") as writefile:
+    json.dump(users, writefile)
+
+print(users)
+app.secret_key = 'veryverysecret'
+
 newNews = {}
+
+@app.before_request
+def before_request():
+    if 'user_id' in session:
+        user = [x for x in users if x.id == session['user_id']][0]
+        g.user = user
+
 @app.route('/')
 def index():
     return render_template("home.html")
 
+@app.route('/profile')
+def profile():
+    if not g.user:
+        return redirect(url_for('login'))
+    return render_template('profile.html')
 
 @app.route('/fakenews')
 def home():
@@ -29,27 +67,8 @@ def predictFake():
     exist = 0
     df = pd.read_csv('data/NewsData.csv')
     df1 = pd.DataFrame(df)
-    df2 =  df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
-    df2 = df2[['title', 'date','avgReview']]
-    
-    truefalse = df.true_false
-
-    x_train,x_test,y_train,y_test = train_test_split(df['news'], truefalse, test_size = 0.3, shuffle = True, random_state = 42)
-
-    tfidf = TfidfVectorizer(stop_words = 'english', max_df = 0.7)
-
-    tfidf_train = tfidf.fit_transform(x_train) 
-    tfidf_test = tfidf.transform(x_test)
-
-    PAClass = PassiveAggressiveClassifier(max_iter = 10)
-    PAClass.fit(tfidf_train,y_train)
-
-    y_pred = PAClass.predict(tfidf_test)
-    acc = accuracy_score(y_test,y_pred)
-    print('Model Accuracy: {}'.format(round(acc*100,1)))
-    
-    confusion_matrix(y_test,y_pred, labels=[0,1])
-    resultsConf = 0
+    df2 = df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
+    df2 = df2[['title', 'date', 'avgReview']]
     if request.method == 'POST':
         message = request.form['message']
         exist = message in df1.title or message in df1.news
@@ -57,24 +76,9 @@ def predictFake():
         date = request.form['date']
         news = '{} - {}'.format(source, message)
         data = [message]
-        vect = tfidf.transform(data).toarray()
-        model_prediction = PAClass.predict(vect)
-        if exist == 1:
-            newNews = df1[df1['title'] == message or df1['news'] == message]
-            resultsConf = 1
-        if exist == 0:
-            newNews = pd.DataFrame({
-                'title' : message,
-                'news' : news,
-                'date' : date,
-                'true_false' : model_prediction,
-                'confirm' : False,
-                'numReviews' : 0,
-            })
-            resultsConf = 0
-        df1.append(newNews, ignore_index = True)
-        df1.to_csv('NewsData.csv')
-    return render_template('result.html',resultsConf = resultsConf, prediction = model_prediction, tables=[df2.to_html(classes='data', header="true")],  titles = df2.columns.values, newNews = newNews, message = message)
+        model_prediction = fakenewsdetection(data)
+        resultsConf = 0
+    return render_template('result.html',resultsConf=resultsConf, prediction=model_prediction, tables=[df2.to_html(classes='data', header="true")],  titles = df2.columns.values, newNews = newNews, message = message)
 
 
 @app.route("/fakereviews")
@@ -82,36 +86,78 @@ def fakereviews():
     return render_template("fakereviews.html")
 
 
-@app.route("/fakereviewresults")
+@app.route("/fakereviewresults", methods=['GET', 'POST'])
 def fakereviewresults():
-    df = pd.read_csv("data/deceptive-opinion.csv")
-    source = df['source']
-    deceptive = df['deceptive']
-    x = df['source'] + ' - ' + df['hotel'] + ' - ' + df['text']
-    print(x)
-    y = df['deceptive']
-    le = LabelEncoder()
-    y = le.fit_transform(y)
-
-    x_train, x_test, y_train, y_test = train_test_split(x, y, random_state=7, test_size=0.3)
-    CountV = CountVectorizer(ngram_range=(1, 2))
-    x_train = CountV.fit_transform(x_train)
-    l = LogisticRegression(max_iter=10000)
-    l.fit(x_train, y_train)
-
-    prediction = l.predict(CountV.transform(x_test))
-    a = accuracy_score(y_test, prediction)
     model_prediction = [0]
-    print("Model accuracy: {}".format(a * 100))
     if request.method == 'POST':
         message = request.form['message']
-        exist = message in df.title or message in df.news
-        source = request.form['source']
-        date = request.form['date']
-        news = '{} - {}'.format(source, message)
         data = [message]
-        model_prediction = l.predict(CountV.transform(data))
-    return render_template("fakereviewresults.html", predictiondd=model_prediction)
+        model_prediction = fakereviewsdetection(data)
+    return render_template("fakereviewresults.html", prediction=model_prediction)
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        session.pop("user_id", None)
+        username = request.form['username']
+        password = request.form['password']
+
+        user = [x for x in users if x.username == username][0]
+
+        if user and user.password == password:
+            session['user_id'] = user.id
+            return redirect(url_for('profile'))
+
+        return redirect(url_for("login"))
+    return render_template("login.html")
+
+@app.route("/signup", methods=['GET', "POST"])
+def signup():
+    return render_template("signup.html")
+
+
+@app.route("/signup-done", methods=["POST"])
+def signup_done():
+    username = request.form['username']
+    password = request.form['password']
+
+    user = [x for x in users if x.username == username]
+
+    if user != []:  # if a user is found, we want to redirect back to signup page so user can try again
+        return redirect(url_for('login'))
+
+    # create a new user with the form data. Hash the password so the plaintext version isn't saved.
+    new_user = User(id="s", username=username, password=generate_password_hash(password))
+
+    # add the new user to the database
+    update = {new_user.id:{"username": new_user.username, "password": generate_password_hash(new_user.password) }}
+    users.update(update)
+    with open("database.json", "w") as writefile:
+        json.dump(users, writefile)
+
+    print(users)
+
+    return redirect(url_for('auth.login'))
+
+
+@app.route("/spamdetection")
+def spam():
+    return render_template("spamemailsms.html")
+
+@app.route("/spamresults", methods=["GET","POST"])
+def spamresults():
+    model_prediction = [0]
+    if request.method == 'POST':
+        message = request.form['message']
+        data = [message]
+        model_prediction = spamsmsdetection(data)
+    return render_template("spamemailsmsresults.html", prediction=model_prediction)
+
+@app.errorhandler(404)
+def page_not_found(e):
+    # note that we set the 404 status explicitly
+    return render_template('not-found-page.html'), 404
+
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

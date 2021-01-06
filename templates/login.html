@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+</head>
+<body>
+		{% include 'nav.html' %}
+		{% block content %}
+
+        <br>
+        <br>
+        <br>
+        <br>
+<div class="column is-4 is-offset-4">
+    <h3 class="title">Login</h3>
+    <div class="box">
+        <form method="POST" action={{url_for('login')}}>
+            <div class="field">
+                <div class="control">
+                    <input class="username" type="text" name="username" placeholder="Your username" autofocus="">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="password" type="password" name="password" placeholder="Your Password">
+                </div>
+            </div>
+            <button class="button is-block is-info is-large is-fullwidth">Login</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+</body>
+</html>
