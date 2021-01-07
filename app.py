@@ -7,13 +7,16 @@ from passlib.hash import sha256_crypt
 
 import json
 
+global user
+
+
 class User:
     def __init__(self, id, username, password):
         self.id = id
         self.username = username
         self.password = password
 
-
+user = User(id=0, username="Guest", password="")
 admin = User(id=1, username="admin", password="admin")
 admin2 = User(id=2, username="admin2", password="admin2")
 
@@ -40,7 +43,7 @@ def index():
 
 @app.route('/profile')
 def profile():
-    return render_template('profile.html')
+    return render_template('profile.html', name=user.username)
 
 @app.route('/fakenews')
 def home():
@@ -86,6 +89,7 @@ def fakereviewresults():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    global user
     if request.method == "POST":
         session.pop("user_id", None)
         username = request.form.get('username')
@@ -166,4 +170,4 @@ def page_not_found(e):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

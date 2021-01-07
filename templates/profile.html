@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
+    <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
 {% block content %}
 <h1 class="title">
-  Welcom boi
+{{name}}'s Profile
 </h1>
 {% endblock %}
 </body>

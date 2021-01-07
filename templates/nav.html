@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel= "stylesheet" href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 </head>
 <body>
         <div class="topnav">
-			<a href = "{{url_for('home')}}">Fake News</a>
-            <a href="{{url_for('fakereviews')}}">Fake Reviews</a>
+			<a href = "{{url_for('home')}}">Fake News Detection</a>
+            <a href="{{url_for('fakereviews')}}">Fake Reviews Detection</a>
             <a href="{{url_for('spam')}}">Spam Email and SMS</a>
             <a href="https://aryaman-das.github.io/Facts-And-Fakes/">Learn to use</a>
             <a class="active" href="/">&nbsp;&nbsp;<img src="{{url_for('static', filename='photos/factsandfakeslogo.png')}}" height="30" width="108" align="center">&nbsp;&nbsp; </a>
