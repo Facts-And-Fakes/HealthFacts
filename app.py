@@ -3,11 +3,9 @@ import pandas as pd
 from fakeReviewsDetector import fakereviewsdetection
 from fakenewsdetection import fakenewsdetection
 from spamsms import spamsmsdetection
-from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import generate_password_hash, check_password_hash
-import json
+from passlib.hash import sha256_crypt
 
-db = SQLAlchemy()
+import json
 
 class User:
     def __init__(self, id, username, password):
@@ -15,17 +13,16 @@ class User:
         self.username = username
         self.password = password
 
-    def __repr__(self):
-        return "User: {}, Password: {}>".format(self.username, generate_password_hash(self.password))
 
 admin = User(id=1, username="admin", password="admin")
+admin2 = User(id=2, username="admin2", password="admin2")
 
 app = Flask(__name__)
 secure = open("database.json", "r+")
 
 users = json.load(secure)
 
-update = {admin.id:{"username": admin.username, "password": generate_password_hash(admin.password) }}
+update = {admin.username:{"id": admin.id, "password": sha256_crypt.hash(admin.password)}, admin2.username:{"id": admin2.id, "password": sha256_crypt.hash(admin2.password)}}
 
 users.update(update)
 
@@ -37,20 +34,12 @@ app.secret_key = 'veryverysecret'
 
 newNews = {}
 
-@app.before_request
-def before_request():
-    if 'user_id' in session:
-        user = [x for x in users if x.id == session['user_id']][0]
-        g.user = user
-
 @app.route('/')
 def index():
     return render_template("home.html")
 
 @app.route('/profile')
 def profile():
-    if not g.user:
-        return redirect(url_for('login'))
     return render_template('profile.html')
 
 @app.route('/fakenews')
@@ -100,11 +89,22 @@ def login():
     if request.method == "POST":
         session.pop("user_id", None)
         username = request.form['username']
-        password = request.form['password']
-
-        user = [x for x in users if x.username == username][0]
-
-        if user and user.password == password:
+        passw = request.form.get("password")
+        print(passw)
+        last_key = list(users.keys())[-1]
+        last_id_dict = users.get(last_key)
+        last_id = last_id_dict.get("id")
+        print(last_id)
+        filtered_dict = {k:v for (k,v) in users.items() if username in k}
+        print(filtered_dict)
+        key = list(filtered_dict.keys())[0]
+        userdict = users.get(key)
+        print(userdict)
+        user = User(id=last_id, username=key, password=userdict.get("password"))
+        print(user)
+        verified = sha256_crypt.verify(passw, user.password)
+        print(verified)
+        if verified:
             session['user_id'] = user.id
             return redirect(url_for('profile'))
 
@@ -127,10 +127,10 @@ def signup_done():
         return redirect(url_for('login'))
 
     # create a new user with the form data. Hash the password so the plaintext version isn't saved.
-    new_user = User(id="s", username=username, password=generate_password_hash(password))
+    new_user = User(id="s", username=username, password=sha256_crypt.hash(password))
 
     # add the new user to the database
-    update = {new_user.id:{"username": new_user.username, "password": generate_password_hash(new_user.password) }}
+    update = {new_user.id:{"username": new_user.username, "password": sha256_crypt.hash(new_user.password)}}
     users.update(update)
     with open("database.json", "w") as writefile:
         json.dump(users, writefile)
