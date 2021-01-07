@@ -25,7 +25,43 @@ body{
 
 }
 
-/* Style the links inside the navigation bar */
+input[type=text]{
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  width: 25%;!important
+}
+
+input[type=text]:focus {
+  width: 30%;!important
+}
+
+
+.password{
+  width: 130px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  width: 20.5%;!important
+}
+
+.password:focus {
+  width: 30%;!important
+}
+
+
 .topnav a {
   float: left;
   color: #f2f2f2;

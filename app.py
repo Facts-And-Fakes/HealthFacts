@@ -88,27 +88,25 @@ def fakereviewresults():
 def login():
     if request.method == "POST":
         session.pop("user_id", None)
-        username = request.form['username']
+        username = request.form.get('username')
         passw = request.form.get("password")
-        print(passw)
-        last_key = list(users.keys())[-1]
-        last_id_dict = users.get(last_key)
-        last_id = last_id_dict.get("id")
-        print(last_id)
-        filtered_dict = {k:v for (k,v) in users.items() if username in k}
+        filtered_dict = {k:v for (k,v) in users.items() if username == k}
         print(filtered_dict)
         key = list(filtered_dict.keys())[0]
-        userdict = users.get(key)
+        userdict = dict(users.get(key))
         print(userdict)
-        user = User(id=last_id, username=key, password=userdict.get("password"))
-        print(user)
+        user = User(id=userdict.get("id"), username=key, password=userdict.get("password"))
+        print("\n")
+        print(passw)
+        print(user.password)
+        print("\n")
         verified = sha256_crypt.verify(passw, user.password)
         print(verified)
         if verified:
             session['user_id'] = user.id
             return redirect(url_for('profile'))
-
-        return redirect(url_for("login"))
+        else:
+            return redirect(url_for("login"))
     return render_template("login.html")
 
 @app.route("/signup", methods=['GET', "POST"])
@@ -121,23 +119,31 @@ def signup_done():
     username = request.form['username']
     password = request.form['password']
 
-    user = [x for x in users if x.username == username]
+    last_key = list(users.keys())[-1]
+    last_id_dict = dict(users.get(last_key))
+    last_id = last_id_dict.get("id")
+    print(last_id)
 
-    if user != []:  # if a user is found, we want to redirect back to signup page so user can try again
-        return redirect(url_for('login'))
+    filtered_dict = {k: v for (k, v) in users.items() if username == k}
 
-    # create a new user with the form data. Hash the password so the plaintext version isn't saved.
-    new_user = User(id="s", username=username, password=sha256_crypt.hash(password))
 
+
+    if filtered_dict != {}:  # if a user is found, we want to redirect back to signup page so user can try again
+        return redirect(url_for('signup'))
+
+
+    new_user = User(id=last_id+1, username=username, password=sha256_crypt.hash(password))
+    print(sha256_crypt.hash(new_user.password))
+    print(sha256_crypt.verify("ollol", new_user.password))
     # add the new user to the database
-    update = {new_user.id:{"username": new_user.username, "password": sha256_crypt.hash(new_user.password)}}
+    update = {new_user.username:{"id": new_user.id, "password": new_user.password}}
     users.update(update)
+    print(update)
     with open("database.json", "w") as writefile:
         json.dump(users, writefile)
-
     print(users)
 
-    return redirect(url_for('auth.login'))
+    return redirect(url_for('login'))
 
 
 @app.route("/spamdetection")

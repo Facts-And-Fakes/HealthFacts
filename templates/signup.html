@@ -2,40 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>signup</title>
+    <title>Sign up!</title>
     	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
+
 		{% include 'nav.html' %}
 		{% block content %}
-
-<div class="column is-4 is-offset-4">
-    <h3 class="title">Sign Up</h3>
-    <div class="box">
-        <form method="POST" action="/signup">
-            <div class="field">
-                <div class="control">
-                    <input class="input is-large" type="email" name="email" placeholder="Email" autofocus="">
-                </div>
-            </div>
-
-            <div class="field">
-                <div class="control">
-                    <input class="input is-large" type="text" name="name" placeholder="Name" autofocus="">
-                </div>
-            </div>
-
-            <div class="field">
-                <div class="control">
-                    <input class="input is-large" type="password" name="password" placeholder="Password">
-                </div>
-            </div>
-
-            <button class="button is-block is-info is-large is-fullwidth">Sign Up</button>
+<br>
+        <br>
+        <br>
+        <br>
+    <h1 class="title" align = "center">Sign Up</h1>
+        <form method="POST" action={{url_for("signup_done")}}>
+            <center>
+            <input type="text" name="username" placeholder="Username"><br><br>
+            <input class = "password" type="password" name="password" placeholder="Password"><br><br>
+            <button class="btn">Sign Up</button>
+                </center>
         </form>
-    </div>
-</div>
+
 {% endblock %}
 </body>
 </html>

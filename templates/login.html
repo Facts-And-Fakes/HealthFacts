@@ -14,25 +14,14 @@
         <br>
         <br>
         <br>
-<div class="column is-4 is-offset-4">
-    <h3 class="title">Login</h3>
-    <div class="box">
+    <h1 class="title" align = "center">Log in to Facts and Fakes!</h1>
         <form method="POST" action={{url_for('login')}}>
-            <div class="field">
-                <div class="control">
-                    <input class="username" type="text" name="username" placeholder="Your username" autofocus="">
-                </div>
-            </div>
-
-            <div class="field">
-                <div class="control">
-                    <input class="password" type="password" name="password" placeholder="Your Password">
-                </div>
-            </div>
-            <button class="button is-block is-info is-large is-fullwidth">Login</button>
+            <center>
+            <input class="username" type="text" name="username" placeholder="Your Username"><br><br>
+            <input class="password" type="password" name="password" placeholder="Your Password"><br><br>
+            <button class="btn">Login</button>
+                </center>
         </form>
-    </div>
-</div>
 {% endblock %}
 </body>
 </html>
