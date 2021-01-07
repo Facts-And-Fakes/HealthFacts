@@ -5,6 +5,16 @@ from fakenewsdetection import fakenewsdetection
 from spamsms import spamsmsdetection
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
+from passlib.hash import sha256_crypt
+
+password1 = sha256_crypt.hash("password")
+password2 = sha256_crypt.hash("password")
+
+print(password1)
+print(password2)
+
+print(sha256_crypt.verify("password", password1))
+
 import json
 
 db = SQLAlchemy()
@@ -16,7 +26,7 @@ class User:
         self.password = password
 
     def __repr__(self):
-        return "User: {}, Password: {}>".format(self.username, generate_password_hash(self.password))
+        return "User: {}, Password: {}>".format(self.username, sha256_crypt.hash(self.password))
 
 admin = User(id=1, username="admin", password="admin")
 
@@ -25,7 +35,7 @@ secure = open("database.json", "r+")
 
 users = json.load(secure)
 
-update = {admin.id:{"username": admin.username, "password": generate_password_hash(admin.password) }}
+update = {admin.id:{"username": admin.username, "password": sha256_crypt.hash(admin.password) }}
 
 users.update(update)
 
@@ -104,7 +114,7 @@ def login():
 
         user = [x for x in users if x.username == username][0]
 
-        if user and user.password == password:
+        if sha256_crypt.verify(password, user.password):
             session['user_id'] = user.id
             return redirect(url_for('profile'))
 
@@ -127,10 +137,10 @@ def signup_done():
         return redirect(url_for('login'))
 
     # create a new user with the form data. Hash the password so the plaintext version isn't saved.
-    new_user = User(id="s", username=username, password=generate_password_hash(password))
+    new_user = User(id="s", username=username, password=sha256_crypt.hash(password))
 
     # add the new user to the database
-    update = {new_user.id:{"username": new_user.username, "password": generate_password_hash(new_user.password) }}
+    update = {new_user.id:{"username": new_user.username, "password": sha256_crypt.hash(new_user.password)}}
     users.update(update)
     with open("database.json", "w") as writefile:
         json.dump(users, writefile)
