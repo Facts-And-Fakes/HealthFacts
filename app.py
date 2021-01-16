@@ -4,7 +4,6 @@ from fakeReviewsDetector import fakereviewsdetection
 from fakenewsdetection import fakenewsdetection
 from spamsms import spamsmsdetection
 from passlib.hash import sha256_crypt
-
 import json
 
 global user

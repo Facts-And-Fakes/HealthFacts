@@ -8,9 +8,14 @@
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
+{% include 'nav.html' %}
 {% block content %}
+<br>
 <h1 class="title">
-{{name}}'s Profile
+{{name}}'s Profile<br>
+    <h4>Bio: User of Facts and Fakes<br>
+        Email: None</h4>
+
 </h1>
 {% endblock %}
 </body>

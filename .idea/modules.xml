@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Aryaman's Telegram Bots/.idea/Aryaman's Telegram Bots.iml" filepath="$PROJECT_DIR$/../Aryaman's Telegram Bots/.idea/Aryaman's Telegram Bots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MYProgrammingToolkit/FriendBot/.idea/FriendBot.iml" filepath="$PROJECT_DIR$/../MYProgrammingToolkit/FriendBot/.idea/FriendBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../beewareApps/.idea/beewareApps.iml" filepath="$PROJECT_DIR$/../beewareApps/.idea/beewareApps.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/facts-and-fakes.iml" filepath="$PROJECT_DIR$/.idea/facts-and-fakes.iml" />
     </modules>
   </component>
