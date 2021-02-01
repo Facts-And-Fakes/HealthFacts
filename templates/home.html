@@ -6,6 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -17,6 +18,16 @@
 	<br>
 	<br>
 	<br>
-	<h1 align="center">Click on any of the above links to get started!</h1>
+	<h1 align="center">Welcome to Facts and Fakes!</h1>
+<h3 align="center">The internet has become a popular and fast way of spreading news. However, it has also enabled the spread of false information, to be even faster.</h3>
+<h3 align="center">Facts and Fakes is a site dedicated to help in solving this. Click any of the links above to get started!</h3>
+<br>
+	<br>
+	<br>
+	<br>
+	<div id="footer"></div>
+	<script>
+    $("#footer").load("footer.html");
+</script>
 </body>
 </html>

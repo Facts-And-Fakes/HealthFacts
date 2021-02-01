@@ -3,7 +3,7 @@ body{
 	font:15px/1.5 Georgia, Arial, Helvetica,sans-serif;
 	font-family: Acme;
 	padding: 0px;
-	background-color:#229c6b;
+	background-color:#ffffff;
 }
 
 .h1{
@@ -92,17 +92,18 @@ input[type=text]:focus {
 
 
 .comment {
-        width: 50%;
-        height: 100px;
-        padding: 10px;
         font-family: Acme;
-        border-left: 6px solid #000000;
-	border-right: 6px solid #000000;
     	-webkit-border-radius: 10px;
     	-moz-border-radius: 10px;
     	border-radius: 10px;
         background-color: #d0e2bf;
         color: #000000;
+        transition: width 0.4s ease-in-out;
+        resize: none;
+
+.comment:focus {
+  width: 50%;!important
+}
 }
 .date {
         background-color: #d0e2bf;
@@ -125,7 +126,7 @@ input[type=text]:focus {
 	font: 20px/1.0 Georgia, sans-serif;
 	text-align:center;
 	font-family: Acme;
-	color: #ffffff;
+	color: #000000;
 	text-shadow: 1px 1px;
 }
 

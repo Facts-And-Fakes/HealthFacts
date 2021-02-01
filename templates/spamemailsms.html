@@ -17,10 +17,11 @@
 <br>
 <form action="{{ url_for('spamresults')}}" method="POST">
 	<center>
-		<strong><p class = 'newshere'>Enter The News Headline Here:</p></strong>
-		<textarea class = 'comment' name="message" rows="4" cols="50" align = 'center'></textarea>
+		<strong><p class = 'newshere'>Enter the email/SMS contents here:</p></strong>
+		<textarea class = 'comment' name="message" rows="7" cols="75" align = 'center'></textarea>
 <br>
-		<input type="submit" class="btn" value="Predict!">
+		<br>
+		<input type="submit" class="btn" value="Is it spam?">
 		</center></form>
 </body>
 </html>

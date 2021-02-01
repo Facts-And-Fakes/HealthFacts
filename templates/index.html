@@ -24,14 +24,12 @@
 		<div class="ml-container">
 
 		<form action="{{ url_for('predictFake')}}" method="POST">
-		<strong><p class = 'newshere'>Enter The News Headline Here:</p></strong>
-		<textarea class = 'comment' name="message" rows="4" cols="50" align = 'center'></textarea>
-		<br>
-		<strong><p class = 'newshere'> Source of news (if you know)</p></strong>
-		<textarea name="source" class = "source" rows="1" cols="100" maxlength = '100'></textarea>
-		<br>
-		<strong><p class = 'newshere' > Date of publishing IN DD-MM-YYYY FORMAT (if you know)</p></strong>
-		<textarea name="date" class = 'date' rows="1" cols="10" maxlength = '10'></textarea>
+		<strong><p>Enter The News Headline Here:</p></strong>
+		<textarea class = 'comment' name="message" rows="7" cols="75" align = 'center'></textarea>
+		<br><p class = 'newshere'> Source website (optional)</p>
+		<input type="text" name="source" class = "source" maxlength = '100' placeholder="Source website">
+<p class = 'newshere' > Date of publishing (optional)</p>
+		<input type="date">
 		<br>
 		<br>
 		<input type="submit" class="btn" value="Predict!">
