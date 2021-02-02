@@ -29,7 +29,7 @@ body{
 }
 
 input[type=text]{
-  width: 130px;
+  width: 150px;
   box-sizing: border-box;
   font-family: Acme;
   border: 2px solid #ccc;

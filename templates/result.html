@@ -16,12 +16,15 @@
 				{% include 'nav.html' %}
 				{% block content %}
 				{% endblock %}
-
-	<p style="color:black;font-size:20;text-align: center;"><b>Results for the news headline</b></p>
+<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	{% if prediction == 1%}
-	<h2 align = "center" style="color:green;">The news has been predicted to be True</h2>
+	<h1 align = "center" style="color:green;">True</h1>
 	{% elif prediction == 0%}
-	<h2 align = "center" style="color:red;">The news has been predicted to be Fake</h2>
+	<h1 align = "center" style="color:red;">Fake</h1>
 	{% endif %}
 	<br>
 	{% if resultsConf == 1%}
@@ -34,18 +37,6 @@
 	</div>
 <br>
 <br>
-
-	<br>
-	<h3 align = "center" style = "color:red;"> Important - Other fake news articles you should know about! </h3>
-	<div class = 'table'>
-	<center>
-	{% for table in tables %}
-		    {{titles[loop.index]}}
-		    {{ table|safe }}
-	{% endfor %}
-	</center>
-	</div>
-
 
 </body>
 </html>

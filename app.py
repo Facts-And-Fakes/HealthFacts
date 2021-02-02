@@ -64,7 +64,6 @@ def predictFake():
         message = request.form['message']
         exist = message in df1.title or message in df1.news
         source = request.form['source']
-        date = request.form['date']
         news = '{} - {}'.format(source, message)
         data = [message]
         model_prediction = fakenewsdetection(data)
@@ -168,4 +167,4 @@ def page_not_found(e):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
