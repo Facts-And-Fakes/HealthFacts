@@ -1,14 +1,20 @@
-
+html,body { height:100%; }
 body{
-	font:15px/1.5 Georgia, Arial, Helvetica,sans-serif;
 	font-family: Acme;
 	padding: 0px;
 	background-color:#ffffff;
+	background-image: url(../photos/pic.jpg);
+	backdrop-filter: blur(25px);
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .h1{
     position: fixed;
     font-family: Acme;
+}
+* {
+  box-sizing: border-box;
 }
 
 .container{
@@ -24,7 +30,7 @@ body{
   margin-top: -8px;
   width: 100%;
   margin-left: -7px;
-  font-family: Acme;
+  font-family: Alatsi;
 
 }
 
@@ -42,8 +48,6 @@ input[type=text]{
   transition: width 0.4s ease-in-out;
   width: 25%;!important
 }
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
 .note {
   margin: 5vw;
@@ -72,22 +76,22 @@ input[type=text]:focus {
   width: 30%;!important
 }
 
-.background{
-background-image: url('../photos/pic.jpg');
+.note {
+z-index:9999;
 }
-
 .password{
-  width: 130px;
+  width: 200px;
   border: 2px solid #ccc;
   border-radius: 4px;
   font-family: Acme;
   font-size: 16px;
+  font-color: #000000;
   background-color: white;
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   transition: width 0.4s ease-in-out;
-  width: 20.5%;!important
+  width: 25%;!important
 }
 
 .password:focus {
@@ -120,6 +124,15 @@ background-image: url('../photos/pic.jpg');
 
 
 .comment {
+        width: 200px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        font-size: 16px;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+        width: 25%;!important
         font-family: Acme;
     	-webkit-border-radius: 10px;
     	-moz-border-radius: 10px;
@@ -135,7 +148,7 @@ background-image: url('../photos/pic.jpg');
 }
 .date {
         background-color: #d0e2bf;
-        color: #000000;
+        color: #ffffff;
 	-webkit-border-radius: 10px;
     	-moz-border-radius: 10px;
     	border-radius: 10px;
@@ -143,7 +156,7 @@ background-image: url('../photos/pic.jpg');
 }
 .source {
         background-color: #d0e2bf;
-        color: #000000;
+        color: #ffffff;
 	-webkit-border-radius: 10px;
     	-moz-border-radius: 10px;
     	border-radius: 10px;
@@ -154,8 +167,8 @@ background-image: url('../photos/pic.jpg');
 	font: 20px/1.0 Georgia, sans-serif;
 	text-align:center;
 	font-family: Acme;
-	color: #000000;
-	text-shadow: 1px 1px;
+	color: #ffffff;
+
 }
 
 
@@ -194,48 +207,4 @@ letter-spacing: 1px;
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
-}
-
-
-.btn2 {
-color: #fff ;
-text-decoration: none;
-background: #ed3330;
-padding: 20px;
-border-radius: 5px;
-text-align: center;
-display: inline-block;
-border: none;
-transition: all 0.4s ease 0s;
-}
-
-
-.btn2:hover {
-background: #434343;
-letter-spacing: 1px;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.4s ease 0s;
-}
-
-.btn3 {
-border: none;
-background: #404040;
-color: #ffffff !important;
-font-weight: 100;
-padding: 20px;
-text-transform: uppercase;
-border-radius: 6px;
-display: inline-block;
-transition: all 0.3s ease 0s;
-}
-.btn3:hover {
-color: #404040 !important;
-font-weight: 700 !important;
-letter-spacing: 3px;
-background: none;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.3s ease 0s;
 }

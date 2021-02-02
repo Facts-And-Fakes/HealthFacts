@@ -11,12 +11,13 @@
 		{% include 'nav.html' %}
         {% block content %}
         {% endblock %}
+        <div class="background"></div>
       <br><br><br>
         <center>
             {%if prediction==1%}
-            1
+            <h1>Not Spam</h1>
             {%elif prediction==0%}
-            0
+            <h1>Spam</h1>
             {%endif%}
             <br><br><br>	<a class = "btn" href = "/spamdetection">Go back</a>
         </center>
