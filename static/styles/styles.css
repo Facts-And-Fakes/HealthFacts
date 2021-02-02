@@ -42,11 +42,39 @@ input[type=text]{
   transition: width 0.4s ease-in-out;
   width: 25%;!important
 }
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+.note {
+  margin: 5vw;
+  padding: 0.5em;
+  border-left: 0.5em solid #52e052;
+  margin-left: 80px;
+margin-right: 80px;
+  background-color:#f2f2f2;
+  font-size: 20px;
+  text-align: center;
+}
+
+.note a {
+  text-decoration: none;
+  color: #161b1e;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}
+.quote{
+
+}
 
 input[type=text]:focus {
   width: 30%;!important
 }
 
+.background{
+background-image: url('../photos/pic.jpg');
+}
 
 .password{
   width: 130px;
