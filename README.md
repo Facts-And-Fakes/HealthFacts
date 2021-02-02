@@ -1,3 +1,2 @@
-# Friend Bot
-A bot I made to run all my files easily.\
+# Facts and Fakes
 **Project Still in Progress**
