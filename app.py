@@ -18,14 +18,10 @@ class User:
 user = User(id=0, username="Guest", password="")
 admin = User(id=1, username="admin", password="admin")
 admin2 = User(id=2, username="admin2", password="admin2")
-
 app = Flask(__name__)
 secure = open("database.json", "r+")
-
 users = json.load(secure)
-
 update = {admin.username:{"id": admin.id, "password": sha256_crypt.hash(admin.password)}, admin2.username:{"id": admin2.id, "password": sha256_crypt.hash(admin2.password)}}
-
 users.update(update)
 
 with open("database.json", "w") as writefile:

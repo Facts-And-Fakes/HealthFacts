@@ -10,14 +10,14 @@
 <body>
 		{% include 'nav.html' %}
         {% block content %}
-        {% endblock %}
+        {% endblock %}<div class="background"></div>
       <br><br><br>
 
         <center>
             {%if prediction==1%}
-            Yes
+            <h1>Not Fake</h1>
             {%elif prediction==0%}
-            No
+            <h1>Fake</h1>
             {%endif%}
             <br><br><br><a class = "btn" href = "/fakereviews">Go back</a>
         </center>
