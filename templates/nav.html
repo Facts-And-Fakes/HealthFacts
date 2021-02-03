@@ -15,8 +15,13 @@
             <a class="active" href="/"><img src="{{url_for('static', filename='photos/factsandfakeslogo.png')}}" height="20" width="80" align="center"></a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://aryaman-das.github.io/FactsAndFakes/">About Facts and Fakes</a>
 			<a href="https://github.com/Aryaman-Das/FactsAndFakes">View On GitHub</a>
-            <a href="{{url_for('login')}}">Log in</a>
-            <a href="{{url_for('signup')}}">Sign up</a>
+            {%if session.get("logged_in") == False%}
+                <a href="{{url_for('login')}}">Log in</a>
+                <a href="{{url_for('signup')}}">Sign up</a>
+            {%else%}
+                <a href="{{url_for('logout')}}">Log out</a>
+                <a href="{{url_for('profile')}}">Profile</a>
+            {%endif%}
             <a href="https://aryaman-das.github.io/FactsAndFakes/">Blog</a>
 
         </div>

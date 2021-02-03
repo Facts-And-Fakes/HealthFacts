@@ -12,6 +12,7 @@ body{
 .h1{
     position: fixed;
     font-family: Acme;
+    color: white;
 }
 * {
   box-sizing: border-box;
@@ -49,6 +50,24 @@ input[type=text]{
   width: 25%;!important
 }
 
+textarea{
+  width: 150px;
+  box-sizing: border-box;
+  font-family: Acme;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  width: 25%;!important
+}
+textarea: focus{
+    width: 40%;!important
+
+}
 .note {
   margin: 5vw;
   padding: 0.5em;

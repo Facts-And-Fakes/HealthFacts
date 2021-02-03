@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
-    	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
@@ -19,19 +19,16 @@
     <h1 class="title" align = "center">Log in to Facts and Fakes!</h1>
         <form method="POST" action={{url_for('login')}}>
             <center>
+                {%if failed == True%}
+                <font color="red"><h5 align="center">Username and/or password not recognized</h5></font>
+                {%endif%}
             <input class="username" type="text" name="username" placeholder="Your Username"><br><br>
             <input class="password" type="password" name="password" placeholder="Your Password"><br><br>
             <button class="btn">Login</button>
                 <h4>New user? <a href="/signup">Sign up now!</a></h4>
                 </center>
         </form>
-        <br>
-	<br><br>
-	<br>
-	<br><br>
-	<br>
-	<br><br>
-	<br>
+
 
 {% endblock %}
 </body>
