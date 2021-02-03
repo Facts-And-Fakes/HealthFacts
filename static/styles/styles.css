@@ -68,13 +68,15 @@ margin-right: 80px;
 .note a:hover {
   text-decoration: underline;
 }
-.quote{
-
-}
 
 input[type=text]:focus {
   width: 30%;!important
 }
+
+.title {
+  color: white;
+}
+
 
 .note {
 z-index:9999;
@@ -184,19 +186,19 @@ text-align: center;}
 }
 
 .h2{
-    color: black;
+    color: white;
     font-family: Acme;
 }
 .btn {
 color: #ffffff ;
 text-decoration: none;
-background: #ed3330;
+background: #3357FF;
 padding: 20px;
 border-radius: 5px;
 text-align: center;
 display: inline-block;
-border: none;
-transition: all 0.4s ease 0s;
+border: 2px;
+transition: all 0.6s ease 0.1s;
 }
 
 
