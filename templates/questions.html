@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questions related to COVID 19 | Facts and Fakes</title>
+    <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+</head>
+<body>
+    {% include 'nav.html' %}
+    {% block content %}
+    {% endblock %}
+<br><br><br><br><br><center>
+<h1 align="center">Questions related to COVID-19</h1><br><h2>Your question goes here:</h2>
+<textarea placeholder="Enter your question here"></textarea><br><br>
+<input class="btn" name="query" type="submit" formaction="url_for('query_results')" value="Search!">
+</center>
+</body>
+</html>

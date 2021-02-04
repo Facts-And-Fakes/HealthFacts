@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Facts and Fakes</title>
+	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 
@@ -12,51 +13,29 @@
 		{% include 'nav.html' %}
 		{% block content %}
 		{% endblock %}
-
+			<div class="background"></div>
+<br><br>
 </div>
 		<br>
 		<br>
+		<br>
 
-		</div>
 		<div class = 'space'>
 		</div>
 		<div class="ml-container">
 
 		<form action="{{ url_for('predictFake')}}" method="POST">
-		<strong><p class = 'newshere'>Enter The News Headline Here:</p></strong>
-		<textarea class = 'comment' name="message" rows="4" cols="50" align = 'center'></textarea>
-		<br>
-		<strong><p class = 'newshere'> Source of news (if you know)</p></strong>
-		<textarea name="source" class = "source" rows="1" cols="100" maxlength = '100'></textarea>
-		<br>
-		<strong><p class = 'newshere' > Date of publishing IN DD-MM-YYYY FORMAT (if you know)</p></strong>
-		<textarea name="date" class = 'date' rows="1" cols="10" maxlength = '10'></textarea>
-		<br>
-		<br>
+		<strong><p class="newshere">Enter The News Headline Here:</p></strong>
+		<textarea class = 'comment' name="message" rows="7" cols="75" align = 'center'></textarea>
+		<br><p class = 'newshere'> Source website (optional)</p>
+		<input type="text" name="source" class = "source" maxlength = '100' placeholder="Source website">
+
+		<br><br><br>
+
 		<input type="submit" class="btn" value="Predict!">
 		</form>
-		</center>
-		</form>
-		</div>
-		<br>
-		<h3 align = "center" style = "color:red;">News Sources you can trust!</h3>
-		<div class = 'table' style = "color: #ffffff">
-		<center>
-		{% for table1 in tables1 %}
-			    {{titles1[loop.index]}}
-			    {{ table1|safe }}
-		{% endfor %}
-		</center>
-		</div>
 
-		<h3 align = "center" style = "color:red;"> Important - Other fake news articles you should know about! </h3>
-		<div class = 'table' style = "color: #ffffff">
-		<center>
-		{% for table in tables %}
-			    {{titles[loop.index]}}
-			    {{ table|safe }}
-		{% endfor %}
-		</center>
+
 		</div>
 
 </body>

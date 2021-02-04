@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Page Not Found :(</title>
+    <link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
-		{% include 'nav.html' %}
+{% include 'nav.html' %}
 		{% block content %}
 		{% endblock %}
         <br>
         <br>
-        <br>
-
-<h1 align="center">The page you were looking for has been moved or does not exist. Please recheck if you typed the correct URL.</h1>
-        <center><a href="/"><h2>Click here to return to the home page</h2></a></center>
+        <br><br>
+        <font color="white">
+<h1 align="center">404 :(</h1>
+<h1 align="center">The page you were looking for has been moved or does not exist.</h1>
+        <h1 align="center"> Please recheck if you typed the correct URL.</h1>
+        <center><a href="/"><h2>Click here to return to the home page</h2></a></center></font>
 </body>
 </html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Not Logged in</title>
+    <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+</head>
+<body>
+{% include 'nav.html' %}
+		{% block content %}
+		{% endblock %}
+
+<br><br><br><br><br>
+<font color="white"><h1 align="center">Uh oh, looks like you haven't logged in. <a href={{url_for("login")}}>Log in</a></h1></font>
+</body>
+</html>

@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <link rel= "stylesheet" href = "../static/styles/styles.css">
+    <link rel="stylesheet" href="../static/webfonts/all.css">
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+
 </head>
 <body>
         <div class="topnav">
-			<a href = "{{url_for('home')}}">Fake News</a>
-            <a href="{{url_for('fakereviews')}}">Fake Reviews</a>
-            <a href="{{url_for('spam')}}">Spam Email and SMS</a>
-            <a href="https://aryaman-das.github.io/Facts-And-Fakes/">Learn to use</a>
-            <a class="active" href="/">&nbsp;&nbsp;<img src="{{url_for('static', filename='photos/factsandfakeslogo.png')}}" height="30" width="108" align="center">&nbsp;&nbsp; </a>
-            <a href="https://aryaman-das.github.io/Facts-And-Fakes/">About Facts and Fakes</a>
-			<a href="https://github.com/Aryaman-Das/Facts-And-Fakes">View On GitHub</a>
-            <a href="{{url_for('login')}}">Log in</a>
-            <a href="{{url_for('signup')}}">Sign up</a>
-            <a href="https://aryaman-das.github.io/Facts-And-Fakes/">Blog</a>
+			<a href = "{{url_for('home')}}">Fake News Classification System&nbsp;&nbsp;&nbsp;</a>
+            <a href="https://aryaman-das.github.io/FactsAndFakes/"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Learn how to use this website</a>
+            <a href="https://aryaman-das.github.io/FactsAndFakes/">Blog</a>
+            <a class="active" href="/">&nbsp;&nbsp;&nbsp;<img src="{{url_for('static', filename='photos/factsandfakeslogo.png')}}" height="20" width="80" align="center">&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://aryaman-das.github.io/FactsAndFakes/">About Facts and Fakes</a>
+			<a href="https://github.com/Aryaman-Das/FactsAndFakes"><i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;View On GitHub</a>
+            {%if session.get("logged_in") == False%}
+                <a href="{{url_for('login')}}"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;Log in</a>
+                <a href="{{url_for('signup')}}"><i class="fas fa-user-plus"></i>&nbsp;&nbsp;&nbsp;Sign up</a>
+            {%else%}
+                <a href="{{url_for('logout')}}"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;&nbsp;Log out</a>
+                <a href="{{url_for('profile')}}"><i class="fas fa-user-alt"></i>&nbsp;&nbsp;&nbsp;Profile</a>
+            {%endif%}
+
 
         </div>
 </body>

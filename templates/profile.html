@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
+    <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
+{% include 'nav.html' %}
 {% block content %}
-<h1 class="title">
-  Welcom boi
-</h1>
+<div class="background"></div>
+<br><br><br>
+<h1 class="title" align="center">
+    {{name}}'s Profile<br></h1>
+    <h4 align="center">Bio: User of Facts and Fakes<br>
+        Email: None</h4>
+
+<br>
+
 {% endblock %}
 </body>
 </html>

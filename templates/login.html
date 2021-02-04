@@ -3,36 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
 		{% include 'nav.html' %}
 		{% block content %}
+        <div class="background"></div>
 
         <br>
         <br>
         <br>
         <br>
-<div class="column is-4 is-offset-4">
-    <h3 class="title">Login</h3>
-    <div class="box">
+    <h1 class="title" align = "center">Log in to Facts and Fakes!</h1>
         <form method="POST" action={{url_for('login')}}>
-            <div class="field">
-                <div class="control">
-                    <input class="username" type="text" name="username" placeholder="Your username" autofocus="">
-                </div>
-            </div>
-
-            <div class="field">
-                <div class="control">
-                    <input class="password" type="password" name="password" placeholder="Your Password">
-                </div>
-            </div>
-            <button class="button is-block is-info is-large is-fullwidth">Login</button>
+            <center>
+                {%if failed == True%}
+                <font color="red"><h5 align="center">Username and/or password not recognized</h5></font>
+                {%endif%}
+            <i class="fas fa-user"></i>&nbsp;&nbsp;&nbsp;<input  class="username" type="text" name="username" placeholder="Your Username"><br><br>
+            <i class="fas fa-key"></i>&nbsp;&nbsp;&nbsp;<input class="password" type="password" name="password" placeholder="Your Password"><br><br>
+            <button class="btn">Login</button>
+                <h4>New user? <a href="/signup">Sign up now!</a></h4>
+                </center>
         </form>
-    </div>
-</div>
+
+
 {% endblock %}
 </body>
 </html>

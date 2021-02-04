@@ -1,0 +1,3 @@
+- Push to the "tests" branch only and create a pull request
+- It will be reviewed and merged
+- Ask any doubts in "Discussions"

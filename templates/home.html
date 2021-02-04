@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="../static/js/javascriptfiles.js"></script>
 </head>
 <body>
-	<div class="container">
-		{% include 'nav.html' %}
+{% include 'nav.html' %}
 		{% block content %}
 		{% endblock %}
-	</div>
+
 	<br>
 	<br>
-	<br>
-	<br>
-	<h1 align="center">Click on any of the above links to get started!</h1>
+	<br><br><br>
+<p class="note">Welcome to Facts and Fakes!<br>
+Click any of the links above to get started!</p>
+
+
 </body>
 </html>
