@@ -93,11 +93,17 @@ def predictFake():
 def questions():
     return render_template("questions.html")
 
-@app.route("/query-results")
+
+@app.route("/query-results", methods=['GET', 'POST'])
 def query_results():
     if request.method == "POST":
         ques = request.form.get("query")
-        return render_template("query-results.html", q = query(ques))
+        x = query(ques)
+        if ques == '':
+            return render_template("questions.html", error="Input cannot be empty")
+        if x == 'error none found':
+            return render_template("questions.html", error="An error occurred: Either no results were found or some other error occurred.")
+        return render_template("query-results.html", q=x[0], o=x[1], a=x[2])
 
 
 

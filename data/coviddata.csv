@@ -1,498 +1,44 @@
 ,fact_check_url,news_url,title,outcome
-100001,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"A post claims compulsory vacination violates the principles of bioethics, that coronavirus doesnâ€™t exist, that the PCR test returns many false positives, and that influenza vaccine is related to COVID-19.",0
-100002,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A photo claims that this person is a doctor who died after attending to too many COVID-19 patinents in Hospital MuÃ±iz in Buenos Aires.,0
-100003,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Post about a video claims that it is a protest against confination in the town of Aranda de Duero (Burgos),0
-100004,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"All deaths by respiratory failure and pneumonia are being registered as COVID-19, according to the Civil Registry website.",0
-100005,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,The dean of the College of Biologists of Euskadi states that there are a lot of PCR false positives and asymptomatic donâ€™t spread coronavirus.,0
-100006,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"Households with COVID-19 patients in Porto Alegre, Campo Grande and Santo AntÃ´nio da Platina must put a red ribbon on their garbage bags. Garbagemen are instructed to handle them in a safer way",0
-100007,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A chain lists recommendations to prevent and treat coronavirus.,0
-100008,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"60,000 Argentinian companies have closed due to COVID-19; also, all companies receiving government aid during the pandemic will be expropriated by the government",0
-100009,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Social media posts criticize a photo from smiling president of the Goverment Pedro SÃ¡nchez during his holidays after thousands died from COVID-19,0
-100010,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,CDC has released an update on how the novel coronavirus can be transmitted,0
-100011,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Good oral hygiene destroys the coronavirus and prevents its spread,0
-100012,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A video shows Pakistani minister of Health slapping those who do not obey official measures,0
-100013,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"A Brazilian deputee says the pandemic has started to decrease in his state, Rio Grande do Sul",0
-100014,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,WHO warns against consuming cabbage to prevent COVID-19,0
-100015,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A picture shows hydroxychloroquine is being sold on public trains in Rio de Janeiro,0
-100016,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,There is evidence that chlorine dioxide cures COVID-19,0
-100017,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A video shows Pakistani minister of Health slapping those who do not obey official measures,0
-100018,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A picture shows hydroxychloroquine is being sold on public trains in Rio de Janeiro,0
-100019,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Coronavirus does not settle in air but is grounded â€“ UNICEF,0
-100020,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Coronavirus does not float in air but is grounded â€“ UNICEF,0
-100021,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"Axel Kicillof (Governor of the Province of Buenos Aires, Argentina): â€œRight now [there is] a strict quarantine in Barcelonaâ€",0
-100022,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A list of alleged remedies to treat coronavirus.,0
-100023,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Coronavirus (COVID-19) is large in size where the cell diameter is 400-500 micro and for this reason any mask may prevent its entry â€“ UNICEF,0
-100024,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,COVID-19 is being controlled in Africa because of widespread distribution of ivermectin,0
-100025,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,A post claims that PCR test â€œcause damage to the blood-brain barrierâ€ or â€œcreate a direct entrance to the brain for any infection.â€,0
-100026,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Supposed tweet form Berlin Police claims there was 3.5 million people at an August 1st rally in Berlin against coronavirus meassures.,0
-100027,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,Covid â€“ 19 is a bacteria amplified by 5G technology,0
-100166,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,A post spreading on WhatsApp claims there are 50 hospital guards job oppenings at IFEMA hospital in Madrid.,0
-100167,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,A photo shows hand sanitizer being sold in a vitamin D box,0
-100168,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,"There was a 78% fall on Chinese product sales in Brazil due to a boycott motivated by the pandemic, acording to INCINT",0
-100169,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,A photo collage claims to show images taken during a protest against coronavirus restrictions in Germany in August 2020.,0
-100170,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Police can raid private spaces in MedellÃ­n for breach of the Dry Law,0
-100171,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,A post showing a health worker from the MuÃ±iz Hospital (Argentina) who died from treating patients with COVID-19,0
-100172,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Fact Check: Neither The Viral Post On Coronavirus (COVID-19) Is From UNICEF Nor It Is Accurate,0
-100173,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,COVID-19 vaccines will cause infertility â€“ do not get vaccinated,0
-100174,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,A video supposedly showing a dead COVID-19 victim raising his hand while being lifted away by health workers proves the global pandemic is a hoax.,0
-100175,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,COVID-19 has its own pH value,0
-100176,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,â€˜Doctors for the truthâ€™ make claims about the coronavirus.,0
-100177,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Chinese vaccines contain a microchip that receives 5G signals and allow Chinese government to interfere with your RNA,0
-,,,"There was a 30% fall on Chinese product sales in the Brazilian state of Santa Catarina, due to a boycott motivated by the pandemic",0
-,,,A photo of a beach with lots of boats and a message that says there are infected inmigrants in Argelia preparing to travel to Spain.,0
-,,,The WHO said â€œthere is no solution and perhaps never will beâ€ for coronavirus.,0
-,,,"Fact Check: No, COVID-19 Doesnâ€™t Have Its Own PH Value, Experts Advice Boosting Immunity To Fight Against Coronavirus",0
-,,,An image states that mask use causes pneumonia and hypoxia,0
-,,,A picture allegedly showing a crowd in Berlin on August 1st protesting agains German government meassures against COVID-19.,0
-,,,A photo of a beach with lots of boats and a message that says there are infected inmigrants in Argelia preparing to travel to Spain.,0
-,,,A picture allegedly showing a crowd in Berlin on August 1st protesting agains German government meassures against COVID-19.,0
-,,,"Pedro Sanchez, president of government of Spain, spoke about a Scientific Committee and now the government recognize that committee never existed.",0
-,,,"Mask can cause a lot of diseases, the WHO has said, and asymptomatic patients donâ€™t pass on the virus. Also, there is a lot of false positive PCR tests.",0
-,,,An image from an episode of Futurama claims the show forbade time to travel back to 2020.,0
-,,,Photo from the demonstration against meassures by the German government to stop the pandemic.,0
-,,,Spanish Prime Minister Pedro Sanchez told people to invest in Bitcoin during the pandemic,0
-,,,"A video shows a mannequin being taken out of an ambulance, and claims the media is trying to fool the audience to make them think itâ€™s a COVID-19 patient.",0
-,,,"A picture allegedly showing a large crowd gathered in Berlin on August 1st, 2020 to protest against the restrictive measures imposed by the government during the Covid-19 pandemic.",0
-,,,"Facebook posts shared thousands of times claim Washingtonâ€™s mayor exempted members of Congress from a 14-day quarantine after they traveled to the funeral of civil rights icon John Lewis in Georgia, which the city considers a â€œhigh-riskâ€ state for the coronavirus.",0
-,,,"A picture allegedly showing a large crowd (more than a million people) gathered in Berlin on August 1st, 2020 to protest against the restrictive measures imposed by the government during the COVID-19 pandemic.",0
-,,,A photo collage has been shared hundreds of times in multiple posts on Facebook alongside a claim the images were taken during a protest against coronavirus restrictions in Germany in August 2020.,0
-,,,A photo has been shared thousands of times in multiple posts on Facebook and Twitter which claim it shows a protest against coronavirus restrictions in the German capital of Berlin in August 2020.,0
-,,,"A picture allegedly showing a large crowd gathered in Berlin on August 1st, 2020 to protest against the â€œHealth dictatorshipâ€ imposed by the government to stop the Covid-19 pandemic.",0
-,,,"List of substances that cure coronavirus, according to a Cali doctor.",0
-,,,Adidas is giving away face masks.,0
-,,,A street protest criticizing Japanese Prime Minister Shinzo Abeâ€™s government is the source of the â€œnight life city clusterâ€,0
-,,,63 intensive care beds were occupied by infected protesters,0
-,,,A publication that claims that a doctor from the MuÃ±iz hospital named â€œMarcos Vargasâ€ died from treating patients with coronavirus,0
-,,,An image published by the Argentine journalist Viviana Canosa of two people not respecting social distancing at the Casa Rosada,0
-,,,"Axel Kicillof (Governor of the Province of Buenos Aires, Argentina): â€œThe North American economy suffered a drop in its GDP of 33%. It is the biggest drop in the last 70 years â€",0
-,,,"Tasuku Honjo, Nobel Prize in Medicine, said that the coronavirus â€œis not naturalâ€",0
-,,,The vaccine against the new coronavirus has existed since 2001,0
-,,,A publication that claims that a doctor from the MuÃ±iz hospital named â€œMarcos Vargasâ€ died from treating patients with coronavirus,0
-,,,A post that claims that cigarette smoke transmits the coronavirus,0
-,,,Adidas is giving away face masks.,0
-,,,"Axel Kicillof (Governor of the Province of Buenos Aires, Argentina): â€œThe North American economy suffered a drop in its GDP of 33%. It is the biggest drop in the last 70 years â€",0
-,,,South Korea study finds quarantines useless in combating COVID-19,0
-,,,Multiple Facebook posts shared hundreds of times claim â€œviruses do not harm or kill [people]â€ and that any â€œharm and deathâ€ caused by a virus can be attributed to â€œthe overreaction of a weakened and dysfunctional immune systemâ€.,0
-,,,63 intensive care beds were occupied by infected protesters,0
-,,,The new coronavirus vaccine has â€œdigitizable RNAâ€ that is â€œactivated by 5Gâ€ and can reactivate the virus.,0
-,,,"Children vaccinated against the flu are at a significantly higher risk of contracting other respiratory infections, including coronaviruses.",0
-,,,"Eduardo Leite, governor of Rio Grande do Sul, Brazil, is taking hydroxichloroquine and ivermectin against COVID-19",0
-,,,"A combination for hydroxychloroquine, azitromicin and zinc that is guaranteed to cure 99.9% of any COVID-19 patient",0
-,,,"Lojas Americanas, a Brazilian retail company, is offering free gift cards for families in distress caused by the pandemic",0
-,,,The vaccine against the new coronavirus has existed since 2001,0
-,,,Facebook posts claimed that British Columbiaâ€™s top health officer warned about the risks of asbestos poisoning from plywood boards used as barriers against COVID-19 transmission during certain types of sex.,0
-,,,"Brazilian City Halls receive R$ 19,000 in federal funding for each recorded COVID-19 death.",0
-,,,Facebook posts claimed that British Columbiaâ€™s top health officer warned about the risks of asbestos poisoning from plywood boards used as barriers against COVID-19 transmission during certain types of sex.,0
-,,,"Herman Cain, one-time Republican presidential candidate, died of colon cancer, not COVID-19.",0
-,,,"Ziraldo, Brazilian cartoon artist, stated that all mayors who ordered lockdowns will not be reelected",0
-,,,Gargling water mixed with salt or vinegar will get rid of the novel coronavirus from oneâ€™s throat.,0
-,,,A doctor claims most Belgians are immune to COVID-19,0
-,,,"Critics say it is wrong to use of PCR tests for to detect COVID-19 since, in theory, this is not specific to SARS-CoV-2. It is a non-specific test in which genetic material from any organism can be detected and can potentially misidentify another virus as COVID-19.",0
-,,,An image claims that an immigrant who tested â€œpositive for COVID-19â€ and â€œarrived in a boat yesterdayâ€ has fled in the Calpe area (Alicante). The alleged escapeeâ€™s full name as well as the photo of the alleged escape appear in the image. It also claims the man fled the El Matorral detention center.,0
-,,,"AndrÃ©s FabiÃ¡n Hurtado, the Mayor of IbaguÃ©, says his city lost four million jobs due to the coronavirus",0
-,,,"During COVID-19 PCR test, microships are integrated to human bodies",0
-,,,Chloroquine is the cure for COVID-19 and masks should not be used.,0
-,,,The flu vaccine caused the spread of COVID-19.,0
-,,,A post claims several medicine combinations cure COVID-19,0
-,,,Chlorine dioxide removes the coronavirus from the body within 48 hours,0
-,,,"A video shows a group of doctors calling itself â€œDoctors for the truthâ€ defend and justify claims that masks donâ€™t work, lockdowns wonâ€™t stop the virus, and the flu vaccine spread SARS-CoV2.",0
-,,,Wearing a mask lowers the blood oxygen level.,0
-,,,"Philippine Education Secretary Leonor Briones is shown quoted as saying classes will resume on Aug. 24 amid the COVID-19 pandemic and that â€œif we die, we die.â€",0
-,,,"Critics say it is wrong to use of PCR tests for to detect COVID-19 since, in theory, this is not specific to SARS-CoV-2. It is a non-specific test in which genetic material from any organism can be detected and can potentially misidentify another virus as COVID-19.",0
-,,,"A video shows a group of doctors calling itself â€œDoctors for the truthâ€ defend and justify claims that masks donâ€™t work, lockdowns wonâ€™t stop the virus, and the flu vaccine spread SARS-CoV2.",0
-,,,Wearing a mask lowers the blood oxygen level.,0
-,,,"AndrÃ©s FabiÃ¡n Hurtado, the Mayor of IbaguÃ©, says his city lost four million jobs due to the coronavirus",0
-,,,"A doctor recommends the use of ivermectin, hydroxychloroquine, chlorine dioxide and interferon to cure coronavirus.",0
-,,,CoronaVac uses cells from aborted fetuses.,0
-,,,"Stella Immanuel claims that the drug combination of hydroxychloroquine, zinc and azithromycin is a cure and preventative for COVID-19 and that people donâ€™t need to wear masks or practice physical distancing in a Breitbart video featuring a group called Americaâ€™s Frontline Doctors.",0
-,,,A group called Americaâ€™s Frontline Doctors are featured in viral video claiming hydroxychloroquine cures COVID-19.,0
-,,,"A news article claims 30% of Ukrainian patients who participated in an American COVID-19 vaccine trial died. The test took place in the area of Lugansk, an Ukrainian separatist region",0
-,,,"Spanish Prime Minister, Pedro SÃ¡nchez, said this Monday, July 27 in an interview for â€˜Informativos Telecincoâ€™ that [min. 1:19] â€œin most of the [Spanish] territory the accumulated incidence of the virus is still very low, lower than I insist [â€¦] on the average also for the United Kingdomâ€.",0
-,,,An image shows a traffic accident where the driver allegedly died from hypoxia from wearing the mask.,0
-,,,The COVID-19 vaccine causes bad alergic reactions.,0
-,,,"A photo of a young man with a swollen face. Allegedly, he was a volunteer for Coronavac, a Chinese vaccine against COVID-19 being tested in Brazil",0
-,,,"A Facebook post that claims that the COVID-19 is a â€œfraud,â€ because the mass media used the same photo of a portuguese boy in multiple stories about children who died from COVID-19.",0
-,,,A photo of man with swollen face shows side effect of CoronaVac in Brazilian volunteer,0
-,,,"Lemon, ginger and garlic cures coronavirus.",0
-,,,"The truck depicting the god of death Anubis is aimed at testing and then infecting people, which eventually ends with human microchipping.",0
-,,,An image that casts doubt on the tools used in rapid tests for coronavirus.,0
-,,,"A news article claims 30% of Ukrainian patients who participated in an American COVID-19 vaccine trial died. The test took place in the area of Lugansk, an Ukrainian separatist region",0
-,,,"Spanish Prime Minister, Pedro SÃ¡nchez, said this Monday, July 27 in an interview for â€˜Informativos Telecincoâ€™ that [min. 1:19] â€œin most of the [Spanish] territory the accumulated incidence of the virus is still very low, lower than I insist [â€¦] on the average also for the United Kingdomâ€.",0
-,,,The COVID-19 vaccine causes bad alergic reactions.,0
-,,,Video of a doctor at a press conference who said: Hydroxychloroquine is a cure for COVID-19. He also said that masks are not necessary.,0
-,,,A group called Americaâ€™s Frontline Doctors are featured in viral video claiming hydroxychloroquine cures COVID-19.,0
-,,,A post claimed that photos of a man in a gold mask are of a religious leader who â€œasked his congregation for a gold mask because God revealed it to him in a dream.â€,0
-,,,"Brazilian regulatory agency Anvisa labeled ivermectin a controled substance, because itâ€™s cheap and helps save lives.",0
-,,,The border between France and Belgium will be closed,0
-,,,Thereâ€™s chloroquine and ivermectine on lemon and orange peels,0
-,,,Brazilian CoronaVac volunteer reported body pain and fever after vaccination.,0
-,,,Doctors cannon lose their professional license for refusing to prescribe hydroxychloroquine.,0
-,,,"Multiple posts shared hundreds of times on Facebook and Twitter claim that four Ukrainian soldiers died after participating in American COVID-19 vaccine trials in the northeastern Ukrainian city of Kharkiv. The claim, published in several languages across different posts, was attributed to a police spokesperson in the self-proclaimed Lugansk Peopleâ€™s Republic.",0
-,,,Lawsuits filed against Fauci and Gates for creating and artificially disseminating the virus,0
-,,,A post claims to show three medications to prevent coronavirus.,0
-,,,A post from the Russian Virology Center that recommends an alkaline diet to fight coronavirus.,0
-,,,Thereâ€™s chloroquine and ivermectine on lemon and orange peels,0
-,,,Masks pores are too large to block virus,0
-,,,"A Facebook post claiming that the Italian minister for Education Lucia Azzolina wants to buy school desks at â‚¬300, while itâ€™s possible to find the same product online at â‚¬30.",0
-,,,The President of Ghana revealed that the coronavirus was created in a laboratory.,0
-,,,Masks Can Be Sanitized In Microwave,0
-,,,The border between France and Belgium will be closed,0
-,,,The nasal swab test for COVID-19 damages the â€œblood-brain barrierâ€ and can therefore lead to brain infections.,0
-,,,The World Health Organization announced that SARS-CoV-2 can stay in the air for eight hours.,0
-,,,"Multiple posts shared tens of thousands of times on Facebook and Twitter claim that a woman contracted pleurisy, a lung inflammation condition, after wearing a face mask for an extended period of time. According to the posts, the unidentified woman caught the disease because she was breathing in carbon dioxide and her own bacteria.",0
-,,,Pictures of a flooded NMCH hospital in Patna,0
-,,,COVID-19 Means â€˜See A Sheep Surrenderâ€™ In Latin,0
-,,,"Publications that state that â€œthe new vaccine contains digitizable â€˜RNAâ€™â€, an alleged â€œreplicant that is activated by 5Gâ€ and that is why â€œthe virus can be reactivated after the patient recoversâ€",0
-,,,A ship carrying Honduran mobile hospitals caught fire,0
-,,,Oxford Universityâ€™s vaccine is made using the cells of aborted fetuses.,0
-,,,"The Governor of Jujuy (Argentina), Gerardo Morales: â€œIn the Metropolitan Area [of Buenos Aires] 20% of those infected are health personnelâ€",0
-,,,"A post uses an image of an â€œundocumented Nicaraguanâ€ and claims he tested positive for COVID-19, and is â€œspitting on doorsâ€",0
-,,,A video stating that in Brazil hospitals receive â‚¬3.000 for each Covid-19-related death.,0
-,,,A photo claiming to show Jair Bolsonaro hospitalized for coronavirus.,0
-,,,The economic bonus for those who have low electrical energy consumption collects personal data and the government does not explain how it could be used.,0
-,,,"A general treatment for the new coronavirus includes antibiotics, anti-inflammatories and corticosteroids.",0
-,,,Cubaâ€™s low number of COVID-19 deaths is due to its use of hydroxychloroquine to treat patients,0
-,,,BoyacÃ¡ scientist says he can cure patients with COVID-19 through biology.,0
-,,,The active ingredients in chloroquine and ivermectin are also found in lemon and orange peels.,0
-,,,A photo claims to show a prescription list of medications to treat coronavirus at home.,0
-,,,"A randomized, double-blind study by Henry Ford Health System proved that hydroxychloroquine is effective against COVID-19",0
-,,,"A viral video where an interview from the Tierra Pura portal is disseminated to the doctor Mariana Colombres Garmendia, who denounces the overregistration of the numbers of people infected and killed by the COVID-19 disease in Argentina, and says that the Buenos Aires government pays the doctors or institutions for doing so for the alleged purpose of extending the quarantine",0
-,,,"A general treatment for the new coronavirus includes antibiotics, anti-inflammatories and corticosteroids.",0
-,,,Oxford Universityâ€™s vaccine is made using the cells of aborted fetuses.,0
-,,,"A post uses an image of an â€œundocumented Nicaraguanâ€ and claims he tested positive for COVID-19, and is â€œspitting on doorsâ€",0
-,,,The economic bonus for those who have low electrical energy consumption collects personal data and the government does not explain how it could be used.,0
-,,,"It s good to catch COVID-19 in the summer, as it is less aggressive",0
-,,,The Centers for Disease Control and Prevention made a mistake and has lowered its COVID-19 case count in Florida.,0
-,,,5G generates the coronavirus SARS-CoV-2 in human skin cells.,0
-,,,The picture shown in the post is of Dr Sundar Tolani who died due to coronavirus,0
-,,,"The Government offered an economic bonus for those households that consumed less electrical energy. The process reflected problems and due to some amendments, the bond changed its objective.",0
-,,,COVID-19 Means â€˜See A Sheep Surrenderâ€™ In Latin,0
-,,,A Facebook video claims that a new oral spray â€œdeactivates 98% of the coronavirusâ€ in the mouth. This effect is believed to be partly due to the ability of trypsin to sever proteins on the surface of the SARS-CoV-2 virus.,0
-,,,Viral pictures show organ trafficking of COVID-19 patients dead bodies.,0
-,,,The president of Ghana said that the coronavirus was created in a laboratory,0
-,,,"The World Health Organization suspended production of an American COVID-19 vaccine, and promoted the Chinese version.",0
-,,,The COVID-19 vaccine being developed in China is more effective and cheaper than the one developed by Oxford University.,0
-,,,"The Government offered an economic bonus for those households that consumed less electrical energy. The process reflected problems and due to some amendments, the bond changed its objective.",0
-,,,The Centers for Disease Control and Prevention made a mistake and has lowered its COVID-19 case count in Florida.,0
-,,,The picture shown in the post is of Dr Sundar Tolani who died due to coronavirus,0
-,,,A claim that facemasks restrict breathing and cause hypoxia.,0
-,,,Ivermectin cures the new coronavirus.,0
-,,,"Coronavac, a Chinese vaccine against COVID-19 being tested in Brazil, is made with aborted fetus cells",0
-,,,COVID-19 Means â€˜See A Sheep Surrenderâ€™ In Latin,0
-,,,"Video shows that the first volunteer to be vaccinated with CoronaVac, a vaccine produced by chinese Sinovac Biotech, didnâ€™t have the arm punctured, which proves that the drug is a scam.",0
-,,,"Chlorine, bleach, or corrosive should be flushed down the toilet to prevent expansion of the coronavirus",0
-,,,The COVID-19 vaccine being developed in China is more effective and cheaper than the one developed by Oxford University.,0
-,,,"A video shows a candidate in the upcoming New Zealand elections claiming that the countryâ€™s prime minister, Jacinda Ardern, authorised the military to enter private residences in order to enforce COVID-19 quarantine measures. It has been viewed tens of thousands of times in multiple posts on Facebook in July 2020.",0
-,,,"A video from family doctor Natalia Prego Cancel criticizing PCR, the test used to detect coronavirus in active infections.",0
-,,,RNA-based COVID-19 vaccines can turn humans into genetically modified organisms.,0
-,,,A post claims the COVID-19 swab test can cause brain inflamation.,0
-,,,The EPS tested less than 5% of the inhabitants of CÃ³rdoba for COVID-19,0
-,,,A video shows the execution of a journalist who denounced wasteful spending in city hallâ€™s work to combat COVID-19 in the Brazilian state of ParÃ¡,0
-,,,RNA-based COVID-19 vaccines can turn humans into genetically modified organisms.,0
-,,,"According to the Brazilian Civil Registry, there were more deaths in 2019 than in 2020, considering the first semester only.",0
-,,,"A video from family doctor Natalia Prego Cancel criticizing PCR, the test used to detect coronavirus in active infections.",0
-,,,A post that has a list of recommendations to prevent and treat the new coronavirus.,0
-,,,A post claims the COVID-19 swab test can cause brain inflamation.,0
-,,,"A video that supposedly shows medical staff protesting because the pandemic is a â€œfraudâ€, something not real.",0
-,,,"The Brazilian federal government dismissed 396,000 civil servants who received fraudulent COVID-19 emergency assistance.",0
-,,,A post shared thousands of times on Facebook claims the novel coronavirus does not affect people who are very fit or thin.,0
-,,,Masks can be sanitized in microwave,0
-,,,"The first person to received a Chinese COVID-19 vaccine that is being tested in Brazil was not actually vaccinated. The video was just a simulation, since the cap of the injection was still on.",0
-,,,"Non-contact thermometers emit infrared rays, which damage the pineal gland just behind the forehead.",0
-,,,An image that supposedly shows the results of vaccination campaigns on children in Sierra Leone,0
-,,,A post that shows a doctor from Santiago del Estero (Argentina) who is fighting against the coronavirus.,0
-,,,"Drinking water boiled with turmeric powder, ginger, carom seeds and coriander seeds can cure COVID-19.",0
-,,,An image that supposedly shows the results of vaccination campaigns on children in Sierra Leone,0
-,,,The government has ordered re-opening of schools and colleges.,0
-,,,"A chain indicating that a newborn named MartÃ­n Sosa is admitted to the Childrenâ€™s Hospital (CABA, Argentina).",0
-,,,Authorities discreetly re-authorised hydroxychloroquine for COVID-19,0
-,,,A post that indicates that Spanish doctors say that face masks donâ€™t work outdoors.,0
-,,,"Supporters of ABS-CBN, including actor Gerald Anderson, gathered together and violated quarantine rules by not wearing face masks during the COVID-19 pandemic.",0
-,,,Brazil recorded more deaths in the first half of 2019 than in the first half of 2020.,0
-,,,"A post shared more than a thousand times on Facebook claims that a corpse of a COVID-19 positive person is 100 times more â€œtoxicâ€ 72 hours after death â€” and that because undertakers are not burying bodies within this prescribed period, funerals have become hotspots for further infections.",0
-,,,"Comedian Michael V, also known as â€œBitoy,â€ died after contracting the new coronavirus.",0
-,,,"Masks do nothing to prevent the spread of pathogens, including SARS-CoV-2, and cause oxygen deficiency",0
-,,,"A student for Pondicherry University found a home remedy cure for COVID-19 which was accepted by WHO. Mixing black pepper powder, ginger and honey and consuming it for 5 days will cure the person of the new coronavirus.",0
-,,,"The Federal Government fired 396 thousand public servants who received, illegally, the emergency COVID-19 allowance.",0
-,,,Authorities decided to close the French-Spanish border,0
-,,,Inhaling eucalyptus prevents or eliminates the new coronavirus,0
-,,,Ghanaâ€™s president backs conspiracy theories about COVID-19.,0
-,,,"Uruguay gave 55,000 doses of medecine for Brazil to fight COVID-19.",0
-,,,"An audio that denounces the falsification of death certificates at the Hospital de ClÃ­nicas (CABA, Argentina) to increase deaths from coronavirus.",0
-,,,Authorities decided to close the French-Spanish border,0
-,,,Brazil recorded more deaths in the first half of 2019 than in the first half of 2020.,0
-,,,"All those who registered for the governmentâ€™s emergency subsidy program (ESP) via the ReliefAgad app will have to claim their cash aid via GCash, regardless of the payout method they selected in the app.",0
-,,,The government has ordered re-opening of schools and colleges.,0
-,,,"A post shared more than a thousand times on Facebook claims that a corpse of a COVID-19 positive person is 100 times more â€œtoxicâ€ 72 hours after death â€” and that because undertakers are not burying bodies within this prescribed period, funerals have become hotspots for further infections.",0
-,,,"Comedian Michael V, also known as â€œBitoy,â€ died after contracting the new coronavirus.",0
-,,,"Gasoline or diesel can be used to disinfect surfaces and hands to kill the SARS-CoV-2 virus, which causes COVID-19.",0
-,,,Authorities discreetly re-authorised hydroxychloroquine for COVID-19,0
-,,,"Masks do nothing to prevent the spread of pathogens, including SARS-CoV-2, and cause oxygen deficiency",0
-,,,"The video of a huge crowd not maintaining social distancing is from All India Institute of Medical Science (AIIMS), Patna (a city in the state of Bihar).",0
-,,,Raisin prevents clotting thus helps to fight COVID19,0
-,,,"An ordinance that punishes minors and their parents for violating quarantine rules took effect on Monday, July 20.",0
-,,,"A claim has been shared repeatedly in multiple posts on Facebook, Instagram and other websites in July 2020 that top medical experts from the World Health Organization (WHO), US Centers for Disease Control and Prevention (CDC) and The New England Journal of Medicine have warned against wearing face masks because they can cause â€œsevere health issuesâ€.",0
-,,,"Ivermectin has had good results in the COVID-19 treatment in Bolivia, the Dominican Republic, New Zealand, Australia, and African countries.",0
-,,,"A claim has been shared repeatedly in multiple posts on Facebook, Instagram and other websites in July 2020 that top medical experts from the World Health Organization (WHO), US Centers for Disease Control and Prevention (CDC) and The New England Journal of Medicine have warned against wearing face masks because they can cause â€œsevere health issuesâ€.",0
-,,,"Multiple Facebook posts shared tens of thousands of times claim the novel coronavirus, which causes the disease COVID-19, has infected far fewer people than the H1N1 virus, or swine flu, but â€œmedia hysteriaâ€ has prompted an overblown response.",0
-,,,"A viral message that says that â€œthose over 60 years of ageâ€ can get from pharmacies â€œa pack of three masks per month (â€¦) from Wednesday 29 July.â€ The text is shared as coming from the Spanish regions of Andalusia, Catalonia, Castilla y LeÃ³n, the Valencian Community or the Basque Country.",0
-,,,Nokia distributing free phones to students amidst coronavirus pandemic,0
-,,,A graph that correlates greater vaccination against influenza in those over 65 years of age and a higher mortality rate compared to COVID-19.,0
-,,,"The video of a huge crowd not maintaining social distancing is from All India Institute of Medical Science (AIIMS), Patna (a city in the state of Bihar).",0
-,,,Raisin prevents clotting thus helps to fight COVID19,0
-,,,French doctors protest after discovering COVID-19 pandemic is a fraud.,0
-,,,"A picture showing the Italian Prime Minister Giuseppe Conte, the French President Emmanuel Macron and the German Chancellor Angela Merkel having a drink together, with no masks and not respecting social distancing measures.",0
-,,,"A person who visited Badusha Hypermarket, Perambra was found COVID-19 positive and hence all those who have visited the hypermarket on 16th July 2020 are asked to report to Perambra Taluk Hospital.",0
-,,,"Obama, Dr. Fauci visited Wuhan lab in 2015",0
-,,,Neem tea is the â€˜solutionâ€™ for COVID-19,0
-,,,Covid 19 : â€˜Achha Chalta Huâ€™ Boy breathed his hast after singing a Hindi song.,0
-,,,"A publication that claims that in 1918 the American city of Philadelphia â€œprematurely ended its quarantine of the Spanish flu and launched a demonstration against the measures of staying at homeâ€, which led to a peak of infections, hospitalizations and deaths.",0
-,,,Covid 19 : â€˜Achha Chalta Huâ€™ Boy breathed his hast after singing a Hindi song.,0
-,,,A picture of the coronavirus-infected patientâ€™s throat.,0
-,,,An image in which two people turn their backs to the State ceremony that took place this July 16 in honor of the victims of COVID-19. He moves with a message that they are members of Podemos who turned around while King Felipe VI spoke.,0
-,,,"A car blew up in BelÃ©m, Brazil, because the driver cleaned his key with alcohol-based hand sanitizer.",0
-,,,COVID-19 asymptomatic carriers transmit antibodies to other people.,0
-,,,WHO changed its directives: No need to isolate infected people.,0
-,,,A photo that shows Brazilian president Jair Bolsonaro hospitalized with a tube coming out of his nose. The caption links this photo to COVID-19.,0
-,,,There is no evidence that Mentholatum and eucalyptus prevent the development of COVID-19 in the human body.,0
-,,,Podemos politicians turned around at the state ceremony for COVID-19 victims,0
-,,,"Porto Feliz, a Brazilian city in the state of SÃ£o Paulo, doesnâ€™t register deaths from COVID-19 since it adopted a treatment protocol with chloroquine.",0
-,,,"The governor of Bahia, Rui Costa, determined that all hydroxychloroquine tablets were confiscated from pharmacies around the state.",0
-,,,"A quote by doctor Alberto Zangrillo, saying that Covid-19 is a consequence of immigration.",0
-,,,For a couple of days a message has been circulating in which users are invited to make a request for help to the National Government through a form in the Colombian government,0
-,,,"The â€œMozhemeâ€ coalition is connected to the newly infected COVID-19 patients, although it has nothing to do with this issue.",0
-,,,A map of Sri Lanka was shared with certain cities highlighted as the places visited by close contacts of Kandakadu COVID19 cluster,0
-,,,A map of Sri Lanka was shared with certain cities highlighted as the places visited by close contacts of Kandakadu COVID19 cluster,0
-,,,For a couple of days a message has been circulating in which users are invited to make a request for help to the National Government through a form in the Colombian government,0
-,,,A photo that shows Brazilian president Jair Bolsonaro hospitalized with a tube coming out of his nose. The caption links this photo to COVID-19.,0
-,,,A picture of the coronavirus-infected patientâ€™s throat.,0
-,,,Facebook posts shared thousands of times claim that the US Federal Emergency Management Agency (FEMA) is offering hazard pay compensation to individuals who worked during the novel coronavirus pandemic.,0
-,,,Doctors can steal your fingerprints or data with the pulse oximeter,0
-,,,Extensive mask wearing weakens the immune system because you canâ€™t breathe properly through them,0
-,,,Some statements by the American political scientist and activist Susan George in which she says that â€œSpaniards are laboratory rats: letâ€™s see how much punishment they tolerate without rebelling.â€ The phrase is shared related to the current coronavirus pandemic.,0
-,,,Singaporeâ€™s Health ministry issued an advisory about the day-to-day progression of COVID-19 symptoms in patients during the first nine days of infection.,0
-,,,US Education Secretary Betsy DeVos said children are â€œstoppersâ€ of coronavirus.,0
-,,,The city of Manizales estimated its cycloband during COVID-19 greatly reduced greenhouse gas emmissions.,0
-,,,French Prime Minister and Health Minister were expelled from the government after banning chloroquine in the country.,0
-,,,Chinese scientists have publicly stated that the coronavirus is lab-made,0
-,,,"A video with text that claims to offer information about the coronavirus that â€œcomes from the Japanese Ministry of Health.â€ It claims that when the first symptoms of the infection appear, the lungs already show 50% fibrosis.",0
-,,,PCR tests damage hemato encephalic barrier,0
-,,,COVID-19 hospital flooded in Bihar,0
-,,,US Education Secretary Betsy DeVos said children are â€œstoppersâ€ of coronavirus.,0
-,,,PCR tests damage hemato encephalic barrier,0
-,,,5G technology creates coronavirus in human cells,0
-,,,Singaporeâ€™s Health ministry issued an advisory about the day-to-day progression of COVID-19 symptoms in patients during the first nine days of infection.,0
-,,,Extensive mask wearing weakens the immune system because you canâ€™t breathe properly through them,0
-,,,Some statements by the American political scientist and activist Susan George in which she says that â€œSpaniards are laboratory rats: letâ€™s see how much punishment they tolerate without rebelling.â€ The phrase is shared related to the current coronavirus pandemic.,0
-,,,A supposed doctor recommends in a video inhaling â€œantiseptic alcoholâ€ to â€œfight the new coronavirusâ€,0
-,,,A video of a man attacking a cashier at a McDonaldâ€™s restaurant has been viewed thousands of times in multiple posts on Facebook alongside a claim it happened in Singapore.,0
-,,,The private health system began offering antibody tests to detect COVID-19. At the same time that the Ministry of Health said it would buy antigen tests.,0
-,,,A video claims Italy discovered that COVID-19 is bacteria not a virus,0
-,,,Video says face masks are ineffective in mitigating transmission of COVID-19 and are harmful to the wearer.,0
-,,,"Anthony Fauci is married to the sister of Ghislaine Maxwell, who was arrested in the U.S on charges of human trafficking.",0
-,,,The swabs used in COVID-19 RT-PCR testes can damage your blood-brain barrier.,0
-,,,Average daily deaths recorded in Brazil in 2020 is lower than 2019.,0
-,,,The swabs used in COVID-19 RT-PCR testes can damage your blood-brain barrier.,0
-,,,Video says face masks are ineffective in mitigating transmission of COVID-19 and are harmful to the wearer.,0
-,,,The coronavirus is an amplified bacterium and is related to 5G.,0
-,,,Average daily deaths recorded in Brazil in 2020 is lower than 2019.,0
-,,,A video of a man attacking a cashier at a McDonaldâ€™s restaurant has been viewed thousands of times in multiple posts on Facebook alongside a claim it happened in Singapore.,0
-,,,A text that ensures that the guava tree leaf can â€œprevent or reverseâ€ the effects of COVID-19.,0
-,,,An article stating that 25 police officers tested positive to Covid-19 after assisting positive migrants.,0
-,,,A student from Pondicherry University has found a home remedy for COVID-19 that has been accepted by World Health Organization (WHO),0
-,,,Ghanaâ€™s president said the coronavirus was created in a laboratory.,0
-,,,A supposed doctor recommends in a video inhaling â€œantiseptic alcoholâ€ to â€œfight the new coronavirusâ€,0
-,,,Ecuador found the cure for coronavirus.,0
-,,,"Anthony Fauci is married to the sister of Ghislaine Maxwell, who was arrested in the U.S on charges of human trafficking.",0
-,,,"The new vaccine contains â€œRNAâ€ Digitizable replicator that is activated with 5g, so that the virus can reactivate after the patient recovers",0
-,,,Nasser Ziberi tested positive for COVID-19,0
-,,,"A photo claims to show Dr. Fauci, Melinda Gates and Barack Obama at the Wuhan Lab in 2015.",0
-,,,"An image that claims that an alleged therapy called biomagnetism is capable can wipe out â€œall kinds of viruses, bacteria, fungi and parasitesâ€, including the coronavirus â€œquickly and effectively.â€",0
-,,,"The new vaccine contains â€œRNAâ€ Digitizable replicator that is activated with 5g, so that the virus can reactivate after the patient recovers",0
-,,,Nasser Ziberi tested positive for COVID-19,0
-,,,A web article stating that Kazakhstan is dealing with a new outbreak of a particular kind of pneumonia which is â€œmore dangerous than Covid-19â€.,0
-,,,A student from Pondicherry University in India has found a home remedy for COVID-19 that has been accepted by World Health Organization (WHO).,0
-,,,"The mayor of Porto Alegre, Brazil, removed the benches of RedenÃ§Ã£o Park as a measure against people meeting up.",0
-,,,"A photo claims to show Dr. Fauci, Melinda Gates and Barack Obama at the Wuhan Lab in 2015.",0
-,,,Deaths from other causes are â€˜passedâ€™ as COVID-19.,0
-,,,"A 15-minute video in which the President of the Republic of Ghana, Nana Akufo-Addo, allegedly reveals that the coronavirus has been created in a laboratory and spread throughout the world.",0
-,,,"Biggest public hospital in Fortaleza (CearÃ¡, Brasil) has no covid-19 patients.",0
-,,,A press release from the Chinese Embassy in Kazakhstan alerting to an alleged new pneumonia whose case fatality rate is â€œmuch higherâ€ than that of COVID-19.,0
-,,,"The WHO approved a Chinese vaccine against COVID-19 that costs US$10000 per dose; it also forbade tests with an American vaccine, which would be given at very low cost.",0
-,,,Doctors perfoms a c-section in COVID-19 pacient and give birth to a baby without cuttin the membrane that protects him as a way to prevent contamination,0
-,,,"Photo shows former President Barack Obama, Dr. Anthony Fauci and Melinda Gates at the â€œWuhan lab in 2015.â€",0
-,,,Masks produce hypoxia and hypercapnia.,0
-,,,"Photo shows former President Barack Obama, Dr. Anthony Fauci and Melinda Gates at the â€œWuhan lab in 2015.â€",0
-,,,Video claims that Brazilian media outlets choose irrelevant scientists to talk about the pandemic.,0
-,,,The U.S. government has approved a second round of coronavirus stimulus payments to everyone who signs up â€” and that the money will be forthcoming in â€œ5-7 business days.â€,0
-,,,The WHO claimed that â€œmaybe there was no need for a lockdownâ€.,0
-,,,Claim that Secretary of Education Betsy DeVos said â€˜onlyâ€™ .02% of kids are likely to die when they go back to school during the pandemic.,0
-,,,WHO warns that wearing masks is unnecessary for healthy people.,0
-,,,"Fiocruz, a Brazilian state-owned science institute, developed the ChAdOx1 nCov-2019. Then, they offered it to Oxford University, because they were not getting any support from Jair Bolsonaro.",0
-,,,"Home treatment based in ivermectin, chloroquine, azithromycin and vitamins can cure the infection caused by the novel coronavirus.",0
-,,,"Manuel Elkin Patarroyo, a famous Colombian scientific, wrote a message about the coronavirus and sided against the WHO.",0
-,,,A claim that a video Amitabh Bacchan praising Nanavathi Hospital COVID warriors was just released.,0
-,,,Masks are dangerous,0
-,,,Africa managed the pandemic by prescribing ivermectin.,0
-,,,Covid-19 test using a swab is used to â€œcollect DNAâ€ from the population.,0
-,,,Seasonal influenza vaccination will be mandatory in Georgia this fall. COVID-19 mortality rates are significantly lower than the fatalities caused by other viruses.,0
-,,,A video shows monkeys attacking Gandhi Hospital in Hyderabad,0
-,,,Seasonal influenza vaccination will be mandatory in Georgia this fall. COVID-19 mortality rates are significantly lower than the fatalities caused by other viruses.,0
-,,,Claim that Secretary of Education Betsy DeVos said â€˜onlyâ€™ .02% of kids are likely to die when they go back to school during the pandemic.,0
-,,,Covid-19 test using a swab is used to â€œcollect DNAâ€ from the population.,0
-,,,"Telangana celebrity, lyricist Suddala Ashok Teja died due to a coronavirus infection.",0
-,,,"The youngest patient who died from COVID-19 in Macedonia, at the age of 24, was actually a victim of medical negligence.",0
-,,,Deaths from COVID-19 are nearing zero in the U.S.,0
-,,,Sechenov First Moscow State Medical University in Russia has completed the clinical trials for the â€œworldâ€™s first COVID-19 vaccine.â€,0
-,,,"Mayor of Cali, Colombia, will close the city for 14 days due to coronavirus.",0
-,,,Pistol shaped infrared themometers are dangerous and can burn neurons.,0
-,,,A fake document which says that the Italian government is extending the state of emergency until Spring 2021.,0
-,,,The COVI-PASS mobile application is collaborating with the Portuguese Government.,0
-,,,"PAHO, the PanAmerican health organisation, has conducted studies of Ivermectin and there is scientific evidence of its efficacy against Covid-19.",0
-,,,Publications suggest it would be better to test for COVID-19 with saliva than through the nose,0
-,,,Adidas is donating shoes in a campaign against the new coronavirus.,0
-,,,Telangana Chief Minister is being treated for COVID-19 infection in Yashoda Hospitals,0
-,,,The new coronavirus settles faster in a dry throat.,0
-,,,Helicopters will fly over the entirety of Luzon to spray unspecified substances against the coronavirus.,0
-,,,"While everyone was worried about COVID-19, the Chamber of Deputies approved two bills which legalize abortion.",0
-,,,"Masks are causing us to breathe the waste from our own body, which favors cancer, causes hypoxia or intoxicates the blood.",0
-,,,Lemon Juice cures COVID-19,0
-,,,UK nurse gives recommendations for treating coronavirus.,0
-,,,French doctors protested by throwing away their vests after finding out COVID-19 is a fraud.,0
-,,,"Ivermectin, chloroquine and nitazoxanide (sold in Brazil under the name Annita) prevent the multiplication of the novel coronavirus if taken at the beginning of Covid-19 symptoms.",0
-,,,The new coronavirus was created in a laboratory.,0
-,,,"The cases of COVID-19, the disease caused by the novel coronavirus, is not real and was planned by US billionaire Bill Gates to push the use of vaccines and microchip implants.",0
-,,,Consuming alcohol beverages or vodka will reduce risk of COVID-19 infection.,0
-,,,Eiffel tower reopens with hommage to COVID-19 deaths.,0
-,,,"Edouard Philippe, Franceâ€™s ex-prime minister, is being sued because he forbade hydroxychloroquine in the country.",0
-,,,Publications suggest it would be better to test for COVID-19 with saliva than through the nose,0
-,,,Adidas is donating shoes in a campaign against the new coronavirus.,0
-,,,Wearing a mask can cause a fungal infection.,0
-,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
-,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
-,,,Post claiming coronavirus affected patients in Chinniyampalayam and Vellalore get cured within a day by consuming this herbal Mysore pak,0
-,,,Consuming alcohol beverages or vodka will reduce risk of COVID-19 infection.,0
-,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
-,,,Senior officials of Rajasthan police visited Ajmer Sharif Dargah,0
-,,,A viral pamphlet claims Herbal Mysore Pak (a south Indian sweet) can cure COVID-19.,0
-,,,The bubonic plague is airborne and can spread when an infected person coughs.,0
-,,,A WhatsApp message says that coronavirus is being transmitted in wastewater.,0
-,,,Post claiming coronavirus affected patients in Chinniyampalayam and Vellalore get cured within a day by consuming this herbal Mysore pak,0
-,,,"A text about how no one is to be blamed for the pandemic in Brazil written by Mario Sergio Cortella, a Brazilian writer and philosophy professor.",0
-,,,Senior officials of Rajasthan police visited Ajmer Sharif Dargah,0
-,,,Consuming alcohol beverages or vodka will reduce risk of COVID-19 infection.,0
-,,,Using nasopharyngeal swabs for COVID-19 testing is unnecessary; saliva samples from mouth swabs is an equivalent substitute,0
-,,,1918 fluâ€™s second wave was more letal than the first but it was not because people stooped all precaution measures,0
-,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
-,,,A publication in Macedonian claims that â€œCOVID-19 IS NOT A VIRUSâ€ and that the Italians are the first to find the cure.,0
-,,,"A picture of Brazilian president Jair Bolsonaro in a hospital bed, which would show his condition after testing positive for Covid-19.",0
-,,,"A video of an excerpt from an American television program in which the presenter criticizes the use of masks and, as part of that criticism, supposedly measures the oxygen levels inside the mask that a child is wearing.",0
-,,,Nasal swabs used to obtain samples for COVID-19 tests reach the blood-brain barrier and may damage it.,0
-,,,"Health authorities recommend that you throw a teaspoon of bleach inside every toilet, sink and drain. This helps preventing the SARS-CoV-2 to enter your house through the sewer.",0
-,,,There is a pharmaceutical cure for COVID-19.,0
-,,,"Health authorities recommend that you throw a teaspoon of bleach inside every toilet, sink and drain. This helps preventing the SARS-CoV-2 to enter your house through the sewer.",0
-,,,Coffee cures the coronavirus.,0
-,,,A publication in Macedonian claims that â€œCOVID-19 IS NOT A VIRUSâ€ and that the Italians are the first to find the cure.,0
-,,,"A painting in which people with face masks of the flags of different countries appear, assuring that it is a â€œmural of the Denver airport painted in 1994â€, as if it had predicted the current coronavirus pandemic.",0
-,,,"A video of an excerpt from an American television program in which the presenter criticizes the use of masks and, as part of that criticism, supposedly measures the oxygen levels inside the mask that a child is wearing.",0
-,,,"Claim that Universidad de Antioquia (UdeA), in Colombia, predicted â€˜almost a thousand deaths per dayâ€™ at the peak of COVID-19.",0
-,,,Wearing a mask can cause a fungal infection.,0
-,,,5G spreads the new coronavirus.,0
-,,,The Universal Church of the Kingdom of God published a note stating that healing sessions were suspended due to COVID-19.,0
-,,,"An image circulating via WhatsApp discloses false information about the dates on which, supposedly, the Protect bonus will be deposited in accounts of Costa Rican citizens.",0
-,,,Eating highly alkaline foods can defeat COVID-19. SARS-CoV-2 has a pH level of between 5.5 and 8.5.,0
-,,,Nasal swabs used to obtain samples for COVID-19 tests reach the blood-brain barrier and may damage it.,0
-,,,Pandemics occur once every century.,0
-,,,Prisioners temporarily released because of COVID-19 were responsible for 13.9% of all murders in Brazil in April 2020.,0
-,,,Articles shared hundreds of times on Facebook in multiple countries claim that holy communion has been banned in Toronto as part of the Canadian cityâ€™s response to the coronavirus pandemic.,0
-,,,5G spreads the new coronavirus.,0
-,,,Eating highly alkaline foods can defeat COVID-19. SARS-CoV-2 has a pH level of between 5.5 and 8.5.,0
-,,,"If you have symptoms of Covid-19, take azithromycin, ivermectin and acetylcysteine.",0
-,,,Dr. Bilgehan Bilgeâ€™s claims about the use of masks,0
-,,,David Icke says the pandemic was caused by 5g technology.,0
-,,,Governor of the Brazilian state of Bahia dismissed a doctor who appealed to President Jair Bolsonaro for chloroquine.,0
-,,,A text circulating in Macedonian that says that â€œnew research has shaken the world and that something terrible has been discovered about coronavirus and the human immunity.â€,0
-,,,The low number of deaths from COVID-19 in Japan is due to the â€œdifference in the level of â€˜social standardsâ€™ between Japan and other countriesâ€.,0
-,,,An image in which it is stated that kisses and hugs do not increase the risk of transmission of covid-19.,0
-,,,A video claims COVID-19 patients are sitting in the hospital corridor of Gandhi Hospital in Hyderabad,0
-,,,The Philippines does not have the fastest rising number of COVID-19 cases in the Western Pacific Region as classified by the World Health Organization.,0
-,,,Flamingos gather in Venice as there are no tourists around the water channels due to the pandemic.,0
-,,,A COVID-19 sensor or â€œtrackerâ€ has been inserted in Android cellphones and iPhones.,0
-,,,The vaccine for coronavirus is ready (as of July 7).,0
-,,,Dr. Bilgehan Bilgeâ€™s claims about the use of masks,0
-,,,An article claiming that â€œBill Gatesâ€™ vaccineâ€ would modify human DNA.,0
-,,,A spike in COVID-19 cases in the U.S. seen in June 2020 is due to increased testing.,0
-,,,An image that states that the Costa Rican government prohibited the sale of liquor due to the pandemic.,0
-,,,Democrats to blame for Covid-19 related deaths. They control the drugs against the virus.,0
-,,,Banana blocks the entrance of the coronavirus in cells,0
-,,,A post is circulating on Facebook of a supposed page of the argentine bank â€œBanco Provinciaâ€ that requests access to a link to re-enter personal data for alleged problems in home banking linked to the COVID-19 crisis.,0
-,,,"A study proves that ivermectin helped the number of COVID-19 cases decrease in Natal, Brazil.",0
-,,,"Infant deaths decreased dramatically during the lockdown, when the number of vaccines administered was reduced; vaccines are a cause of sudden infant death syndrome",0
-,,,"A message claims many physicians of Chang Gung Hospital, in Taiwan, are secretly under quarantine for COVID-19, indicating the local transmission and the lack of transparency of government data.",0
-,,,US builds biological labs only on the territories of other countries.,0
-,,,Coronavirus comes from a laboratory in Wuhan and is a commercial strategy of China.,0
-,,,WHO backtracked and released a document stating masks are not efficient to protect healthy people against COVID-19.,0
-,,,No one has died from the coronavirus; there are no antibodies that identify SARS-CoV-2; pathologists have no means of verifying whether a person was infected with SARS-CoV-2; SARS-CoV-2 has not fulfilled Kochâ€™s postulates.,0
-,,,"If you have symptoms of COVID-19, you should self-medicate with chloroquine and azithromycin and take zinc and vitamin C and D supplements.",0
-,,,WHO backtracked and released a document stating masks are not efficient to protect healthy people against COVID-19.,0
-,,,US builds biological labs only on the territories of other countries.,0
-,,,Face masks donâ€™t â€œprotect against covid19 and other viruses.â€,0
-,,,Prosecutor Fatime Fetai tested positive for COVID-19,0
-,,,The leaves of the guava tree prevent and reverse the new coronavirus.,0
-,,,"Homeless man in Punkunnam, Kerala, India, tested positive for COVID-19.",0
-,,,"As part of vaccine trials, Dr. V.K. Srinivasan of Bharath Biotech took the COVID-19 vaccine",0
-,,,A post stating that a local magazine in Ecuador revealed corruption in test purchase for COVID-19.,0
-,,,"There is a Nipah Virus outbreak in India amidst coronavirus pandemic, according to a warning form the WHO.",0
-,,,Actor Chuck Norris died of COVID-19.,0
-,,,There is microchip that will be implanted in the future coronavirus vaccine to control the population for political and economic purposes.,0
-,,,Antibodies for the common cold produce a positive COVID-19 test. False-positive results from COVID-19 antibody testing are behind the COVID-19 cases reported in the U.S.,0
-,,,Audio message circulating on WhatsApp saying that clinics and hospitals are looking for asthma patients to get sick from COVID-19.,0
-,,,Brazilian congressman JoÃ£o Campos denied using elections fund in measures to prevent COVID-19.,0
-,,,"Doctor says chloroquine cures COVID-19 and wearing masks can turn your blood into acid, which can help the proliferation of the novel coronavirus.",0
-,,,IMSS training on prevention must be paid COVID-19,0
-,,,Infrared thermometers cause brain damage.,0
-,,,"LiquigÃ¡s, a Brazilian energy company, is giving out free propane canisters to people who lost their income because of COVID-19 lockdowns.",0
-,,,Henry Kissinger said that population reduction should be done by vaccines â€œfor the common goodâ€.,0
-,,,"""Spraying chlorine or alcohol on the skin kills viruses in the body""",0
-,,,"""Only older adults and young people are at risk""",0
-,,,"""Children cannot get COVID-19""",0
-,,,"""COVID-19 is just like the flu""",0
-,,,"""Everyone with COVID-19 dies""",0
-,,,"""Cats and dogs spread coronavirus""",0
-,,,"""Face masks always protect against coronavirus""",0
-,,,"""Hand dryers kill coronavirus""",0
-,,,"""SARS-CoV-2 is just a mutated form of the common cold""",0
-,,,"""You have to be with someone for 10 minutes to catch the virus""",0
-,,,"""Rinsing the nose with saline protects against coronavirus""",0
-,,,"""You can protect yourself by gargling bleach""",0
-,,,"""Antibiotics kill coronavirus""",0
-,,,"""Thermal scanners can diagnose coronavirus""",0
-,,,"""Garlic protects against coronaviruses""",0
-,,,"""Parcels from China can spread coronavirus""",0
-,,,"""Home remedies can cure and protect against COVID-19""",0
-,,,"""You can catch coronavirus from eating Chinese food in the US""",0
-,,,"""You can catch coronavirus from urine and feces""",0
-,,,"""The virus will die off when temperatures rise in the spring""",0
-,,,"""Coronavirus is the deadliest virus known to humans""",0
-,,,"""Flu and pneumonia vaccines can protect against COVID-19""",0
-,,,"""The virus originated in a laboratory in China""",0
-,,,"""The outbreak began because people ate bat soup""",0
-,,,"""5G helps SARS-CoV-2 spread""",0
-,,,"""Drinking alcohol reduces the risk of infection""",0
-,,,"""Injecting or consuming bleach or disinfectant kills the virus""",0
-,,,You can catch coronavirus in swimming pools,0
-,,,People should NOT wear masks while exercising,1
-,,,The likelihood of shoes spreading COVID-19 is very low,1
-,,,The coronavirus disease (COVID-19) is caused by a virus NOT by bacteria,1
-,,,The prolonged use of medical masks* when properly worn DOES NOT cause CO2 intoxication nor oxygen deficiency,1
-,,,Most people who get COVID-19 recover from it,1
-,,,Drinking alcohol does not protect you against COVID-19 and can be dangerous,1
-,,,Thermal scanners CANNOT detect COVID-19,1
-,,,There are currently no drugs licensed for the treatment or prevention of COVID-19,1
-,,,Adding pepper to your soup or other meals DOES NOT prevent or cure COVID-19,1
-,,,COVID-19 is NOT transmitted through houseflies,1
-,,,Spraying and introducing bleach or another disinfectant into your body WILL NOT protect you against COVID-19 and can be dangerous,1
-,,,Drinking methanol ethanol or bleach DOES NOT prevent or cure COVID-19 and can be extremely dangerous,1
+100000,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Spraying chlorine or alcohol on the skin kills viruses in the body""",0
+100001,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Only older adults and young people are at risk""",0
+100002,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Children cannot get COVID-19""",0
+100003,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""COVID-19 is just like the flu""",0
+100004,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Everyone with COVID-19 dies""",0
+100005,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Cats and dogs spread coronavirus""",0
+100006,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Face masks always protect against coronavirus""",0
+100007,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Hand dryers kill coronavirus""",0
+100008,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""SARS-CoV-2 is just a mutated form of the common cold""",0
+100009,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""You have to be with someone for 10 minutes to catch the virus""",0
+100010,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Rinsing the nose with saline protects against coronavirus""",0
+100011,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""You can protect yourself by gargling bleach""",0
+100012,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Antibiotics kill coronavirus""",0
+100013,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Thermal scanners can diagnose coronavirus""",0
+100014,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Garlic protects against coronaviruses""",0
+100015,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Parcels from China can spread coronavirus""",0
+100016,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Home remedies can cure and protect against COVID-19""",0
+100017,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""You can catch coronavirus from eating Chinese food in the US""",0
+100018,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""You can catch coronavirus from urine and feces""",0
+100019,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""The virus will die off when temperatures rise in the spring""",0
+100020,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Coronavirus is the deadliest virus known to humans""",0
+100021,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Flu and pneumonia vaccines can protect against COVID-19""",0
+100022,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""The virus originated in a laboratory in China""",0
+100023,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""The outbreak began because people ate bat soup""",0
+100024,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""5G helps SARS-CoV-2 spread""",0
+100025,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Drinking alcohol reduces the risk of infection""",0
+100026,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,"""Injecting or consuming bleach or disinfectant kills the virus""",0
+100027,medicalnewstoday.com,https://www.medicalnewstoday.com/articles/coronavirus-myths-explored,You can catch coronavirus in swimming pools,0
+100166,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,People should NOT wear masks while exercising,1
+100167,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,The likelihood of shoes spreading COVID-19 is very low,1
+100168,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,The coronavirus disease (COVID-19) is caused by a virus NOT by bacteria,1
+100169,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,The prolonged use of medical masks* when properly worn DOES NOT cause CO2 intoxication nor oxygen deficiency,1
+100170,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Most people who get COVID-19 recover from it,1
+100171,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Drinking alcohol does not protect you against COVID-19 and can be dangerous,1
+100172,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Thermal scanners CANNOT detect COVID-19,1
+100173,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,There are currently no drugs licensed for the treatment or prevention of COVID-19,1
+100174,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Adding pepper to your soup or other meals DOES NOT prevent or cure COVID-19,1
+100175,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,COVID-19 is NOT transmitted through houseflies,1
+100176,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Spraying and introducing bleach or another disinfectant into your body WILL NOT protect you against COVID-19 and can be dangerous,1
+100177,who.int,https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters,Drinking methanol ethanol or bleach DOES NOT prevent or cure COVID-19 and can be extremely dangerous,1
 ,,,“3.8% of Wisconsin’s coronavirus funding has been spent.”,1
 ,,,There’s a “direct correlation” between North Carolina’s mask requirement and COVID-19 stabilization.,1
 ,,,"“There have been five randomized controlled, placebo controlled trials that do not show any benefit to hydroxychloroquine.”",1
@@ -1080,3 +626,457 @@ deaths?",1
 ,,,"â€œWith regard to the cost, let me be very clear: HHS has designated the coronavirus test as an essential health benefit. That means, by definition, itâ€™s covered in the private health insurance of every American, as well as covered by Medicare and Medicaid.â€",1
 ,,,The United States is â€œactually screening fewer people (for the coronavirus than other countries) because we donâ€™t have appropriate testing.â€,1
 ,,,“You’re more likely to die of influenza right now” than the 2019 coronavirus.,1
+,,,"A post claims compulsory vacination violates the principles of bioethics, that coronavirus doesnâ€™t exist, that the PCR test returns many false positives, and that influenza vaccine is related to COVID-19.",0
+,,,A photo claims that this person is a doctor who died after attending to too many COVID-19 patinents in Hospital MuÃ±iz in Buenos Aires.,0
+,,,Post about a video claims that it is a protest against confination in the town of Aranda de Duero (Burgos),0
+,,,"All deaths by respiratory failure and pneumonia are being registered as COVID-19, according to the Civil Registry website.",0
+,,,The dean of the College of Biologists of Euskadi states that there are a lot of PCR false positives and asymptomatic donâ€™t spread coronavirus.,0
+,,,"Households with COVID-19 patients in Porto Alegre, Campo Grande and Santo AntÃ´nio da Platina must put a red ribbon on their garbage bags. Garbagemen are instructed to handle them in a safer way",0
+,,,A chain lists recommendations to prevent and treat coronavirus.,0
+,,,"60,000 Argentinian companies have closed due to COVID-19; also, all companies receiving government aid during the pandemic will be expropriated by the government",0
+,,,Social media posts criticize a photo from smiling president of the Goverment Pedro SÃ¡nchez during his holidays after thousands died from COVID-19,0
+,,,CDC has released an update on how the novel coronavirus can be transmitted,0
+,,,Good oral hygiene destroys the coronavirus and prevents its spread,0
+,,,A video shows Pakistani minister of Health slapping those who do not obey official measures,0
+,,,"A Brazilian deputee says the pandemic has started to decrease in his state, Rio Grande do Sul",0
+,,,WHO warns against consuming cabbage to prevent COVID-19,0
+,,,A picture shows hydroxychloroquine is being sold on public trains in Rio de Janeiro,0
+,,,There is evidence that chlorine dioxide cures COVID-19,0
+,,,A video shows Pakistani minister of Health slapping those who do not obey official measures,0
+,,,A picture shows hydroxychloroquine is being sold on public trains in Rio de Janeiro,0
+,,,Coronavirus does not settle in air but is grounded â€“ UNICEF,0
+,,,Coronavirus does not float in air but is grounded â€“ UNICEF,0
+,,,"Axel Kicillof (Governor of the Province of Buenos Aires, Argentina): â€œRight now [there is] a strict quarantine in Barcelonaâ€",0
+,,,A list of alleged remedies to treat coronavirus.,0
+,,,Coronavirus (COVID-19) is large in size where the cell diameter is 400-500 micro and for this reason any mask may prevent its entry â€“ UNICEF,0
+,,,COVID-19 is being controlled in Africa because of widespread distribution of ivermectin,0
+,,,A post claims that PCR test â€œcause damage to the blood-brain barrierâ€ or â€œcreate a direct entrance to the brain for any infection.â€,0
+,,,Supposed tweet form Berlin Police claims there was 3.5 million people at an August 1st rally in Berlin against coronavirus meassures.,0
+,,,Covid â€“ 19 is a bacteria amplified by 5G technology,0
+,,,A post spreading on WhatsApp claims there are 50 hospital guards job oppenings at IFEMA hospital in Madrid.,0
+,,,A photo shows hand sanitizer being sold in a vitamin D box,0
+,,,"There was a 78% fall on Chinese product sales in Brazil due to a boycott motivated by the pandemic, acording to INCINT",0
+,,,A photo collage claims to show images taken during a protest against coronavirus restrictions in Germany in August 2020.,0
+,,,Police can raid private spaces in MedellÃ­n for breach of the Dry Law,0
+,,,A post showing a health worker from the MuÃ±iz Hospital (Argentina) who died from treating patients with COVID-19,0
+,,,Fact Check: Neither The Viral Post On Coronavirus (COVID-19) Is From UNICEF Nor It Is Accurate,0
+,,,COVID-19 vaccines will cause infertility â€“ do not get vaccinated,0
+,,,A video supposedly showing a dead COVID-19 victim raising his hand while being lifted away by health workers proves the global pandemic is a hoax.,0
+,,,COVID-19 has its own pH value,0
+,,,â€˜Doctors for the truthâ€™ make claims about the coronavirus.,0
+,,,Chinese vaccines contain a microchip that receives 5G signals and allow Chinese government to interfere with your RNA,0
+,,,"There was a 30% fall on Chinese product sales in the Brazilian state of Santa Catarina, due to a boycott motivated by the pandemic",0
+,,,A photo of a beach with lots of boats and a message that says there are infected inmigrants in Argelia preparing to travel to Spain.,0
+,,,The WHO said â€œthere is no solution and perhaps never will beâ€ for coronavirus.,0
+,,,"Fact Check: No, COVID-19 Doesnâ€™t Have Its Own PH Value, Experts Advice Boosting Immunity To Fight Against Coronavirus",0
+,,,An image states that mask use causes pneumonia and hypoxia,0
+,,,A picture allegedly showing a crowd in Berlin on August 1st protesting agains German government meassures against COVID-19.,0
+,,,A photo of a beach with lots of boats and a message that says there are infected inmigrants in Argelia preparing to travel to Spain.,0
+,,,A picture allegedly showing a crowd in Berlin on August 1st protesting agains German government meassures against COVID-19.,0
+,,,"Pedro Sanchez, president of government of Spain, spoke about a Scientific Committee and now the government recognize that committee never existed.",0
+,,,"Mask can cause a lot of diseases, the WHO has said, and asymptomatic patients donâ€™t pass on the virus. Also, there is a lot of false positive PCR tests.",0
+,,,An image from an episode of Futurama claims the show forbade time to travel back to 2020.,0
+,,,Photo from the demonstration against meassures by the German government to stop the pandemic.,0
+,,,Spanish Prime Minister Pedro Sanchez told people to invest in Bitcoin during the pandemic,0
+,,,"A video shows a mannequin being taken out of an ambulance, and claims the media is trying to fool the audience to make them think itâ€™s a COVID-19 patient.",0
+,,,"A picture allegedly showing a large crowd gathered in Berlin on August 1st, 2020 to protest against the restrictive measures imposed by the government during the Covid-19 pandemic.",0
+,,,"Facebook posts shared thousands of times claim Washingtonâ€™s mayor exempted members of Congress from a 14-day quarantine after they traveled to the funeral of civil rights icon John Lewis in Georgia, which the city considers a â€œhigh-riskâ€ state for the coronavirus.",0
+,,,"A picture allegedly showing a large crowd (more than a million people) gathered in Berlin on August 1st, 2020 to protest against the restrictive measures imposed by the government during the COVID-19 pandemic.",0
+,,,A photo collage has been shared hundreds of times in multiple posts on Facebook alongside a claim the images were taken during a protest against coronavirus restrictions in Germany in August 2020.,0
+,,,A photo has been shared thousands of times in multiple posts on Facebook and Twitter which claim it shows a protest against coronavirus restrictions in the German capital of Berlin in August 2020.,0
+,,,"A picture allegedly showing a large crowd gathered in Berlin on August 1st, 2020 to protest against the â€œHealth dictatorshipâ€ imposed by the government to stop the Covid-19 pandemic.",0
+,,,"List of substances that cure coronavirus, according to a Cali doctor.",0
+,,,Adidas is giving away face masks.,0
+,,,A street protest criticizing Japanese Prime Minister Shinzo Abeâ€™s government is the source of the â€œnight life city clusterâ€,0
+,,,63 intensive care beds were occupied by infected protesters,0
+,,,A publication that claims that a doctor from the MuÃ±iz hospital named â€œMarcos Vargasâ€ died from treating patients with coronavirus,0
+,,,An image published by the Argentine journalist Viviana Canosa of two people not respecting social distancing at the Casa Rosada,0
+,,,"Axel Kicillof (Governor of the Province of Buenos Aires, Argentina): â€œThe North American economy suffered a drop in its GDP of 33%. It is the biggest drop in the last 70 years â€",0
+,,,"Tasuku Honjo, Nobel Prize in Medicine, said that the coronavirus â€œis not naturalâ€",0
+,,,The vaccine against the new coronavirus has existed since 2001,0
+,,,A publication that claims that a doctor from the MuÃ±iz hospital named â€œMarcos Vargasâ€ died from treating patients with coronavirus,0
+,,,A post that claims that cigarette smoke transmits the coronavirus,0
+,,,Adidas is giving away face masks.,0
+,,,"Axel Kicillof (Governor of the Province of Buenos Aires, Argentina): â€œThe North American economy suffered a drop in its GDP of 33%. It is the biggest drop in the last 70 years â€",0
+,,,South Korea study finds quarantines useless in combating COVID-19,0
+,,,Multiple Facebook posts shared hundreds of times claim â€œviruses do not harm or kill [people]â€ and that any â€œharm and deathâ€ caused by a virus can be attributed to â€œthe overreaction of a weakened and dysfunctional immune systemâ€.,0
+,,,63 intensive care beds were occupied by infected protesters,0
+,,,The new coronavirus vaccine has â€œdigitizable RNAâ€ that is â€œactivated by 5Gâ€ and can reactivate the virus.,0
+,,,"Children vaccinated against the flu are at a significantly higher risk of contracting other respiratory infections, including coronaviruses.",0
+,,,"Eduardo Leite, governor of Rio Grande do Sul, Brazil, is taking hydroxichloroquine and ivermectin against COVID-19",0
+,,,"A combination for hydroxychloroquine, azitromicin and zinc that is guaranteed to cure 99.9% of any COVID-19 patient",0
+,,,"Lojas Americanas, a Brazilian retail company, is offering free gift cards for families in distress caused by the pandemic",0
+,,,The vaccine against the new coronavirus has existed since 2001,0
+,,,Facebook posts claimed that British Columbiaâ€™s top health officer warned about the risks of asbestos poisoning from plywood boards used as barriers against COVID-19 transmission during certain types of sex.,0
+,,,"Brazilian City Halls receive R$ 19,000 in federal funding for each recorded COVID-19 death.",0
+,,,Facebook posts claimed that British Columbiaâ€™s top health officer warned about the risks of asbestos poisoning from plywood boards used as barriers against COVID-19 transmission during certain types of sex.,0
+,,,"Herman Cain, one-time Republican presidential candidate, died of colon cancer, not COVID-19.",0
+,,,"Ziraldo, Brazilian cartoon artist, stated that all mayors who ordered lockdowns will not be reelected",0
+,,,Gargling water mixed with salt or vinegar will get rid of the novel coronavirus from oneâ€™s throat.,0
+,,,A doctor claims most Belgians are immune to COVID-19,0
+,,,"Critics say it is wrong to use of PCR tests for to detect COVID-19 since, in theory, this is not specific to SARS-CoV-2. It is a non-specific test in which genetic material from any organism can be detected and can potentially misidentify another virus as COVID-19.",0
+,,,An image claims that an immigrant who tested â€œpositive for COVID-19â€ and â€œarrived in a boat yesterdayâ€ has fled in the Calpe area (Alicante). The alleged escapeeâ€™s full name as well as the photo of the alleged escape appear in the image. It also claims the man fled the El Matorral detention center.,0
+,,,"AndrÃ©s FabiÃ¡n Hurtado, the Mayor of IbaguÃ©, says his city lost four million jobs due to the coronavirus",0
+,,,"During COVID-19 PCR test, microships are integrated to human bodies",0
+,,,Chloroquine is the cure for COVID-19 and masks should not be used.,0
+,,,The flu vaccine caused the spread of COVID-19.,0
+,,,A post claims several medicine combinations cure COVID-19,0
+,,,Chlorine dioxide removes the coronavirus from the body within 48 hours,0
+,,,"A video shows a group of doctors calling itself â€œDoctors for the truthâ€ defend and justify claims that masks donâ€™t work, lockdowns wonâ€™t stop the virus, and the flu vaccine spread SARS-CoV2.",0
+,,,Wearing a mask lowers the blood oxygen level.,0
+,,,"Philippine Education Secretary Leonor Briones is shown quoted as saying classes will resume on Aug. 24 amid the COVID-19 pandemic and that â€œif we die, we die.â€",0
+,,,"Critics say it is wrong to use of PCR tests for to detect COVID-19 since, in theory, this is not specific to SARS-CoV-2. It is a non-specific test in which genetic material from any organism can be detected and can potentially misidentify another virus as COVID-19.",0
+,,,"A video shows a group of doctors calling itself â€œDoctors for the truthâ€ defend and justify claims that masks donâ€™t work, lockdowns wonâ€™t stop the virus, and the flu vaccine spread SARS-CoV2.",0
+,,,Wearing a mask lowers the blood oxygen level.,0
+,,,"AndrÃ©s FabiÃ¡n Hurtado, the Mayor of IbaguÃ©, says his city lost four million jobs due to the coronavirus",0
+,,,"A doctor recommends the use of ivermectin, hydroxychloroquine, chlorine dioxide and interferon to cure coronavirus.",0
+,,,CoronaVac uses cells from aborted fetuses.,0
+,,,"Stella Immanuel claims that the drug combination of hydroxychloroquine, zinc and azithromycin is a cure and preventative for COVID-19 and that people donâ€™t need to wear masks or practice physical distancing in a Breitbart video featuring a group called Americaâ€™s Frontline Doctors.",0
+,,,A group called Americaâ€™s Frontline Doctors are featured in viral video claiming hydroxychloroquine cures COVID-19.,0
+,,,"A news article claims 30% of Ukrainian patients who participated in an American COVID-19 vaccine trial died. The test took place in the area of Lugansk, an Ukrainian separatist region",0
+,,,"Spanish Prime Minister, Pedro SÃ¡nchez, said this Monday, July 27 in an interview for â€˜Informativos Telecincoâ€™ that [min. 1:19] â€œin most of the [Spanish] territory the accumulated incidence of the virus is still very low, lower than I insist [â€¦] on the average also for the United Kingdomâ€.",0
+,,,An image shows a traffic accident where the driver allegedly died from hypoxia from wearing the mask.,0
+,,,The COVID-19 vaccine causes bad alergic reactions.,0
+,,,"A photo of a young man with a swollen face. Allegedly, he was a volunteer for Coronavac, a Chinese vaccine against COVID-19 being tested in Brazil",0
+,,,"A Facebook post that claims that the COVID-19 is a â€œfraud,â€ because the mass media used the same photo of a portuguese boy in multiple stories about children who died from COVID-19.",0
+,,,A photo of man with swollen face shows side effect of CoronaVac in Brazilian volunteer,0
+,,,"Lemon, ginger and garlic cures coronavirus.",0
+,,,"The truck depicting the god of death Anubis is aimed at testing and then infecting people, which eventually ends with human microchipping.",0
+,,,An image that casts doubt on the tools used in rapid tests for coronavirus.,0
+,,,"A news article claims 30% of Ukrainian patients who participated in an American COVID-19 vaccine trial died. The test took place in the area of Lugansk, an Ukrainian separatist region",0
+,,,"Spanish Prime Minister, Pedro SÃ¡nchez, said this Monday, July 27 in an interview for â€˜Informativos Telecincoâ€™ that [min. 1:19] â€œin most of the [Spanish] territory the accumulated incidence of the virus is still very low, lower than I insist [â€¦] on the average also for the United Kingdomâ€.",0
+,,,The COVID-19 vaccine causes bad alergic reactions.,0
+,,,Video of a doctor at a press conference who said: Hydroxychloroquine is a cure for COVID-19. He also said that masks are not necessary.,0
+,,,A group called Americaâ€™s Frontline Doctors are featured in viral video claiming hydroxychloroquine cures COVID-19.,0
+,,,A post claimed that photos of a man in a gold mask are of a religious leader who â€œasked his congregation for a gold mask because God revealed it to him in a dream.â€,0
+,,,"Brazilian regulatory agency Anvisa labeled ivermectin a controled substance, because itâ€™s cheap and helps save lives.",0
+,,,The border between France and Belgium will be closed,0
+,,,Thereâ€™s chloroquine and ivermectine on lemon and orange peels,0
+,,,Brazilian CoronaVac volunteer reported body pain and fever after vaccination.,0
+,,,Doctors cannon lose their professional license for refusing to prescribe hydroxychloroquine.,0
+,,,"Multiple posts shared hundreds of times on Facebook and Twitter claim that four Ukrainian soldiers died after participating in American COVID-19 vaccine trials in the northeastern Ukrainian city of Kharkiv. The claim, published in several languages across different posts, was attributed to a police spokesperson in the self-proclaimed Lugansk Peopleâ€™s Republic.",0
+,,,Lawsuits filed against Fauci and Gates for creating and artificially disseminating the virus,0
+,,,A post claims to show three medications to prevent coronavirus.,0
+,,,A post from the Russian Virology Center that recommends an alkaline diet to fight coronavirus.,0
+,,,Thereâ€™s chloroquine and ivermectine on lemon and orange peels,0
+,,,Masks pores are too large to block virus,0
+,,,"A Facebook post claiming that the Italian minister for Education Lucia Azzolina wants to buy school desks at â‚¬300, while itâ€™s possible to find the same product online at â‚¬30.",0
+,,,The President of Ghana revealed that the coronavirus was created in a laboratory.,0
+,,,Masks Can Be Sanitized In Microwave,0
+,,,The border between France and Belgium will be closed,0
+,,,The nasal swab test for COVID-19 damages the â€œblood-brain barrierâ€ and can therefore lead to brain infections.,0
+,,,The World Health Organization announced that SARS-CoV-2 can stay in the air for eight hours.,0
+,,,"Multiple posts shared tens of thousands of times on Facebook and Twitter claim that a woman contracted pleurisy, a lung inflammation condition, after wearing a face mask for an extended period of time. According to the posts, the unidentified woman caught the disease because she was breathing in carbon dioxide and her own bacteria.",0
+,,,Pictures of a flooded NMCH hospital in Patna,0
+,,,COVID-19 Means â€˜See A Sheep Surrenderâ€™ In Latin,0
+,,,"Publications that state that â€œthe new vaccine contains digitizable â€˜RNAâ€™â€, an alleged â€œreplicant that is activated by 5Gâ€ and that is why â€œthe virus can be reactivated after the patient recoversâ€",0
+,,,A ship carrying Honduran mobile hospitals caught fire,0
+,,,Oxford Universityâ€™s vaccine is made using the cells of aborted fetuses.,0
+,,,"The Governor of Jujuy (Argentina), Gerardo Morales: â€œIn the Metropolitan Area [of Buenos Aires] 20% of those infected are health personnelâ€",0
+,,,"A post uses an image of an â€œundocumented Nicaraguanâ€ and claims he tested positive for COVID-19, and is â€œspitting on doorsâ€",0
+,,,A video stating that in Brazil hospitals receive â‚¬3.000 for each Covid-19-related death.,0
+,,,A photo claiming to show Jair Bolsonaro hospitalized for coronavirus.,0
+,,,The economic bonus for those who have low electrical energy consumption collects personal data and the government does not explain how it could be used.,0
+,,,"A general treatment for the new coronavirus includes antibiotics, anti-inflammatories and corticosteroids.",0
+,,,Cubaâ€™s low number of COVID-19 deaths is due to its use of hydroxychloroquine to treat patients,0
+,,,BoyacÃ¡ scientist says he can cure patients with COVID-19 through biology.,0
+,,,The active ingredients in chloroquine and ivermectin are also found in lemon and orange peels.,0
+,,,A photo claims to show a prescription list of medications to treat coronavirus at home.,0
+,,,"A randomized, double-blind study by Henry Ford Health System proved that hydroxychloroquine is effective against COVID-19",0
+,,,"A viral video where an interview from the Tierra Pura portal is disseminated to the doctor Mariana Colombres Garmendia, who denounces the overregistration of the numbers of people infected and killed by the COVID-19 disease in Argentina, and says that the Buenos Aires government pays the doctors or institutions for doing so for the alleged purpose of extending the quarantine",0
+,,,"A general treatment for the new coronavirus includes antibiotics, anti-inflammatories and corticosteroids.",0
+,,,Oxford Universityâ€™s vaccine is made using the cells of aborted fetuses.,0
+,,,"A post uses an image of an â€œundocumented Nicaraguanâ€ and claims he tested positive for COVID-19, and is â€œspitting on doorsâ€",0
+,,,The economic bonus for those who have low electrical energy consumption collects personal data and the government does not explain how it could be used.,0
+,,,"It s good to catch COVID-19 in the summer, as it is less aggressive",0
+,,,The Centers for Disease Control and Prevention made a mistake and has lowered its COVID-19 case count in Florida.,0
+,,,5G generates the coronavirus SARS-CoV-2 in human skin cells.,0
+,,,The picture shown in the post is of Dr Sundar Tolani who died due to coronavirus,0
+,,,"The Government offered an economic bonus for those households that consumed less electrical energy. The process reflected problems and due to some amendments, the bond changed its objective.",0
+,,,COVID-19 Means â€˜See A Sheep Surrenderâ€™ In Latin,0
+,,,A Facebook video claims that a new oral spray â€œdeactivates 98% of the coronavirusâ€ in the mouth. This effect is believed to be partly due to the ability of trypsin to sever proteins on the surface of the SARS-CoV-2 virus.,0
+,,,Viral pictures show organ trafficking of COVID-19 patients dead bodies.,0
+,,,The president of Ghana said that the coronavirus was created in a laboratory,0
+,,,"The World Health Organization suspended production of an American COVID-19 vaccine, and promoted the Chinese version.",0
+,,,The COVID-19 vaccine being developed in China is more effective and cheaper than the one developed by Oxford University.,0
+,,,"The Government offered an economic bonus for those households that consumed less electrical energy. The process reflected problems and due to some amendments, the bond changed its objective.",0
+,,,The Centers for Disease Control and Prevention made a mistake and has lowered its COVID-19 case count in Florida.,0
+,,,The picture shown in the post is of Dr Sundar Tolani who died due to coronavirus,0
+,,,A claim that facemasks restrict breathing and cause hypoxia.,0
+,,,Ivermectin cures the new coronavirus.,0
+,,,"Coronavac, a Chinese vaccine against COVID-19 being tested in Brazil, is made with aborted fetus cells",0
+,,,COVID-19 Means â€˜See A Sheep Surrenderâ€™ In Latin,0
+,,,"Video shows that the first volunteer to be vaccinated with CoronaVac, a vaccine produced by chinese Sinovac Biotech, didnâ€™t have the arm punctured, which proves that the drug is a scam.",0
+,,,"Chlorine, bleach, or corrosive should be flushed down the toilet to prevent expansion of the coronavirus",0
+,,,The COVID-19 vaccine being developed in China is more effective and cheaper than the one developed by Oxford University.,0
+,,,"A video shows a candidate in the upcoming New Zealand elections claiming that the countryâ€™s prime minister, Jacinda Ardern, authorised the military to enter private residences in order to enforce COVID-19 quarantine measures. It has been viewed tens of thousands of times in multiple posts on Facebook in July 2020.",0
+,,,"A video from family doctor Natalia Prego Cancel criticizing PCR, the test used to detect coronavirus in active infections.",0
+,,,RNA-based COVID-19 vaccines can turn humans into genetically modified organisms.,0
+,,,A post claims the COVID-19 swab test can cause brain inflamation.,0
+,,,The EPS tested less than 5% of the inhabitants of CÃ³rdoba for COVID-19,0
+,,,A video shows the execution of a journalist who denounced wasteful spending in city hallâ€™s work to combat COVID-19 in the Brazilian state of ParÃ¡,0
+,,,RNA-based COVID-19 vaccines can turn humans into genetically modified organisms.,0
+,,,"According to the Brazilian Civil Registry, there were more deaths in 2019 than in 2020, considering the first semester only.",0
+,,,"A video from family doctor Natalia Prego Cancel criticizing PCR, the test used to detect coronavirus in active infections.",0
+,,,A post that has a list of recommendations to prevent and treat the new coronavirus.,0
+,,,A post claims the COVID-19 swab test can cause brain inflamation.,0
+,,,"A video that supposedly shows medical staff protesting because the pandemic is a â€œfraudâ€, something not real.",0
+,,,"The Brazilian federal government dismissed 396,000 civil servants who received fraudulent COVID-19 emergency assistance.",0
+,,,A post shared thousands of times on Facebook claims the novel coronavirus does not affect people who are very fit or thin.,0
+,,,Masks can be sanitized in microwave,0
+,,,"The first person to received a Chinese COVID-19 vaccine that is being tested in Brazil was not actually vaccinated. The video was just a simulation, since the cap of the injection was still on.",0
+,,,"Non-contact thermometers emit infrared rays, which damage the pineal gland just behind the forehead.",0
+,,,An image that supposedly shows the results of vaccination campaigns on children in Sierra Leone,0
+,,,A post that shows a doctor from Santiago del Estero (Argentina) who is fighting against the coronavirus.,0
+,,,"Drinking water boiled with turmeric powder, ginger, carom seeds and coriander seeds can cure COVID-19.",0
+,,,An image that supposedly shows the results of vaccination campaigns on children in Sierra Leone,0
+,,,The government has ordered re-opening of schools and colleges.,0
+,,,"A chain indicating that a newborn named MartÃ­n Sosa is admitted to the Childrenâ€™s Hospital (CABA, Argentina).",0
+,,,Authorities discreetly re-authorised hydroxychloroquine for COVID-19,0
+,,,A post that indicates that Spanish doctors say that face masks donâ€™t work outdoors.,0
+,,,"Supporters of ABS-CBN, including actor Gerald Anderson, gathered together and violated quarantine rules by not wearing face masks during the COVID-19 pandemic.",0
+,,,Brazil recorded more deaths in the first half of 2019 than in the first half of 2020.,0
+,,,"A post shared more than a thousand times on Facebook claims that a corpse of a COVID-19 positive person is 100 times more â€œtoxicâ€ 72 hours after death â€” and that because undertakers are not burying bodies within this prescribed period, funerals have become hotspots for further infections.",0
+,,,"Comedian Michael V, also known as â€œBitoy,â€ died after contracting the new coronavirus.",0
+,,,"Masks do nothing to prevent the spread of pathogens, including SARS-CoV-2, and cause oxygen deficiency",0
+,,,"A student for Pondicherry University found a home remedy cure for COVID-19 which was accepted by WHO. Mixing black pepper powder, ginger and honey and consuming it for 5 days will cure the person of the new coronavirus.",0
+,,,"The Federal Government fired 396 thousand public servants who received, illegally, the emergency COVID-19 allowance.",0
+,,,Authorities decided to close the French-Spanish border,0
+,,,Inhaling eucalyptus prevents or eliminates the new coronavirus,0
+,,,Ghanaâ€™s president backs conspiracy theories about COVID-19.,0
+,,,"Uruguay gave 55,000 doses of medecine for Brazil to fight COVID-19.",0
+,,,"An audio that denounces the falsification of death certificates at the Hospital de ClÃ­nicas (CABA, Argentina) to increase deaths from coronavirus.",0
+,,,Authorities decided to close the French-Spanish border,0
+,,,Brazil recorded more deaths in the first half of 2019 than in the first half of 2020.,0
+,,,"All those who registered for the governmentâ€™s emergency subsidy program (ESP) via the ReliefAgad app will have to claim their cash aid via GCash, regardless of the payout method they selected in the app.",0
+,,,The government has ordered re-opening of schools and colleges.,0
+,,,"A post shared more than a thousand times on Facebook claims that a corpse of a COVID-19 positive person is 100 times more â€œtoxicâ€ 72 hours after death â€” and that because undertakers are not burying bodies within this prescribed period, funerals have become hotspots for further infections.",0
+,,,"Comedian Michael V, also known as â€œBitoy,â€ died after contracting the new coronavirus.",0
+,,,"Gasoline or diesel can be used to disinfect surfaces and hands to kill the SARS-CoV-2 virus, which causes COVID-19.",0
+,,,Authorities discreetly re-authorised hydroxychloroquine for COVID-19,0
+,,,"Masks do nothing to prevent the spread of pathogens, including SARS-CoV-2, and cause oxygen deficiency",0
+,,,"The video of a huge crowd not maintaining social distancing is from All India Institute of Medical Science (AIIMS), Patna (a city in the state of Bihar).",0
+,,,Raisin prevents clotting thus helps to fight COVID19,0
+,,,"An ordinance that punishes minors and their parents for violating quarantine rules took effect on Monday, July 20.",0
+,,,"A claim has been shared repeatedly in multiple posts on Facebook, Instagram and other websites in July 2020 that top medical experts from the World Health Organization (WHO), US Centers for Disease Control and Prevention (CDC) and The New England Journal of Medicine have warned against wearing face masks because they can cause â€œsevere health issuesâ€.",0
+,,,"Ivermectin has had good results in the COVID-19 treatment in Bolivia, the Dominican Republic, New Zealand, Australia, and African countries.",0
+,,,"A claim has been shared repeatedly in multiple posts on Facebook, Instagram and other websites in July 2020 that top medical experts from the World Health Organization (WHO), US Centers for Disease Control and Prevention (CDC) and The New England Journal of Medicine have warned against wearing face masks because they can cause â€œsevere health issuesâ€.",0
+,,,"Multiple Facebook posts shared tens of thousands of times claim the novel coronavirus, which causes the disease COVID-19, has infected far fewer people than the H1N1 virus, or swine flu, but â€œmedia hysteriaâ€ has prompted an overblown response.",0
+,,,"A viral message that says that â€œthose over 60 years of ageâ€ can get from pharmacies â€œa pack of three masks per month (â€¦) from Wednesday 29 July.â€ The text is shared as coming from the Spanish regions of Andalusia, Catalonia, Castilla y LeÃ³n, the Valencian Community or the Basque Country.",0
+,,,Nokia distributing free phones to students amidst coronavirus pandemic,0
+,,,A graph that correlates greater vaccination against influenza in those over 65 years of age and a higher mortality rate compared to COVID-19.,0
+,,,"The video of a huge crowd not maintaining social distancing is from All India Institute of Medical Science (AIIMS), Patna (a city in the state of Bihar).",0
+,,,Raisin prevents clotting thus helps to fight COVID19,0
+,,,French doctors protest after discovering COVID-19 pandemic is a fraud.,0
+,,,"A picture showing the Italian Prime Minister Giuseppe Conte, the French President Emmanuel Macron and the German Chancellor Angela Merkel having a drink together, with no masks and not respecting social distancing measures.",0
+,,,"A person who visited Badusha Hypermarket, Perambra was found COVID-19 positive and hence all those who have visited the hypermarket on 16th July 2020 are asked to report to Perambra Taluk Hospital.",0
+,,,"Obama, Dr. Fauci visited Wuhan lab in 2015",0
+,,,Neem tea is the â€˜solutionâ€™ for COVID-19,0
+,,,Covid 19 : â€˜Achha Chalta Huâ€™ Boy breathed his hast after singing a Hindi song.,0
+,,,"A publication that claims that in 1918 the American city of Philadelphia â€œprematurely ended its quarantine of the Spanish flu and launched a demonstration against the measures of staying at homeâ€, which led to a peak of infections, hospitalizations and deaths.",0
+,,,Covid 19 : â€˜Achha Chalta Huâ€™ Boy breathed his hast after singing a Hindi song.,0
+,,,A picture of the coronavirus-infected patientâ€™s throat.,0
+,,,An image in which two people turn their backs to the State ceremony that took place this July 16 in honor of the victims of COVID-19. He moves with a message that they are members of Podemos who turned around while King Felipe VI spoke.,0
+,,,"A car blew up in BelÃ©m, Brazil, because the driver cleaned his key with alcohol-based hand sanitizer.",0
+,,,COVID-19 asymptomatic carriers transmit antibodies to other people.,0
+,,,WHO changed its directives: No need to isolate infected people.,0
+,,,A photo that shows Brazilian president Jair Bolsonaro hospitalized with a tube coming out of his nose. The caption links this photo to COVID-19.,0
+,,,There is no evidence that Mentholatum and eucalyptus prevent the development of COVID-19 in the human body.,0
+,,,Podemos politicians turned around at the state ceremony for COVID-19 victims,0
+,,,"Porto Feliz, a Brazilian city in the state of SÃ£o Paulo, doesnâ€™t register deaths from COVID-19 since it adopted a treatment protocol with chloroquine.",0
+,,,"The governor of Bahia, Rui Costa, determined that all hydroxychloroquine tablets were confiscated from pharmacies around the state.",0
+,,,"A quote by doctor Alberto Zangrillo, saying that Covid-19 is a consequence of immigration.",0
+,,,For a couple of days a message has been circulating in which users are invited to make a request for help to the National Government through a form in the Colombian government,0
+,,,"The â€œMozhemeâ€ coalition is connected to the newly infected COVID-19 patients, although it has nothing to do with this issue.",0
+,,,A map of Sri Lanka was shared with certain cities highlighted as the places visited by close contacts of Kandakadu COVID19 cluster,0
+,,,A map of Sri Lanka was shared with certain cities highlighted as the places visited by close contacts of Kandakadu COVID19 cluster,0
+,,,For a couple of days a message has been circulating in which users are invited to make a request for help to the National Government through a form in the Colombian government,0
+,,,A photo that shows Brazilian president Jair Bolsonaro hospitalized with a tube coming out of his nose. The caption links this photo to COVID-19.,0
+,,,A picture of the coronavirus-infected patientâ€™s throat.,0
+,,,Facebook posts shared thousands of times claim that the US Federal Emergency Management Agency (FEMA) is offering hazard pay compensation to individuals who worked during the novel coronavirus pandemic.,0
+,,,Doctors can steal your fingerprints or data with the pulse oximeter,0
+,,,Extensive mask wearing weakens the immune system because you canâ€™t breathe properly through them,0
+,,,Some statements by the American political scientist and activist Susan George in which she says that â€œSpaniards are laboratory rats: letâ€™s see how much punishment they tolerate without rebelling.â€ The phrase is shared related to the current coronavirus pandemic.,0
+,,,Singaporeâ€™s Health ministry issued an advisory about the day-to-day progression of COVID-19 symptoms in patients during the first nine days of infection.,0
+,,,US Education Secretary Betsy DeVos said children are â€œstoppersâ€ of coronavirus.,0
+,,,The city of Manizales estimated its cycloband during COVID-19 greatly reduced greenhouse gas emmissions.,0
+,,,French Prime Minister and Health Minister were expelled from the government after banning chloroquine in the country.,0
+,,,Chinese scientists have publicly stated that the coronavirus is lab-made,0
+,,,"A video with text that claims to offer information about the coronavirus that â€œcomes from the Japanese Ministry of Health.â€ It claims that when the first symptoms of the infection appear, the lungs already show 50% fibrosis.",0
+,,,PCR tests damage hemato encephalic barrier,0
+,,,COVID-19 hospital flooded in Bihar,0
+,,,US Education Secretary Betsy DeVos said children are â€œstoppersâ€ of coronavirus.,0
+,,,PCR tests damage hemato encephalic barrier,0
+,,,5G technology creates coronavirus in human cells,0
+,,,Singaporeâ€™s Health ministry issued an advisory about the day-to-day progression of COVID-19 symptoms in patients during the first nine days of infection.,0
+,,,Extensive mask wearing weakens the immune system because you canâ€™t breathe properly through them,0
+,,,Some statements by the American political scientist and activist Susan George in which she says that â€œSpaniards are laboratory rats: letâ€™s see how much punishment they tolerate without rebelling.â€ The phrase is shared related to the current coronavirus pandemic.,0
+,,,A supposed doctor recommends in a video inhaling â€œantiseptic alcoholâ€ to â€œfight the new coronavirusâ€,0
+,,,A video of a man attacking a cashier at a McDonaldâ€™s restaurant has been viewed thousands of times in multiple posts on Facebook alongside a claim it happened in Singapore.,0
+,,,The private health system began offering antibody tests to detect COVID-19. At the same time that the Ministry of Health said it would buy antigen tests.,0
+,,,A video claims Italy discovered that COVID-19 is bacteria not a virus,0
+,,,Video says face masks are ineffective in mitigating transmission of COVID-19 and are harmful to the wearer.,0
+,,,"Anthony Fauci is married to the sister of Ghislaine Maxwell, who was arrested in the U.S on charges of human trafficking.",0
+,,,The swabs used in COVID-19 RT-PCR testes can damage your blood-brain barrier.,0
+,,,Average daily deaths recorded in Brazil in 2020 is lower than 2019.,0
+,,,The swabs used in COVID-19 RT-PCR testes can damage your blood-brain barrier.,0
+,,,Video says face masks are ineffective in mitigating transmission of COVID-19 and are harmful to the wearer.,0
+,,,The coronavirus is an amplified bacterium and is related to 5G.,0
+,,,Average daily deaths recorded in Brazil in 2020 is lower than 2019.,0
+,,,A video of a man attacking a cashier at a McDonaldâ€™s restaurant has been viewed thousands of times in multiple posts on Facebook alongside a claim it happened in Singapore.,0
+,,,A text that ensures that the guava tree leaf can â€œprevent or reverseâ€ the effects of COVID-19.,0
+,,,An article stating that 25 police officers tested positive to Covid-19 after assisting positive migrants.,0
+,,,A student from Pondicherry University has found a home remedy for COVID-19 that has been accepted by World Health Organization (WHO),0
+,,,Ghanaâ€™s president said the coronavirus was created in a laboratory.,0
+,,,A supposed doctor recommends in a video inhaling â€œantiseptic alcoholâ€ to â€œfight the new coronavirusâ€,0
+,,,Ecuador found the cure for coronavirus.,0
+,,,"Anthony Fauci is married to the sister of Ghislaine Maxwell, who was arrested in the U.S on charges of human trafficking.",0
+,,,"The new vaccine contains â€œRNAâ€ Digitizable replicator that is activated with 5g, so that the virus can reactivate after the patient recovers",0
+,,,Nasser Ziberi tested positive for COVID-19,0
+,,,"A photo claims to show Dr. Fauci, Melinda Gates and Barack Obama at the Wuhan Lab in 2015.",0
+,,,"An image that claims that an alleged therapy called biomagnetism is capable can wipe out â€œall kinds of viruses, bacteria, fungi and parasitesâ€, including the coronavirus â€œquickly and effectively.â€",0
+,,,"The new vaccine contains â€œRNAâ€ Digitizable replicator that is activated with 5g, so that the virus can reactivate after the patient recovers",0
+,,,Nasser Ziberi tested positive for COVID-19,0
+,,,A web article stating that Kazakhstan is dealing with a new outbreak of a particular kind of pneumonia which is â€œmore dangerous than Covid-19â€.,0
+,,,A student from Pondicherry University in India has found a home remedy for COVID-19 that has been accepted by World Health Organization (WHO).,0
+,,,"The mayor of Porto Alegre, Brazil, removed the benches of RedenÃ§Ã£o Park as a measure against people meeting up.",0
+,,,"A photo claims to show Dr. Fauci, Melinda Gates and Barack Obama at the Wuhan Lab in 2015.",0
+,,,Deaths from other causes are â€˜passedâ€™ as COVID-19.,0
+,,,"A 15-minute video in which the President of the Republic of Ghana, Nana Akufo-Addo, allegedly reveals that the coronavirus has been created in a laboratory and spread throughout the world.",0
+,,,"Biggest public hospital in Fortaleza (CearÃ¡, Brasil) has no covid-19 patients.",0
+,,,A press release from the Chinese Embassy in Kazakhstan alerting to an alleged new pneumonia whose case fatality rate is â€œmuch higherâ€ than that of COVID-19.,0
+,,,"The WHO approved a Chinese vaccine against COVID-19 that costs US$10000 per dose; it also forbade tests with an American vaccine, which would be given at very low cost.",0
+,,,Doctors perfoms a c-section in COVID-19 pacient and give birth to a baby without cuttin the membrane that protects him as a way to prevent contamination,0
+,,,"Photo shows former President Barack Obama, Dr. Anthony Fauci and Melinda Gates at the â€œWuhan lab in 2015.â€",0
+,,,Masks produce hypoxia and hypercapnia.,0
+,,,"Photo shows former President Barack Obama, Dr. Anthony Fauci and Melinda Gates at the â€œWuhan lab in 2015.â€",0
+,,,Video claims that Brazilian media outlets choose irrelevant scientists to talk about the pandemic.,0
+,,,The U.S. government has approved a second round of coronavirus stimulus payments to everyone who signs up â€” and that the money will be forthcoming in â€œ5-7 business days.â€,0
+,,,The WHO claimed that â€œmaybe there was no need for a lockdownâ€.,0
+,,,Claim that Secretary of Education Betsy DeVos said â€˜onlyâ€™ .02% of kids are likely to die when they go back to school during the pandemic.,0
+,,,WHO warns that wearing masks is unnecessary for healthy people.,0
+,,,"Fiocruz, a Brazilian state-owned science institute, developed the ChAdOx1 nCov-2019. Then, they offered it to Oxford University, because they were not getting any support from Jair Bolsonaro.",0
+,,,"Home treatment based in ivermectin, chloroquine, azithromycin and vitamins can cure the infection caused by the novel coronavirus.",0
+,,,"Manuel Elkin Patarroyo, a famous Colombian scientific, wrote a message about the coronavirus and sided against the WHO.",0
+,,,A claim that a video Amitabh Bacchan praising Nanavathi Hospital COVID warriors was just released.,0
+,,,Masks are dangerous,0
+,,,Africa managed the pandemic by prescribing ivermectin.,0
+,,,Covid-19 test using a swab is used to â€œcollect DNAâ€ from the population.,0
+,,,Seasonal influenza vaccination will be mandatory in Georgia this fall. COVID-19 mortality rates are significantly lower than the fatalities caused by other viruses.,0
+,,,A video shows monkeys attacking Gandhi Hospital in Hyderabad,0
+,,,Seasonal influenza vaccination will be mandatory in Georgia this fall. COVID-19 mortality rates are significantly lower than the fatalities caused by other viruses.,0
+,,,Claim that Secretary of Education Betsy DeVos said â€˜onlyâ€™ .02% of kids are likely to die when they go back to school during the pandemic.,0
+,,,Covid-19 test using a swab is used to â€œcollect DNAâ€ from the population.,0
+,,,"Telangana celebrity, lyricist Suddala Ashok Teja died due to a coronavirus infection.",0
+,,,"The youngest patient who died from COVID-19 in Macedonia, at the age of 24, was actually a victim of medical negligence.",0
+,,,Deaths from COVID-19 are nearing zero in the U.S.,0
+,,,Sechenov First Moscow State Medical University in Russia has completed the clinical trials for the â€œworldâ€™s first COVID-19 vaccine.â€,0
+,,,"Mayor of Cali, Colombia, will close the city for 14 days due to coronavirus.",0
+,,,Pistol shaped infrared themometers are dangerous and can burn neurons.,0
+,,,A fake document which says that the Italian government is extending the state of emergency until Spring 2021.,0
+,,,The COVI-PASS mobile application is collaborating with the Portuguese Government.,0
+,,,"PAHO, the PanAmerican health organisation, has conducted studies of Ivermectin and there is scientific evidence of its efficacy against Covid-19.",0
+,,,Publications suggest it would be better to test for COVID-19 with saliva than through the nose,0
+,,,Adidas is donating shoes in a campaign against the new coronavirus.,0
+,,,Telangana Chief Minister is being treated for COVID-19 infection in Yashoda Hospitals,0
+,,,The new coronavirus settles faster in a dry throat.,0
+,,,Helicopters will fly over the entirety of Luzon to spray unspecified substances against the coronavirus.,0
+,,,"While everyone was worried about COVID-19, the Chamber of Deputies approved two bills which legalize abortion.",0
+,,,"Masks are causing us to breathe the waste from our own body, which favors cancer, causes hypoxia or intoxicates the blood.",0
+,,,Lemon Juice cures COVID-19,0
+,,,UK nurse gives recommendations for treating coronavirus.,0
+,,,French doctors protested by throwing away their vests after finding out COVID-19 is a fraud.,0
+,,,"Ivermectin, chloroquine and nitazoxanide (sold in Brazil under the name Annita) prevent the multiplication of the novel coronavirus if taken at the beginning of Covid-19 symptoms.",0
+,,,The new coronavirus was created in a laboratory.,0
+,,,"The cases of COVID-19, the disease caused by the novel coronavirus, is not real and was planned by US billionaire Bill Gates to push the use of vaccines and microchip implants.",0
+,,,Consuming alcohol beverages or vodka will reduce risk of COVID-19 infection.,0
+,,,Eiffel tower reopens with hommage to COVID-19 deaths.,0
+,,,"Edouard Philippe, Franceâ€™s ex-prime minister, is being sued because he forbade hydroxychloroquine in the country.",0
+,,,Publications suggest it would be better to test for COVID-19 with saliva than through the nose,0
+,,,Adidas is donating shoes in a campaign against the new coronavirus.,0
+,,,Wearing a mask can cause a fungal infection.,0
+,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
+,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
+,,,Post claiming coronavirus affected patients in Chinniyampalayam and Vellalore get cured within a day by consuming this herbal Mysore pak,0
+,,,Consuming alcohol beverages or vodka will reduce risk of COVID-19 infection.,0
+,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
+,,,Senior officials of Rajasthan police visited Ajmer Sharif Dargah,0
+,,,A viral pamphlet claims Herbal Mysore Pak (a south Indian sweet) can cure COVID-19.,0
+,,,The bubonic plague is airborne and can spread when an infected person coughs.,0
+,,,A WhatsApp message says that coronavirus is being transmitted in wastewater.,0
+,,,Post claiming coronavirus affected patients in Chinniyampalayam and Vellalore get cured within a day by consuming this herbal Mysore pak,0
+,,,"A text about how no one is to be blamed for the pandemic in Brazil written by Mario Sergio Cortella, a Brazilian writer and philosophy professor.",0
+,,,Senior officials of Rajasthan police visited Ajmer Sharif Dargah,0
+,,,Consuming alcohol beverages or vodka will reduce risk of COVID-19 infection.,0
+,,,Using nasopharyngeal swabs for COVID-19 testing is unnecessary; saliva samples from mouth swabs is an equivalent substitute,0
+,,,1918 fluâ€™s second wave was more letal than the first but it was not because people stooped all precaution measures,0
+,,,"â€˜Dr. VK Srinivas, Vice-President of Bharath Biotech, He is taking first injection of COVID-19 vaccine. They have confidence in their productâ€™",0
+,,,A publication in Macedonian claims that â€œCOVID-19 IS NOT A VIRUSâ€ and that the Italians are the first to find the cure.,0
+,,,"A picture of Brazilian president Jair Bolsonaro in a hospital bed, which would show his condition after testing positive for Covid-19.",0
+,,,"A video of an excerpt from an American television program in which the presenter criticizes the use of masks and, as part of that criticism, supposedly measures the oxygen levels inside the mask that a child is wearing.",0
+,,,Nasal swabs used to obtain samples for COVID-19 tests reach the blood-brain barrier and may damage it.,0
+,,,"Health authorities recommend that you throw a teaspoon of bleach inside every toilet, sink and drain. This helps preventing the SARS-CoV-2 to enter your house through the sewer.",0
+,,,There is a pharmaceutical cure for COVID-19.,0
+,,,"Health authorities recommend that you throw a teaspoon of bleach inside every toilet, sink and drain. This helps preventing the SARS-CoV-2 to enter your house through the sewer.",0
+,,,Coffee cures the coronavirus.,0
+,,,A publication in Macedonian claims that â€œCOVID-19 IS NOT A VIRUSâ€ and that the Italians are the first to find the cure.,0
+,,,"A painting in which people with face masks of the flags of different countries appear, assuring that it is a â€œmural of the Denver airport painted in 1994â€, as if it had predicted the current coronavirus pandemic.",0
+,,,"A video of an excerpt from an American television program in which the presenter criticizes the use of masks and, as part of that criticism, supposedly measures the oxygen levels inside the mask that a child is wearing.",0
+,,,"Claim that Universidad de Antioquia (UdeA), in Colombia, predicted â€˜almost a thousand deaths per dayâ€™ at the peak of COVID-19.",0
+,,,Wearing a mask can cause a fungal infection.,0
+,,,5G spreads the new coronavirus.,0
+,,,The Universal Church of the Kingdom of God published a note stating that healing sessions were suspended due to COVID-19.,0
+,,,"An image circulating via WhatsApp discloses false information about the dates on which, supposedly, the Protect bonus will be deposited in accounts of Costa Rican citizens.",0
+,,,Eating highly alkaline foods can defeat COVID-19. SARS-CoV-2 has a pH level of between 5.5 and 8.5.,0
+,,,Nasal swabs used to obtain samples for COVID-19 tests reach the blood-brain barrier and may damage it.,0
+,,,Pandemics occur once every century.,0
+,,,Prisioners temporarily released because of COVID-19 were responsible for 13.9% of all murders in Brazil in April 2020.,0
+,,,Articles shared hundreds of times on Facebook in multiple countries claim that holy communion has been banned in Toronto as part of the Canadian cityâ€™s response to the coronavirus pandemic.,0
+,,,5G spreads the new coronavirus.,0
+,,,Eating highly alkaline foods can defeat COVID-19. SARS-CoV-2 has a pH level of between 5.5 and 8.5.,0
+,,,"If you have symptoms of Covid-19, take azithromycin, ivermectin and acetylcysteine.",0
+,,,Dr. Bilgehan Bilgeâ€™s claims about the use of masks,0
+,,,David Icke says the pandemic was caused by 5g technology.,0
+,,,Governor of the Brazilian state of Bahia dismissed a doctor who appealed to President Jair Bolsonaro for chloroquine.,0
+,,,A text circulating in Macedonian that says that â€œnew research has shaken the world and that something terrible has been discovered about coronavirus and the human immunity.â€,0
+,,,The low number of deaths from COVID-19 in Japan is due to the â€œdifference in the level of â€˜social standardsâ€™ between Japan and other countriesâ€.,0
+,,,An image in which it is stated that kisses and hugs do not increase the risk of transmission of covid-19.,0
+,,,A video claims COVID-19 patients are sitting in the hospital corridor of Gandhi Hospital in Hyderabad,0
+,,,The Philippines does not have the fastest rising number of COVID-19 cases in the Western Pacific Region as classified by the World Health Organization.,0
+,,,Flamingos gather in Venice as there are no tourists around the water channels due to the pandemic.,0
+,,,A COVID-19 sensor or â€œtrackerâ€ has been inserted in Android cellphones and iPhones.,0
+,,,The vaccine for coronavirus is ready (as of July 7).,0
+,,,Dr. Bilgehan Bilgeâ€™s claims about the use of masks,0
+,,,An article claiming that â€œBill Gatesâ€™ vaccineâ€ would modify human DNA.,0
+,,,A spike in COVID-19 cases in the U.S. seen in June 2020 is due to increased testing.,0
+,,,An image that states that the Costa Rican government prohibited the sale of liquor due to the pandemic.,0
+,,,Democrats to blame for Covid-19 related deaths. They control the drugs against the virus.,0
+,,,Banana blocks the entrance of the coronavirus in cells,0
+,,,A post is circulating on Facebook of a supposed page of the argentine bank â€œBanco Provinciaâ€ that requests access to a link to re-enter personal data for alleged problems in home banking linked to the COVID-19 crisis.,0
+,,,"A study proves that ivermectin helped the number of COVID-19 cases decrease in Natal, Brazil.",0
+,,,"Infant deaths decreased dramatically during the lockdown, when the number of vaccines administered was reduced; vaccines are a cause of sudden infant death syndrome",0
+,,,"A message claims many physicians of Chang Gung Hospital, in Taiwan, are secretly under quarantine for COVID-19, indicating the local transmission and the lack of transparency of government data.",0
+,,,US builds biological labs only on the territories of other countries.,0
+,,,Coronavirus comes from a laboratory in Wuhan and is a commercial strategy of China.,0
+,,,WHO backtracked and released a document stating masks are not efficient to protect healthy people against COVID-19.,0
+,,,No one has died from the coronavirus; there are no antibodies that identify SARS-CoV-2; pathologists have no means of verifying whether a person was infected with SARS-CoV-2; SARS-CoV-2 has not fulfilled Kochâ€™s postulates.,0
+,,,"If you have symptoms of COVID-19, you should self-medicate with chloroquine and azithromycin and take zinc and vitamin C and D supplements.",0
+,,,WHO backtracked and released a document stating masks are not efficient to protect healthy people against COVID-19.,0
+,,,US builds biological labs only on the territories of other countries.,0
+,,,Face masks donâ€™t â€œprotect against covid19 and other viruses.â€,0
+,,,Prosecutor Fatime Fetai tested positive for COVID-19,0
+,,,The leaves of the guava tree prevent and reverse the new coronavirus.,0
+,,,"Homeless man in Punkunnam, Kerala, India, tested positive for COVID-19.",0
+,,,"As part of vaccine trials, Dr. V.K. Srinivasan of Bharath Biotech took the COVID-19 vaccine",0
+,,,A post stating that a local magazine in Ecuador revealed corruption in test purchase for COVID-19.,0
+,,,"There is a Nipah Virus outbreak in India amidst coronavirus pandemic, according to a warning form the WHO.",0
+,,,Actor Chuck Norris died of COVID-19.,0
+,,,There is microchip that will be implanted in the future coronavirus vaccine to control the population for political and economic purposes.,0
+,,,Antibodies for the common cold produce a positive COVID-19 test. False-positive results from COVID-19 antibody testing are behind the COVID-19 cases reported in the U.S.,0
+,,,Audio message circulating on WhatsApp saying that clinics and hospitals are looking for asthma patients to get sick from COVID-19.,0
+,,,Brazilian congressman JoÃ£o Campos denied using elections fund in measures to prevent COVID-19.,0
+,,,"Doctor says chloroquine cures COVID-19 and wearing masks can turn your blood into acid, which can help the proliferation of the novel coronavirus.",0
+,,,IMSS training on prevention must be paid COVID-19,0
+,,,Infrared thermometers cause brain damage.,0
+,,,"LiquigÃ¡s, a Brazilian energy company, is giving out free propane canisters to people who lost their income because of COVID-19 lockdowns.",0
+,,,Henry Kissinger said that population reduction should be done by vaccines â€œfor the common goodâ€.,0

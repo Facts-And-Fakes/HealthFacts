@@ -11,10 +11,14 @@
     {% include 'nav.html' %}
     {% block content %}
     {% endblock %}
-<br><br><br><br><br><center>
+<br><br><br><br><br><center><font color="white">
+        <font color="red"><h3>{{error}}</h3></font>
 <h1 align="center">Questions related to COVID-19</h1><br><h2>Your question goes here:</h2>
-<textarea placeholder="Enter your question here"></textarea><br><br>
-<input class="btn" name="query" type="submit" formaction="url_for('query_results')" value="Search!">
+<form method="POST" action="{{url_for('query_results')}}">
+<textarea name = "query" placeholder="Enter your question here"></textarea><br><br>
+<input class="btn" type="submit" value="Search!">
+</form>
+        </font>
 </center>
 </body>
 </html>

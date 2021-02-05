@@ -212,6 +212,13 @@ text-align: center;}
     color: white;
     font-family: Acme;
 }
+
+p {
+    color:white;
+    font-family: Alatsi;
+    background: white;
+}
+
 .btn {
 color: #ffffff ;
 text-decoration: none;

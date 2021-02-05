@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Results</title>
+    <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
-<h1>{{q}} This feature is still in beta</h1>
+    {% include 'nav.html' %}
+    {% block content %}
+    {% endblock %}
+<br><br><br><br><br><center>
+
+        <h3 style="color:yellow;shadow:0.5px 0.5px;">Top result matching your query:</h3>
+        <p style="border-radius: 5px;text-align: center;opacity:0.9;display:inline-block;font-size:20px;color:black;margin-left:20%;margin-right:20%;font-family: Alatsi;background: white;" class="result">Question: {{q}}
+<br><br>Answer : <br> {{a}}<br></p>
+
+
+        <h3>Related questions:</h3>
+        {%for j in o%}
+        {{j[0]}}
+        <br>
+        {%endfor%}
+    </center>
 </body>
 </html>

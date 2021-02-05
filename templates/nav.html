@@ -9,11 +9,11 @@
 </head>
 <body>
         <div class="topnav">
-			<a href = "{{url_for('home')}}">Fake News Classification System&nbsp;&nbsp;&nbsp;</a>
-            <a href="https://aryaman-das.github.io/FactsAndFakes/"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Learn how to use this website</a>
-            <a href="https://aryaman-das.github.io/FactsAndFakes/">Blog</a>
-            <a class="active" href="/">&nbsp;&nbsp;&nbsp;<img src="{{url_for('static', filename='photos/factsandfakeslogo.png')}}" height="20" width="80" align="center">&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://aryaman-das.github.io/FactsAndFakes/">About Facts and Fakes</a>
+            <a class="active" href="/">&nbsp;&nbsp;&nbsp;<img src="{{url_for('static', filename='photos/factsandfakeslogo.png')}}" height="20" width="80" align="center">&nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href = "{{url_for('home')}}">Fake News Detection&nbsp;&nbsp;&nbsp;</a>
+            <a href="/questions"><i class="fas fa-question-circle"></i>&nbsp;&nbsp;&nbsp;Questions on COVID 19</a>
+            <a href="https://aryaman-das.github.io/FactsAndFakes/"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Learn how to use</a>
+            <a href="https://aryaman-das.github.io/FactsAndFakes/"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;About</a>
 			<a href="https://github.com/Aryaman-Das/FactsAndFakes"><i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;View On GitHub</a>
             {%if session.get("logged_in") == False%}
                 <a href="{{url_for('login')}}"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;Log in</a>
@@ -22,7 +22,6 @@
                 <a href="{{url_for('logout')}}"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;&nbsp;Log out</a>
                 <a href="{{url_for('profile')}}"><i class="fas fa-user-alt"></i>&nbsp;&nbsp;&nbsp;Profile</a>
             {%endif%}
-
 
         </div>
 </body>

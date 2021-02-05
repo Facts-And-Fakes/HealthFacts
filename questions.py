@@ -1,17 +1,35 @@
 import pandas as pd
 from fuzzywuzzy import fuzz
 
-df = pd.read_csv("data/covidquestions.csv", encoding="latin-1")
-titles = df['title']+df['news_url']
-print(df.iloc[df["title"]=="What areas should be prioritized for disinfection in non-health care settings?", "news_url"])
-print(titles.head())
 
 def query(q):
-    df = pd.read_csv("data/covidquestions.csv")
-    titles = df['title']
-    results = []
-    links = []
-    for title in titles:
-        if fuzz.ratio(title, q) > 80:
-            results.append(title)
-    return df.query("title=={}".format(title))['news_url']
+    try:
+        df = pd.read_csv("data/COVID-Q-master/final_master_dataset.csv")
+        titles1 = df['Question']
+        result = ''
+        others = []
+        prev_ratio = 60
+        for title in list(titles1):
+            if title is float:
+                continue
+            ratio = fuzz.ratio(title, q)
+            if ratio > prev_ratio:
+                prev_ratio = ratio
+                others.append([title, ratio])
+                result = title
+        new_ratio = 0
+        x = []
+        otherresult = []
+        for other in others:
+            x.append(other[1])
+        y = x
+        y.sort(reverse=True)
+        for i in range(len(x)):
+            if i == 4:
+                break
+            otherresult.append(others[x.index(y[i])])
+
+        return [result, otherresult, str(list(df[df['Question'] == result]['Answers'])[0])]
+    except:
+        return 'error none found'
+
