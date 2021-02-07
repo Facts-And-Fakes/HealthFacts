@@ -71,7 +71,7 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predictFake():
-    resultsConf = 0
+    resultsconf = 0
     model_prediction = 0
     message = ["hey"]
     df = pd.read_csv('data/NewsData.csv')
@@ -80,13 +80,28 @@ def predictFake():
     df2 = df2[['title', 'date', 'avgReview']]
     if request.method == 'POST':
         message = request.form['message']
+        session['news'] = message
         exist = message in df1.title or message in df1.news
         source = request.form['source']
         news = '{} - {}'.format(source, message)
         data = [message]
         model_prediction = fakenewsdetection(data)
-        resultsConf = 0
-    return render_template('result.html',resultsConf=resultsConf, prediction=model_prediction, tables=[df2.to_html(classes='data', header="true")],  titles = df2.columns.values, newNews = newNews, message = message)
+        resultsconf = 0
+    return render_template('result.html', prediction=model_prediction[0], proba1=model_prediction[1], proba2=model_prediction[2], c=model_prediction[3], cs=model_prediction[4], tables=[df2.to_html(classes='data', header="true")],  titles=df2.columns.values, newNews=newNews, message=message)
+
+
+@app.route('/report', methods=['GET', 'POST'])
+def report():
+    return render_template('report.html', news=session['news'])
+
+
+@app.route('/report-placed', methods=['GET', 'POST'])
+def reported():
+    df = pd.read_csv('data/reports.csv')
+    df['questions'].append(pd.Series([request.form.get('news')]))
+    df['comment'].append(pd.Series([request.form.get('comment')]))
+    df.to_csv('data/reports.csv')
+    return render_template('report-placed.html')
 
 
 @app.route("/questions", methods=["GET", "POST"])
@@ -98,6 +113,7 @@ def questions():
 def query_results():
     if request.method == "POST":
         ques = request.form.get("query")
+        session['news'] = ques
         x = query(ques)
         if ques == '':
             return render_template("questions.html", error="Input cannot be empty")

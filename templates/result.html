@@ -5,6 +5,7 @@
 	<title>Results!</title>
 <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
@@ -22,22 +23,27 @@
 	<br>
 	<br>
 	<br>
+	<center><p style="border-radius: 3px;font-family: Alatsi; font-size:20px; display:inline-block; font-align:center; align:center;text-align:center;color:black; background-color:313FFF;">Query entered: {{message}}</p><br></center>
 	{% if prediction == 1%}
-	<h1 align = "center" style="color:green;">True</h1>
+	<h2 align = "center" style="color:green;">Overall prediction: True</h2>
+	<h2 align="center">According to the model, the query has a {{proba1}}% chance of being fake.</h2>
 	{% elif prediction == 0%}
-	<h1 align = "center" style="color:red;">Fake</h1>
+	<h2 align = "center" style="color:red;">Overall prediction: Fake</h2>
+	<h2 align="center">According to the model, the query has a {{proba2}}% chance of being fake.</h2>
 	{% endif %}
 	<br>
-	{% if resultsConf == 1%}
-	<h3 align = "center" style="color:green;">Results are confirmed!</h3>
-	{% elif resultsConf == 0%}
-	<h3 align = "center" style="color:red;">Results not confirmed!</h3>
+	{% if c == 1%}
+	<h3 align = "center" style="color:green;">Results are confirmed. Learn more<br>The query has a {{cs}}% match with the data in the dataset.</h3>
+	{% elif c == 0%}
+	<h3 align = "center" style="color:red;">Results are not confirmed. Learn more<br>The query did not have any matching data in the dataset.</h3>
 	{% endif %}
 	<div class="go-back" align="center">
-	<a class = "btn" href = "/fakenews">Go back</a>
+	<a class = "btn" href = "/fakenews">Go back</a><br>
+		<br><br>
+		<a class = "btn2" href = "/report">Report an error</a>
 	</div>
 <br>
 <br>
-
+<script src="../static/js/javascriptfiles.js"></script>
 </body>
 </html>
