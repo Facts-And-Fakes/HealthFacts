@@ -22,6 +22,9 @@
                 {%if failed == True%}
                 <font color="red"><h5 align="center">Username and/or password not recognized</h5></font>
                 {%endif%}
+                {%if plslogin == True%}
+                <font color="white"><h4>Please log in to continue</h4></font>
+                {%endif%}
             <input class="username" type="text" name="username" placeholder="Your Username"><br><br>
             <input class="password" type="password" name="password" placeholder="Your Password"><br><br>
             <button class="btn">Login</button>

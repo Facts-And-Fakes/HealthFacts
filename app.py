@@ -21,14 +21,11 @@ class User:
         self.password = password
 
 
-user = User(id=None, username=None, password="")
 admin = User(id=1, username="admin", password="admin")
 admin2 = User(id=2, username="admin2", password="admin2")
 app = Flask(__name__)
 secure = open("database.json", "r+")
 users = json.load(secure)
-update = {admin.username:{"id": admin.id, "password": sha256_crypt.hash(admin.password)}, admin2.username:{"id": admin2.id, "password": sha256_crypt.hash(admin2.password)}}
-users.update(update)
 
 with open("database.json", "w") as writefile:
     json.dump(users, writefile)
@@ -48,8 +45,7 @@ def index():
 
 @app.route('/profile')
 def profile():
-    print("\n\n\n\n\n", session.get("logged_in"))
-    print("\n\n\n\n\n", session.get("user_id"))
+    user = User(id=session['user_id'], username=session['username'], password="")
     if session.get("logged_in") is True and not session.get('user_id') is None:
         return render_template('profile.html', name=user.username)
     else:
@@ -73,7 +69,7 @@ def home():
 def predictFake():
     resultsconf = 0
     model_prediction = 0
-    message = ["hey"]
+    message = ["No news given"]
     df = pd.read_csv('data/NewsData.csv')
     df1 = pd.DataFrame(df)
     df2 = df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
@@ -92,15 +88,21 @@ def predictFake():
 
 @app.route('/report', methods=['GET', 'POST'])
 def report():
+    if not session['logged_in']:
+        return render_template('login.html', failed=False, plslogin=True)
     return render_template('report.html', news=session['news'])
 
 
 @app.route('/report-placed', methods=['GET', 'POST'])
 def reported():
-    df = pd.read_csv('data/reports.csv')
-    df['questions'].append(pd.Series([request.form.get('news')]))
-    df['comment'].append(pd.Series([request.form.get('comment')]))
-    df.to_csv('data/reports.csv')
+    if request.method == 'POST':
+        df = pd.read_csv('data/reports.csv')
+        report_msg = str(request.form.get('news'))
+        comment = str(request.form.get('comment'))
+        reporter = session['username']
+        df.loc[len(df.index)] = [report_msg, comment, reporter]
+        df.to_csv('data/reports.csv', index=False)
+
     return render_template('report-placed.html')
 
 
@@ -143,10 +145,11 @@ def login():
                 failed = False
                 session['user_id'] = user.id
                 session['logged_in'] = True
+                session['username'] = user.username
                 return redirect(url_for('profile'))
             else:
                 failed=True
-                return render_template("login.html", failed=True)
+                return render_template("login.html", failed=True, plslogin=False)
         except:
             failed = True
             return render_template("error.html")

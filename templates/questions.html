@@ -15,7 +15,7 @@
         <font color="red"><h3>{{error}}</h3></font>
 <h1 align="center">Questions related to COVID-19</h1><br><h2>Your question goes here:</h2>
 <form method="POST" action="{{url_for('query_results')}}">
-<textarea name = "query" placeholder="Enter your question here"></textarea><br><br>
+<textarea class="comment" rows="5" name = "query" placeholder="Enter your question here. Eg. Does 5G spread COVID 19?"></textarea><br><br>
 <input class="btn" type="submit" value="Search!">
 </form>
         </font>

@@ -16,17 +16,21 @@
 <br><br><br><br><br><center>
 
         <h3 style="color:yellow;shadow:0.5px 0.5px;">Top result matching your query:</h3>
-        <p style="border-radius: 5px;text-align: center;opacity:0.9;display:inline-block;font-size:20px;color:black;margin-left:20%;margin-right:20%;font-family: Alatsi;background: white;" class="result">Question: {{q}}
-<br><br>Answer : <br> {{a}}<br></p>
-
+        <center>
+        <p class="result">Question: {{q}}</p>
+<p class="result"><br><br>Answer : <br> {{a}}<br></p>
+</center>
 
         <h3>Related questions:</h3>
         {%for j in o%}
         {{j[0]}}
         <br>
         {%endfor%}
-        <br><br>
-		<a class = "btn2" href = "/report">Report an error</a>
+        <br>
+        <br>
+        <a class="btn" href="/questions">Go back</a>
+        <br><br><br>
+		<a class = "btn2" href = "/report"><i class="fas fa-exclamation-circle"></i>&nbsp;&nbsp;&nbsp;Report an error</a>
     </center>
 </body>
 </html>
