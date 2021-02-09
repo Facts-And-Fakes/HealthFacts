@@ -1,4 +1,9 @@
-# Facts and Fakes
+# HealthFacts
 **Project Still in Progress**
 
-The internet has become a popular and fast way of spreading news. However, it has also enabled the spread of false information to be even faster. Facts and Fakes helps distinguish between "real" and "fake" news.
+In the internet age, people can post information online without going through a rigorous editing process.
+Hence, there is an ever-increasing need to check and evaluate data sources, particularly news items related to health and disease.
+
+HealthFacts helps distinguish between "real" and "fake" facts related to health.
+
+HealthFacts is developed as part of another project - Facts and Fakes. (Learn more)[]
