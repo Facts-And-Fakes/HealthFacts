@@ -3,9 +3,9 @@ False and misleading medical information about a range of diseases have been cir
 
 In early 2020, WHO reported an ‘infodemic’ surrounding the coronavirus that makes it difficult for people to find reliable guidance and take the appropriate measures.
 
-## Facts and Fakes
+## HealthFacts
 
-As the world responds to the COVID-19 pandemic, we face the challenge of an overabundance of information related to the virus. Some of this information may be false and potentially harmful. Facts and Fakes is a resource to counter this.
+As the world responds to the COVID-19 pandemic, we face the challenge of an overabundance of information related to the virus. Some of this information may be false and potentially harmful. HealthFacts is a resource to counter this.
 
 Objectives:
 -	To ensure that the public has a fast, effective and reliable way to check the truth in any health-related “fact”.
