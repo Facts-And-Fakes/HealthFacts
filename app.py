@@ -5,6 +5,7 @@ from fakenewsdetection import fakenewsdetection
 from questions import query
 from passlib.hash import sha256_crypt
 import json
+from googleSearch import googleSearch
 
 # Defining some global variables
 failed = False
@@ -117,11 +118,12 @@ def query_results():
         ques = request.form.get("query")
         session['news'] = ques
         x = query(ques)
+        y = googleSearch(ques)
         if ques == '':
             return render_template("questions.html", error="Input cannot be empty")
         if x == 'error none found':
-            return render_template("questions.html", error="An error occurred: Either no results were found or some other error occurred.")
-        return render_template("query-results.html", q=x[0], o=x[1], a=x[2])
+            return render_template("query-results.html", q=ques, o='', a='Sorry, no results were found matching with our data', useful_results=y)
+        return render_template("query-results.html", q=x[0], o=x[1], a=x[2], useful_results=y)
 
 
 

@@ -1,3 +1,2 @@
 questions,comment,user
 report,report,report
-"user = User(id=session['user_id'], username=session['username'], password="""")",nothing wrong,admin

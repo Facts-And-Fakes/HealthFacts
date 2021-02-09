@@ -4,6 +4,7 @@
 	<title>Facts and Fakes</title>
 	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 
 </head>
@@ -25,9 +26,9 @@
 		<div class="ml-container">
 
 		<form action="{{ url_for('predictFake')}}" method="POST">
-		<strong><p class="newshere">&nbsp;&nbsp;&nbsp;Enter The News Headline Here:&nbsp;&nbsp;&nbsp;</p></strong><br>
+		<strong><p data-aos="zoom-in" class="newshere">&nbsp;&nbsp;&nbsp;Enter The News Headline Here:&nbsp;&nbsp;&nbsp;</p></strong><br>
 		<textarea placeholder="The headline you want to check goes here." class = 'comment' name="message" rows="7" cols="75" align = 'center' required></textarea>
-		<br><p class = 'newshere'>&nbsp;&nbsp;&nbsp; Source website (optional)&nbsp;&nbsp;&nbsp;</p><br>
+		<br><p data-aos="zoom-in" class = 'newshere'>&nbsp;&nbsp;&nbsp; Source website (optional)&nbsp;&nbsp;&nbsp;</p><br>
 		<input type="text" name="source" class = "username" maxlength = '100' placeholder="Example: some-website.com">
 
 		<br><br><br>
@@ -37,6 +38,12 @@
 
 
 		</div>
-
+<div class="footerpage">{% include 'footer.html' %}</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1200,
+})
+</script>
 </body>
 </html>

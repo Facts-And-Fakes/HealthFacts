@@ -5,6 +5,7 @@
     <title>Results</title>
     <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
 
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
@@ -15,12 +16,16 @@
     {% endblock %}
 <br><br><br><br><br><center>
 
-        <h3 style="color:yellow;shadow:0.5px 0.5px;">Top result matching your query:</h3>
+        <h3 data-aos="fade-up" style="color:yellow;shadow:0.5px 0.5px;">Top result matching your query:</h3>
         <center>
-        <p class="result">Question: {{q}}</p>
-<p class="result"><br><br>Answer : <br> {{a}}<br></p>
+        <p data-aos="fade-up" class="result">Question: {{q}}</p>
+<p data-aos="fade-up" data-aos-delay="200"  class="result">Answer : <br> {{a}}<br></p>
 </center>
+<h3>Useful web links</h3>
 
+        {%for i in useful_results%}
+        <a class="links" href="{{i}}">{{i}}</a><br><br>
+        {%endfor%}
         <h3>Related questions:</h3>
         {%for j in o%}
         {{j[0]}}
@@ -32,5 +37,14 @@
         <br><br><br>
 		<a class = "btn2" href = "/report"><i class="fas fa-exclamation-circle"></i>&nbsp;&nbsp;&nbsp;Report an error</a>
     </center>
+    <br>
+    <br>
+{% include 'footer.html' %}
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1200,
+})
+</script>
 </body>
 </html>

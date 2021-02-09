@@ -9,6 +9,16 @@ body{
 	margin-right: 0px;
 }
 
+.eighty.start {
+    width: 0px;
+    background: #aae0aa;
+    -webkit-animation: eighty 2s ease-out forwards;
+       -moz-animation: eighty 2s ease-out forwards;
+        -ms-animation: eighty 2s ease-out forwards;
+         -o-animation: eighty 2s ease-out forwards;
+            animation: eighty 2s ease-out forwards;
+}
+
 .h1{
     position: fixed;
     font-family: Acme;
@@ -80,7 +90,18 @@ textarea{
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  font-family: Alatsi;
+  /*animation: fadeInUp;
+  animation-duration: 3s;
+  --animate-delay: 5s;*/
+}
+
+.end{
+  margin-top: 0px;
+  text-align:center;
+  margin-bottom: 10px;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
 }
 
 .what-we-do{
@@ -95,16 +116,30 @@ textarea{
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+.foot{
+  background-color: rgba(0,0,0,1.0);
+  color: white;
 }
 
+.footerpage{
+position: absolute;
+width: 100%;
+  bottom: 0;
+}
+
+/* Clear floats after the columns */
+.foot:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 .home-img{
-  background-image: url(../static/photos/home-img.jpg);
-  backdrop-filter: blur(15px);
+  background-image: url(../photos/home-img.jpg);
+  backdrop-filter: blur(25px);
+  background-repeat: no-repeat;
 }
 
 textarea: focus{
@@ -124,6 +159,37 @@ textarea: focus{
   text-align: center;
 }
 
+.footer{
+background-color: black;
+margin-top:-10px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.links{
+  .note {
+  color: #ffffff;
+  padding: 0.5em;
+  background:rgba(0,0,0,0.5);
+  font-family: Alatsi;
+  text-align: center;
+
+}
+
+}
+
 .note {
   color: #ffffff;
   margin: 5vw;
@@ -135,6 +201,7 @@ margin-right: 300px;
   font-size: 40px;
   font-family: Acme;
   text-align: center;
+
 }
 
 .note a {
@@ -210,7 +277,33 @@ z-index:9999;
   color: white;
 }
 
-
+.about{
+  float: left;
+  text-align:center;
+  background-color: black;
+  font-family: Alatsi;
+  color: white;
+  width: 30%;
+  margin-left: 50px;
+}
+.about2{
+  float: left;
+  text-align:center;
+  background-color: black;
+  font-family: Alatsi;
+  color: white;
+  width: 33%;
+  margin-left: 43px;
+}
+.about3{
+  float: right;
+  text-align:center;
+  background-color: black;
+  font-family: Alatsi;
+  color: white;
+  width: 30%;
+  margin-left: 1px;
+}
 .comment {
         width: 200px;
         box-sizing: border-box;
@@ -260,6 +353,8 @@ z-index:9999;
 	text-align:center;
 	font-family: Acme;
 	color: #ffffff;
+	animation: fadeIn;
+	animation-duration: 3s;
 
 }
 
@@ -321,6 +416,24 @@ transition: all 0.1s ease 0.1s;
 
 
 .btn2:hover {
+background: #434343;
+letter-spacing: 1px;
+transition: all 0.4s ease 0s;
+}
+
+.btn3{
+color: #ffffff ;
+text-decoration: none;
+padding: 8px;
+background: #000000;
+border-radius: 3px;
+text-align: center;
+display: inline-block;
+border: 3px;
+transition: all 0.1s ease 0.1s;
+}
+
+.btn3:hover {
 background: #434343;
 letter-spacing: 1px;
 transition: all 0.4s ease 0s;

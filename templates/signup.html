@@ -6,6 +6,7 @@
     	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
         <br>
         <br>
         <br>
-    <h1 class="title" align = "center">Sign Up</h1>
+    <h1 data-aos="zoom-in" class="title" align = "center">Sign Up</h1>
         <form method="POST" action={{url_for("signup_done")}}>
             <center>
                 {%if signup_failed == True%}
@@ -38,5 +39,12 @@
 	<br><br>
 	<br>
 {% endblock %}
+<div class="footerpage">{% include 'footer.html' %}</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1200,
+})
+</script>
 </body>
 </html>
