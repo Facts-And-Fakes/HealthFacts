@@ -5,12 +5,14 @@
 	<title>Results!</title>
 <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
 	<header>
 		<div class="container">
-		
+
 	</div>
 	</header>
 				{% include 'nav.html' %}
@@ -22,22 +24,34 @@
 	<br>
 	<br>
 	<br>
+	<center><p data-aos="fade-up" class="result">Query: {{message}}</p></center>
 	{% if prediction == 1%}
-	<h1 align = "center" style="color:green;">True</h1>
+	<h2 data-aos="fade-up" data-aos-delay="400" align = "center" style="color:green;">Overall prediction: True</h2>
+	<h2 data-aos="fade-up" data-aos-delay="400" align="center">According to the model, the query has a {{proba1}}% chance of being fake.</h2>
 	{% elif prediction == 0%}
-	<h1 align = "center" style="color:red;">Fake</h1>
+	<h2 data-aos="fade-up" data-aos-delay="400" align = "center" style="color:red;">Overall prediction: Fake</h2>
+	<h2 data-aos="fade-up" data-aos-delay="400" align="center">According to the model, the query has a {{proba1}}% chance of being fake.</h2>
 	{% endif %}
 	<br>
-	{% if resultsConf == 1%}
-	<h3 align = "center" style="color:green;">Results are confirmed!</h3>
-	{% elif resultsConf == 0%}
-	<h3 align = "center" style="color:red;">Results not confirmed!</h3>
+	{% if c == 1%}
+	<h3 data-aos="fade-up" data-aos-delay="800" align = "center" style="color:green;">Results are confirmed. Learn more<br>The query has a {{cs}}% match with the data in the dataset.</h3>
+	{% elif c == 0%}
+	<h3 data-aos="fade-up" data-aos-delay="800" align = "center" style="color:red;">Results are not confirmed. Learn more<br>The query did not have any matching data in the dataset.</h3>
 	{% endif %}
-	<div class="go-back" align="center">
-	<a class = "btn" href = "/fakenews">Go back</a>
+	<div class="go-back" align="center"><br>
+	<a class = "btn" href = "/fakenews">Go back</a><br>
+		<br><br><br>
+		<a class = "btn2" href = "/report"><i class="fas fa-exclamation-circle"></i>&nbsp;&nbsp;&nbsp;Report an error</a>
 	</div>
 <br>
 <br>
-
+<script src="../static/js/javascriptfiles.js"></script>
+<div class="footerpage">{% include 'footer.html' %}</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1200,
+})
+</script>
 </body>
 </html>

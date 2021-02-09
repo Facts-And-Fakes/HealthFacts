@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
     <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 		{% include 'nav.html' %}
@@ -16,11 +17,14 @@
         <br>
         <br>
         <br>
-    <h1 class="title" align = "center">Log in to Facts and Fakes!</h1>
+    <h1 data-aos="zoom-in" class="title" align = "center">Log in to Facts and Fakes!</h1>
         <form method="POST" action={{url_for('login')}}>
             <center>
                 {%if failed == True%}
                 <font color="red"><h5 align="center">Username and/or password not recognized</h5></font>
+                {%endif%}
+                {%if plslogin == True%}
+                <font color="white"><h4>Please log in to continue</h4></font>
                 {%endif%}
             <input class="username" type="text" name="username" placeholder="Your Username"><br><br>
             <input class="password" type="password" name="password" placeholder="Your Password"><br><br>
@@ -31,5 +35,12 @@
 
 
 {% endblock %}
+<div class="footerpage">{% include 'footer.html' %}</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1200,
+})
+</script>
 </body>
 </html>

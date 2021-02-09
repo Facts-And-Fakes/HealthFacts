@@ -14,11 +14,8 @@ def googleSearch(query):
     ran_head = {
             'user-agent': user_agent,
         }
-    #declaring list g_clean to store the fetched urls
     g_clean=[]
-    #exception handling code to make sure we don't run into errors
     try:
-        #fetching the response using get method in requests
         html = requests.get(url)
         if html.status_code == 200:
             soup = BeautifulSoup(html.text, 'lxml')

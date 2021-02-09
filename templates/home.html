@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
 	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="../static/js/javascriptfiles.js"></script>
 </head>
 <body>
+
 {% include 'nav.html' %}
-		{% block content %}
-		{% endblock %}
-
+{% block content %}
+{% endblock %}
 	<br>
 	<br>
-	<br><br><br>
-<p class="note">Welcome to Facts and Fakes!<br>
-Click any of the links above to get started!</p>
+	<br><br><br><center>
 
 
+<div class="home-img">
+	<p class="newshere" data-aos="fade-up">Combating an infodemic</p>
+		<p class="note" data-aos="fade-up">HealthFacts</p><br>
+	</div><br><br>
+<a data-aos="zoom-in" data-aos-delay="400" class="btn" href="https://aryaman-das.github.io/HealthFacts">Learn more</a>&nbsp;&nbsp;&nbsp;<a data-aos="zoom-in" data-aos-delay="400" class="btn" href="/signup">Sign up</a><br><br>
+<br><br>
+	<p class="newshere"> Features</p>
+	<br>
+<div class="what-we-do">
+  <div data-aos="fade-up" data-aos-delay="100" class="column"><h2>Fact-check</h2><h4>Click on 'Fake News Detection' in the bar above to use our fact-check feature! Enter any health-related fact and compare it with our database to check its 'truth'.</h4><br><a class="btn" href="/fakenews">Try it!</a><br><br><br><br> </div>
+  <div data-aos="fade-up" data-aos-delay="400" class="column"><h2>Q and A</h2><h4>Click on Health Questions and enter your question. The program will show you the most relevant answers after searching through the database.</h4><br><a class="btn" href="/questions">Try it!</a><br><br><br><br></div>
+  <div data-aos="fade-up" data-aos-delay="700" class="column"><h2>Report</h2><h4>You can contribute! Click on the Report button at the bottom of any results page to report an error or inaccuracy in the data or program.</h4><br><a class="btn" href="https://github.com/Aryaman-Das/HealthFacts">Feedback</a><br><br><br><br></div>
+
+<br><br></div>
+</center>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 1200,
+})
+</script>
+{% include 'footer.html' %}
 </body>
 </html>
