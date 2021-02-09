@@ -6,4 +6,4 @@ Hence, there is an ever-increasing need to check and evaluate data sources, part
 
 HealthFacts helps distinguish between "real" and "fake" facts related to health.
 
-HealthFacts is developed as part of another project - Facts and Fakes. (Learn more)[]
+HealthFacts is developed as part of another project - Facts and Fakes. (Learn more)[https://github.com/Aryaman-Das/Facts-And-Fakes]
