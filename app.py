@@ -1,16 +1,15 @@
 # Importing libraries
 from flask import Flask, render_template, url_for, request, redirect, session
 import pandas as pd
+from fakeReviewsDetector import fakereviewsdetection
 from fakenewsdetection import fakenewsdetection
-from questions import query
+from spamsms import spamsmsdetection
 from passlib.hash import sha256_crypt
 import json
-from googleSearch import googleSearch
 
 # Defining some global variables
 failed = False
 signup_failed = False
-
 
 # Defining a user class containing ID, username and password
 
@@ -22,11 +21,14 @@ class User:
         self.password = password
 
 
+user = User(id=None, username=None, password="")
 admin = User(id=1, username="admin", password="admin")
 admin2 = User(id=2, username="admin2", password="admin2")
 app = Flask(__name__)
 secure = open("database.json", "r+")
 users = json.load(secure)
+update = {admin.username:{"id": admin.id, "password": sha256_crypt.hash(admin.password)}, admin2.username:{"id": admin2.id, "password": sha256_crypt.hash(admin2.password)}}
+users.update(update)
 
 with open("database.json", "w") as writefile:
     json.dump(users, writefile)
@@ -46,7 +48,8 @@ def index():
 
 @app.route('/profile')
 def profile():
-    user = User(id=session['user_id'], username=session['username'], password="")
+    print("\n\n\n\n\n", session.get("logged_in"))
+    print("\n\n\n\n\n", session.get("user_id"))
     if session.get("logged_in") is True and not session.get('user_id') is None:
         return render_template('profile.html', name=user.username)
     else:
@@ -68,63 +71,52 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predictFake():
-    resultsconf = 0
+    resultsConf = 0
     model_prediction = 0
-    message = ["No news given"]
+    message = ["hey"]
     df = pd.read_csv('data/NewsData.csv')
     df1 = pd.DataFrame(df)
     df2 = df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
     df2 = df2[['title', 'date', 'avgReview']]
     if request.method == 'POST':
         message = request.form['message']
-        session['news'] = message
         exist = message in df1.title or message in df1.news
         source = request.form['source']
         news = '{} - {}'.format(source, message)
         data = [message]
         model_prediction = fakenewsdetection(data)
-        resultsconf = 0
-    return render_template('result.html', prediction=model_prediction[0], proba1=model_prediction[1], proba2=model_prediction[2], c=model_prediction[3], cs=model_prediction[4], tables=[df2.to_html(classes='data', header="true")],  titles=df2.columns.values, newNews=newNews, message=message)
+        resultsConf = 0
+    return render_template('result.html',resultsConf=resultsConf, prediction=model_prediction, tables=[df2.to_html(classes='data', header="true")],  titles = df2.columns.values, newNews = newNews, message = message)
 
 
-@app.route('/report', methods=['GET', 'POST'])
-def report():
-    if not session['logged_in']:
-        return render_template('login.html', failed=False, plslogin=True)
-    return render_template('report.html', news=session['news'])
+@app.route("/fakereviews")
+def fakereviews():
+    return render_template("fakereviews.html")
 
 
-@app.route('/report-placed', methods=['GET', 'POST'])
-def reported():
+@app.route("/fakereviewresults", methods=['GET', 'POST'])
+def fakereviewresults():
+    model_prediction = [0]
     if request.method == 'POST':
-        df = pd.read_csv('data/reports.csv')
-        report_msg = str(request.form.get('news'))
-        comment = str(request.form.get('comment'))
-        reporter = session['username']
-        df.loc[len(df.index)] = [report_msg, comment, reporter]
-        df.to_csv('data/reports.csv', index=False)
-
-    return render_template('report-placed.html')
+        message = request.form['message']
+        data = [message]
+        model_prediction = fakereviewsdetection(data)
+    return render_template("fakereviewresults.html", prediction=model_prediction)
 
 
-@app.route("/questions", methods=["GET", "POST"])
-def questions():
-    return render_template("questions.html")
+@app.route("/spamdetection")
+def spam():
+    return render_template("spamemailsms.html")
 
 
-@app.route("/query-results", methods=['GET', 'POST'])
-def query_results():
-    if request.method == "POST":
-        ques = request.form.get("query")
-        session['news'] = ques
-        x = query(ques)
-        y = googleSearch(ques)
-        if ques == '':
-            return render_template("questions.html", error="Input cannot be empty")
-        if x == 'error none found':
-            return render_template("query-results.html", q=ques, o='', a='Sorry, no results were found matching with our data', useful_results=y)
-        return render_template("query-results.html", q=x[0], o=x[1], a=x[2], useful_results=y)
-
+@app.route("/spamresults", methods=["GET","POST"])
+def spamresults():
+    model_prediction = [0]
+    if request.method == 'POST':
+        message = request.form['message']
+        data = [message]
+        model_prediction = spamsmsdetection(data)
+    return render_template("spamemailsmsresults.html", prediction=model_prediction)
 
 
 # login, logout, signup
@@ -147,11 +139,10 @@ def login():
                 failed = False
                 session['user_id'] = user.id
                 session['logged_in'] = True
-                session['username'] = user.username
                 return redirect(url_for('profile'))
             else:
                 failed=True
-                return render_template("login.html", failed=True, plslogin=False)
+                return render_template("login.html", failed=True)
         except:
             failed = True
             return render_template("error.html")

@@ -1,4 +1,4 @@
-html,body { height:120%; }
+html,body { height:100%; }
 body{
 	font-family: Acme;
 	padding: 0px;
@@ -7,16 +7,6 @@ body{
 	backdrop-filter: blur(25px);
 	margin-left: 0px;
 	margin-right: 0px;
-}
-
-.eighty.start {
-    width: 0px;
-    background: #aae0aa;
-    -webkit-animation: eighty 2s ease-out forwards;
-       -moz-animation: eighty 2s ease-out forwards;
-        -ms-animation: eighty 2s ease-out forwards;
-         -o-animation: eighty 2s ease-out forwards;
-            animation: eighty 2s ease-out forwards;
 }
 
 .h1{
@@ -45,7 +35,7 @@ body{
 
 }
 
-.username{
+input[type=text]{
   width: 150px;
   box-sizing: border-box;
   font-family: Acme;
@@ -60,170 +50,46 @@ body{
   width: 25%;!important
 }
 
-.username:focus {
-  width: 30%;!important
-}
-
-.report {
-    visible: none;
-}
-
 textarea{
-  width: 50%;
+  width: 150px;
   box-sizing: border-box;
   font-family: Acme;
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  transition: width 0.4s ease-in-out;
-  padding: 0;
-  resize: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  font-family: Alatsi;
-  /*animation: fadeInUp;
-  animation-duration: 3s;
-  --animate-delay: 5s;*/
-}
-
-.end{
-  margin-top: 0px;
-  text-align:center;
-  margin-bottom: 10px;
-  background-color: rgba(0,0,0,0.9);
-  color: white;
-}
-
-.what-we-do{
-  background-color: rgba(0,0,0,0.7);
-  color:white;
-}
-
-/* Clear floats after the columns */
-.what-we-do:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.foot{
-  background-color: rgba(0,0,0,1.0);
-  color: white;
-}
-
-.footerpage{
-position: absolute;
-width: 100%;
-  bottom: 0;
-}
-
-/* Clear floats after the columns */
-.foot:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
-.home-img{
-  background-image: url(../photos/home-img.jpg);
-  backdrop-filter: blur(25px);
+  background-position: 10px 10px;
   background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  width: 25%;!important
 }
-
 textarea: focus{
-    width: 25%;!important
+    width: 40%;!important
 
 }
-
-.note-heading {
-  color: #ffffff;
+.note {
   margin: 5vw;
   padding: 0.5em;
   border-left: 0.5em solid #52e052;
   margin-left: 80px;
-  margin-right: 80px;
-  background:rgba(0,0,0,0.5);
+margin-right: 80px;
+  background-color:#f2f2f2;
   font-size: 20px;
   text-align: center;
 }
 
-.footer{
-background-color: black;
-margin-top:-10px;
-
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-
-.footer:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.links{
-  .note {
-  color: #ffffff;
-  padding: 0.5em;
-  background:rgba(0,0,0,0.5);
-  font-family: Alatsi;
-  text-align: center;
-
-}
-
-}
-
-.note {
-  color: #ffffff;
-  margin: 5vw;
-  padding: 0.5em;
-  border-left: 0.5em solid #52e052;
-  margin-left: 300px;
-margin-right: 300px;
-  background:rgba(0,0,0,0.5);
-  font-size: 40px;
-  font-family: Acme;
-  text-align: center;
-
-}
-
 .note a {
   text-decoration: none;
-  color: #ffffff;
+  color: #161b1e;
 }
 
 .note a:hover {
   text-decoration: underline;
 }
 
-.result{
-  color: #ffffff;
-  margin: 5vw;
-  padding: 0.5em;
-  border-left: 0.5em solid #52e052;
-  margin-left: 200px;
-  margin-right: 200px;
-  background:rgba(0,0,0,0.5);
-  font-size: 20px;
-  font-family: Acme;
-  text-align: center;
+input[type=text]:focus {
+  width: 30%;!important
 }
 
 .title {
@@ -277,33 +143,7 @@ z-index:9999;
   color: white;
 }
 
-.about{
-  float: left;
-  text-align:center;
-  background-color: black;
-  font-family: Alatsi;
-  color: white;
-  width: 30%;
-  margin-left: 50px;
-}
-.about2{
-  float: left;
-  text-align:center;
-  background-color: black;
-  font-family: Alatsi;
-  color: white;
-  width: 33%;
-  margin-left: 43px;
-}
-.about3{
-  float: right;
-  text-align:center;
-  background-color: black;
-  font-family: Alatsi;
-  color: white;
-  width: 30%;
-  margin-left: 1px;
-}
+
 .comment {
         width: 200px;
         box-sizing: border-box;
@@ -345,16 +185,10 @@ z-index:9999;
 }
 
 .newshere {
-    display:inline-block;
 	font: 20px/1.0 Georgia, sans-serif;
-	background:rgba(0,0,0,0.5);
-	border-radius: 2px;
-	backdrop-opacity: 0.2;
 	text-align:center;
 	font-family: Acme;
 	color: #ffffff;
-	animation: fadeIn;
-	animation-duration: 3s;
 
 }
 
@@ -374,13 +208,6 @@ text-align: center;}
     color: white;
     font-family: Acme;
 }
-
-p {
-    color:white;
-    font-family: Alatsi;
-    background: white;
-}
-
 .btn {
 color: #ffffff ;
 text-decoration: none;
@@ -390,6 +217,7 @@ border-radius: 5px;
 text-align: center;
 display: inline-block;
 border: 2px;
+transition: all 0.6s ease 0.1s;
 }
 
 
@@ -399,42 +227,5 @@ letter-spacing: 1px;
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.4s ease 0s;
-}
-
-.btn2 {
-color: #ffffff ;
-text-decoration: none;
-padding: 10px;
-background: #ff0000;
-border-radius: 3px;
-text-align: center;
-display: inline-block;
-border: 3px;
-transition: all 0.1s ease 0.1s;
-}
-
-
-.btn2:hover {
-background: #434343;
-letter-spacing: 1px;
-transition: all 0.4s ease 0s;
-}
-
-.btn3{
-color: #ffffff ;
-text-decoration: none;
-padding: 8px;
-background: #000000;
-border-radius: 3px;
-text-align: center;
-display: inline-block;
-border: 3px;
-transition: all 0.1s ease 0.1s;
-}
-
-.btn3:hover {
-background: #434343;
-letter-spacing: 1px;
 transition: all 0.4s ease 0s;
 }

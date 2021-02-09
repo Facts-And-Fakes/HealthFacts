@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results!</title>
+    	<link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+</head>
+<body>
+		{% include 'nav.html' %}
+        {% block content %}
+        {% endblock %}
+        <div class="background"></div>
+      <br><br><br>
+        <center>
+            {%if prediction==1%}
+            <h1>Not Spam</h1>
+            {%elif prediction==0%}
+            <h1>Spam</h1>
+            {%endif%}
+            <br><br><br>	<a class = "btn" href = "/spamdetection">Go back</a>
+        </center>
+</body>
+</html>

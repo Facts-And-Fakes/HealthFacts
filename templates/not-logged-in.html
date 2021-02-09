@@ -5,7 +5,6 @@
     <title>Not Logged in</title>
     <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
 </head>
 <body>
@@ -14,13 +13,6 @@
 		{% endblock %}
 
 <br><br><br><br><br>
-<font color="white"><h1 data-aos="zoom-out" align="center">Uh oh, looks like you haven't logged in. <a href={{url_for("login")}}>Log in</a></h1></font>
-<div class="footerpage">{% include 'footer.html' %}</div>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-AOS.init({
-  duration: 1200,
-})
-</script>
+<font color="white"><h1 align="center">Uh oh, looks like you haven't logged in. <a href={{url_for("login")}}>Log in</a></h1></font>
 </body>
 </html>

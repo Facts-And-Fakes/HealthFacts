@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Email and SMS</title>
+    	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+</head>
+<body>
+
+		{% include 'nav.html' %}
+		{% block content %}
+		{% endblock %}
+		<div class="background"></div>
+<br>
+<br>
+		<br>
+		<br>
+<br>
+<form action="{{ url_for('spamresults')}}" method="POST">
+	<center>
+		<strong><p class = 'newshere'>Enter the email/SMS contents here:</p></strong>
+		<textarea class = 'comment' name="message" rows="7" cols="75" align = 'center'></textarea>
+<br>
+		<br>
+		<input type="submit" class="btn" value="Is it spam?">
+		</center></form>
+<br>
+	<br>
+	<br><br>
+	<br>
+	<br><br>
+	<br>
+	<br><br>
+	<br>
+
+</body>
+</html>

@@ -6,7 +6,6 @@
     	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -17,15 +16,15 @@
         <br>
         <br>
         <br>
-    <h1 data-aos="zoom-in" class="title" align = "center">Sign Up</h1>
+    <h1 class="title" align = "center">Sign Up</h1>
         <form method="POST" action={{url_for("signup_done")}}>
             <center>
                 {%if signup_failed == True%}
 
                 <font color="red"><h5 align="center">Username not available</h5></font>
                 {%endif%}
-                <input type="text" class="username" name="username" placeholder="Username"><br><br>
-               <input class = "password" type="password" name="password" placeholder="Password"><br><br>
+            <input type="text" name="username" placeholder="Username"><br><br>
+            <input class = "password" type="password" name="password" placeholder="Password"><br><br>
             <button class="btn">Sign Up</button>
                 <h4>Already a user? <a href="/login">Log in!</a></h4>
 
@@ -39,12 +38,5 @@
 	<br><br>
 	<br>
 {% endblock %}
-<div class="footerpage">{% include 'footer.html' %}</div>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-AOS.init({
-  duration: 1200,
-})
-</script>
 </body>
 </html>

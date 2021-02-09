@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facts-And-Fakes - Fake Review Detector</title>
+	<link rel= "stylesheet" type="text/css "href = "../static/styles/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+</head>
+<body>
+	{% include 'nav.html' %}
+    {% block content %}
+    {% endblock %}
+	<div class="background"></div>
+		<br>
+	<br>
+	<br>
+	<br>
+
+		<br>
+		<div class = 'space'>
+		</div>
+		<div class="ml-container">
+		<form action="{{url_for('fakereviewresults')}}" method="POST">
+		<strong><p class = 'newshere' align = 'center' style = "color:black; text-shadow: 1px 1px;">Text:</p></strong>
+		<textarea class = 'comment' name="message" rows="7" cols="75" align = 'center'></textarea>
+		<br><p class = 'newshere'> Source website (optional)</p>
+		<input type="text" name="source" class = "source" maxlength = '100' placeholder="Source website">
+			<br>
+
+		<br>
+		<input type="submit" class="btn" value="Is it fake?">
+
+
+        </form>
+        </div>
+</body>
+</html>

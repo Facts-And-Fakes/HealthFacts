@@ -15,5 +15,3 @@ scipy==1.5.4
 urllib3==1.26.2
 virtualenv==20.2.2
 Werkzeug==1.0.1
-fuzzywuzzy==0.18.0
-beautifulsoup4==4.9.3
