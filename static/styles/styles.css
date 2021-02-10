@@ -45,6 +45,38 @@ body{
 
 }
 
+.qgohere{
+border-radius: 3px;
+font-family: Acme;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+#showOnHover{
+  transition: all 0.5s ease 0.3s;
+  display: none;
+  margin-left: 350px;
+  margin-right: 350px;
+  color: white;
+}
+
+.help{
+color: #ffffff ;
+text-decoration: none;
+padding: 5px;
+background: #000000;
+border-radius: 3px;
+text-align: center;
+display: inline-block;
+border: 3px;
+animation: bounce;
+animation-duration: 2s;
+animation-delay: 1s;
+transition: all 0.1s ease 0.1s;
+}
+
 .username{
   width: 150px;
   box-sizing: border-box;

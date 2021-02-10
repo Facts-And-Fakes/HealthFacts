@@ -24,37 +24,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/facts-and-fakes-health.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/facts-and-fakes-health.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/reports.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/reports.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/database.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeReviewsDetector.py" beforeDir="false" />
+    <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="web scraper, animations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/googleSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/googleSearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spamsms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/javascriptfiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/javascriptfiles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/switch_windows.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fakereviewresults.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fakereviews.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/logged-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/logged-out.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/not-found-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/not-found-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/not-logged-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/not-logged-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/spamemailsms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/spamemailsmsresults.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice_control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/query-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/query-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/questions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/report-placed.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/report-placed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +58,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="facts-and-fakes-health" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,9 +80,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="googleSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="facts-and-fakes-health" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/googleSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.googleSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +116,14 @@
       <option name="presentableId" value="Default" />
       <updated>1612894281515</updated>
     </task>
+    <task id="LOCAL-00001" summary="web scraper, animations">
+      <created>1612895993239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612895993239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,35 +136,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="web scraper, animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="web scraper, animations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612894446467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1612894446467" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1612895762449">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1612973494315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612895762449" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1612895762449">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612973494315" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1612973494315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612895762449" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1612895762449">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612973494315" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1612973494315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612895762449" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1612895762449">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612973494315" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1612973494315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612895762449" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1612894480825">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612973494315" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1612943765050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612894480825" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612943765050" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612896001802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612896001802" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612895717882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612895717882" />
+    <state x="468" y="255" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612895969056">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="468" y="255" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612895969056" />
   </component>
 </project>

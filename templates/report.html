@@ -12,21 +12,21 @@
     {% include 'nav.html' %}
     {% block content %}
     {% endblock %}
-<br><br><br><br><br><center>
-    <h1 data-aos="zoom-in">Report</h1>
+<br><br><br><br><br><center><div data-aos="zoom-in" data-aos-anchor="#example-anchor">
+    <h1>Report</h1>
         <form action="{{url_for('reported')}}" method="POST">
         <textarea class="comment" name="news" required>{{news}}</textarea><br>
-        <br><h1 data-aos="zoom-in">Comment</h1>
+        <br><h1>Comment</h1>
         <textarea class="comment" rows="4" cols="30" required name="comment" placeholder="Enter the details (What is wrong, your opinions, etc.)"></textarea>
             <br><br>
         <input type="submit" name="submit" value="Report!" class="btn"></form>
-
+    </div>
 </center>
 <div class="footerpage">{% include 'footer.html' %}</div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 AOS.init({
-  duration: 1200,
+  duration: 600,
 })
 </script>
 </body>

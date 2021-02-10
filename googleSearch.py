@@ -9,7 +9,7 @@ import randomAgent
 #defining the googleSearch function
 def googleSearch(query):
     #making the url ready for requests
-    url = 'https://www.google.com/search?client=ubuntu&channel=fs&q={}&ie=utf-8&oe=utf-8'.format(query);
+    url = 'https://www.google.com/search?q=site%3Aun.org+{}'.format(query);
     user_agent = randomAgent.getUA()
     ran_head = {
             'user-agent': user_agent,
@@ -36,5 +36,7 @@ def googleSearch(query):
     except Exception as ex:
         print(str(ex))
     finally:
-
-        return [g_clean[0],g_clean[1],g_clean[2],g_clean[3],g_clean[4]]
+        try:
+            return [g_clean[0],g_clean[1],g_clean[2],g_clean[3],g_clean[4]]
+        except:
+            return ['No results found', '', '', '', '']
