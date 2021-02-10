@@ -26,19 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="web scraper, animations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/googleSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/googleSearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/javascriptfiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/javascriptfiles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/logged-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/logged-out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/not-found-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/not-found-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/not-logged-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/not-logged-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/query-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/query-results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/questions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/report-placed.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/report-placed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612895993239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="web scraper, animations">
+      <created>1612978583768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612978583768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,10 +164,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612943765050" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612896001802">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612978605562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612896001802" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612978605562" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612895717882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

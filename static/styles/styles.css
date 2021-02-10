@@ -55,10 +55,26 @@ font-family: Acme;
 }
 
 #showOnHover{
+background: rgba(0,0,0,0.6);
+border-radius: 15px;
   transition: all 0.5s ease 0.3s;
   display: none;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 500px;
+  font-family: Alatsi;
+
+  margin-right: 500px;
+  color: white;
+}
+
+
+#showOnHover2{
+background: rgba(0,0,0,0.6);
+border-radius: 15px;
+font-family: Alatsi;
+  transition: all 0.5s ease 0.3s;
+  display: none;
+  margin-left: 500px;
+  margin-right: 500px;
   color: white;
 }
 
