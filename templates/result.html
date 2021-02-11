@@ -34,9 +34,9 @@
 	{% endif %}
 	<br>
 	{% if c == 1%}
-	<h3 data-aos="fade-up" data-aos-delay="800" align = "center" style="color:green;">Results are confirmed. Learn more<br>The query has a {{cs}}% match with the data in the dataset.</h3>
+	<h3 data-aos="fade-up" data-aos-delay="800" align = "center" style="color:green;">Results are confirmed. Learn more&nbsp;&nbsp;&nbsp; <a class="help" href="/help"><i class="fas fa-question-circle"></i></a><br>The query has a {{cs}}% match with the data in the dataset.</h3>
 	{% elif c == 0%}
-	<h3 data-aos="fade-up" data-aos-delay="800" align = "center" style="color:red;">Results are not confirmed. Learn more<br>The query did not have any matching data in the dataset.</h3>
+	<h3 data-aos="fade-up" data-aos-delay="800" align = "center" style="color:red;">Results are not confirmed. Learn more&nbsp;&nbsp;&nbsp; <a class="help" href="/help"><i class="fas fa-question-circle"></i></a><br>The query did not have any matching data in the dataset.</h3>
 	{% endif %}
 	<div class="go-back" align="center"><br>
 	<a class = "btn" href = "/fakenews">Go back</a><br>

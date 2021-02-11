@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Facts and Fakes</title>
+	<title>Fake News Detector | HealthFacts</title>
 	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
 	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
@@ -26,13 +26,13 @@
 
 		<div class = 'space'>
 		</div>
-		<div class="ml-container" data-aos="zoom-in">
+		<div class="ml-container" data-aos="zoom-in" data-aos-duration="500">
 
 		<form action="{{ url_for('predictFake')}}" method="POST">
-			<strong><p class="newshere">&nbsp;&nbsp;&nbsp;Enter the statement to be checked here:&nbsp;&nbsp;&nbsp;</p>&nbsp;&nbsp;&nbsp; <a ONMOUSEOVER="document.getElementById('showOnHover').style.display='block'" ONMOUSEOUT="document.getElementById('showOnHover').style.display='none'" class="help" href="/help"><i class="fas fa-question-circle"></i></a>
+			<strong><p class="newshere">&nbsp;&nbsp;&nbsp;Enter the statement to be checked here:&nbsp;&nbsp;&nbsp;</p>&nbsp;&nbsp;&nbsp; <a class="help" href="https://github.com/Aryaman-Das/HealthFacts/wiki/Fake-News-Detector---Query-page-FAQ#what-is-this-page-for"><i class="fas fa-question-circle"></i></a>
         <h3 id="showOnHover">Enter any statement which you wish to check for 'truthfulness.'</h3></p></strong>
 		<textarea placeholder="The headline you want to check goes here." class = 'comment' name="message" rows="7" cols="75" align = 'center' required></textarea>
-		<br><br><p class = 'newshere'>&nbsp;&nbsp;&nbsp; Source website (optional)&nbsp;&nbsp;&nbsp;</p>&nbsp;&nbsp;&nbsp;<a ONMOUSEOVER="document.getElementById('showOnHover2').style.display='block'" ONMOUSEOUT="document.getElementById('showOnHover2').style.display='none'" class="help" href="/help"><i class="fas fa-question-circle"></i></a>
+		<br><br><p class = 'newshere'>&nbsp;&nbsp;&nbsp; Source website (optional)&nbsp;&nbsp;&nbsp;</p>&nbsp;&nbsp;&nbsp;<a class="help2" href="https://github.com/Aryaman-Das/HealthFacts/wiki/Fake-News-Detector---Query-page-FAQ#what-is-this-page-for"><i class="fas fa-question-circle"></i></a>
         <h3 id="showOnHover2">Here, enter the source where you got this news from.</h3>
 <br>
 		<input type="text" name="source" class = "username" maxlength = '100' placeholder="Example: some-website.com">

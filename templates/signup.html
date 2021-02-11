@@ -6,6 +6,8 @@
     	<link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+    <link rel="stylesheet" href="../static/webfonts/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -17,7 +19,7 @@
         <br>
         <br>
         <br>
-    <h1 data-aos="zoom-in" class="title" align = "center">Sign Up</h1>
+    <h2 data-aos="zoom-in" class="title" align = "center">Sign Up   &nbsp;&nbsp;&nbsp;&nbsp;  <a class="help" href="/help"><i class="fas fa-question-circle"></i></a></h2>
         <form method="POST" action={{url_for("signup_done")}}>
             <center>
                 {%if signup_failed == True%}
@@ -43,7 +45,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 AOS.init({
-  duration: 1200,
+  duration: 600,
 })
 </script>
 </body>

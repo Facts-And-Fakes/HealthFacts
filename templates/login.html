@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
     <link rel= "stylesheet" type="text/css " href = "../static/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 	<link rel="shortcut icon" href="{{url_for('static', filename='photos/favicon.ico')}}">
+    <link rel="stylesheet" href="../static/webfonts/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -17,11 +19,14 @@
         <br>
         <br>
         <br>
-    <h1 data-aos="zoom-in" class="title" align = "center">Log in to Facts and Fakes!</h1>
+
         <form method="POST" action={{url_for('login')}}>
             <center>
                 {%if failed == True%}
-                <font color="red"><h5 align="center">Username and/or password not recognized</h5></font>
+                  <h2 class="title" align = "center" data-aos="zoom-in">Log in! &nbsp;&nbsp;&nbsp;&nbsp;    <a class="help" href="/help"><i class="fas fa-question-circle"></i></a></h2>
+                <font color="red"><h5 data-aos="zoom-in"  align="center">Username and/or password not recognized</h5></font>
+                {%else%}
+                  <h2 class="title" align = "center" data-aos="zoom-in">Log in!   &nbsp;&nbsp;&nbsp;&nbsp;  <a class="help" href="/help"><i class="fas fa-question-circle"></i></a></h2>
                 {%endif%}
                 {%if plslogin == True%}
                 <font color="white"><h4>Please log in to continue</h4></font>

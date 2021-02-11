@@ -21,7 +21,7 @@
         <p data-aos="fade-up" class="result">Question: {{q}}</p>
 <p data-aos="fade-up" data-aos-delay="400"  class="result">Answer : <br> {{a}}<br></p>
 </center>
-<h3>Useful web links</h3>
+<h3>Useful web links &nbsp;&nbsp;&nbsp; <a class="help" href="/help"><i class="fas fa-question-circle"></i></a></h3>
 
         {%for i in useful_results%}
         <a class="links" href="{{i}}">{{i}}</a><br><br>
@@ -29,7 +29,6 @@
         <h3>Related questions:</h3>
         {%for j in o%}
         {{j[0]}}
-        <br>
         {%endfor%}
         <br>
         <br>
