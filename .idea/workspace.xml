@@ -24,18 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="animations">
+    <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="added help buttons, improved animations, fixed home page button glitch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/reports.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/reports.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/database.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/query-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/query-results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/questions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -134,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612979408524</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added help buttons, improved animations, fixed home page button glitch">
+      <created>1613046214945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613046214945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,48 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="web scraper, animations" />
     <MESSAGE value="animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="animations" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612894446467">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1612894446467" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1613045961653">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613045961653" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1613045961652">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613045961652" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1613045961652">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613045961652" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1613045961653">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613045961653" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1612943765050">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1612943765050" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612979412892">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612979412892" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612895717882">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612895717882" />
-    <state x="468" y="255" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612895969056">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="468" y="255" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612895969056" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1613042124357">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1613042124357" />
+    <MESSAGE value="added help buttons, improved animations, fixed home page button glitch" />
+    <option name="LAST_COMMIT_MESSAGE" value="added help buttons, improved animations, fixed home page button glitch" />
   </component>
 </project>
