@@ -17,7 +17,6 @@ def query(q):
                 prev_ratio = ratio
                 others.append([title, ratio])
                 result = title
-        new_ratio = 0
         x = []
         otherresult = []
         for other in others:
@@ -32,4 +31,3 @@ def query(q):
         return [result, otherresult, str(list(df[df['Question'] == result]['Answers'])[0])]
     except:
         return 'error none found'
-

@@ -39,6 +39,7 @@ newNews = {}
 
 @app.route('/')
 def index():
+    session['feature'] = 'none'
     return render_template("home.html")
 
 
@@ -61,7 +62,7 @@ def home():
     df = pd.read_csv('data/NewsData.csv')
     sources = pd.read_csv('data/newssources.csv')
     df1 = pd.DataFrame(df)
-    df2 =  df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
+    df2 = df1[(df1['confirm'] == 1) & (df1['true_false'] == 0)]
     df2 = df2[['title', 'date','avgReview']]
     return render_template('index.html', tables=[df2.to_html(classes='data', header="true")],  titles = df2.columns.values, tables1=[sources.to_html(classes='data', header="true")],  titles1 = sources.columns.values)
 
@@ -78,6 +79,7 @@ def predictFake():
     if request.method == 'POST':
         message = request.form['message']
         session['news'] = message
+        session['feature'] = 'fakenewsdetection'
         exist = message in df1.title or message in df1.news
         source = request.form['source']
         news = '{} - {}'.format(source, message)
@@ -101,7 +103,8 @@ def reported():
         report_msg = str(request.form.get('news'))
         comment = str(request.form.get('comment'))
         reporter = session['username']
-        df.loc[len(df.index)] = [report_msg, comment, reporter]
+        feature = session['feature']
+        df.loc[len(df.index)] = [report_msg, comment, reporter, feature]
         df.to_csv('data/reports.csv', index=False)
 
     return render_template('report-placed.html')
@@ -117,6 +120,7 @@ def query_results():
     if request.method == "POST":
         ques = request.form.get("query")
         session['news'] = ques
+        session['feature'] = 'questions'
         x = query(ques)
         y = googleSearch(ques)
         if ques == '':
