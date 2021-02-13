@@ -24,10 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="added help buttons, improved animations, fixed home page button glitch">
+    <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="improved footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/reports.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/reports.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613046214945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="improved footer">
+      <created>1613141777407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613141777407</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +157,7 @@
     <MESSAGE value="web scraper, animations" />
     <MESSAGE value="animations" />
     <MESSAGE value="added help buttons, improved animations, fixed home page button glitch" />
-    <option name="LAST_COMMIT_MESSAGE" value="added help buttons, improved animations, fixed home page button glitch" />
+    <MESSAGE value="improved footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved footer" />
   </component>
 </project>
