@@ -26,6 +26,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8935874-fee8-4d44-8e54-f5ea2d9ce82f" name="Default Changelist" comment="added feature name to report data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

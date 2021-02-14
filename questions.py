@@ -8,7 +8,7 @@ def query(q):
         titles1 = df['Question']
         result = ''
         others = []
-        prev_ratio = 60
+        prev_ratio = 40
         for title in list(titles1):
             if title is float:
                 continue
