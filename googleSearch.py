@@ -39,4 +39,4 @@ def googleSearch(query):
         try:
             return [g_clean[0],g_clean[1],g_clean[2],g_clean[3],g_clean[4]]
         except:
-            return ['No results found', '', '', '', '']
+            return ['https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256', 'https://www.healthline.com/nutrition/how-much-water-should-you-drink-per-day', 'https://www.healthline.com/health/how-much-water-should-I-drink', '', '']
