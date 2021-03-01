@@ -4,13 +4,13 @@ from fuzzywuzzy import fuzz
 
 def query(q):
     try:
-        df = pd.read_csv("data/COVID-Q-master/final_master_dataset.csv")
+        df = pd.read_csv("data/COVID-Q-master/final_master_dataset.csv", encoding="latin-1")
         titles1 = df['Question']
         result = ''
         others = []
         prev_ratio = 40
         for title in list(titles1):
-            if title is float:
+            if isinstance(title, float):
                 continue
             ratio = fuzz.ratio(title, q)
             if ratio > prev_ratio:
@@ -30,4 +30,4 @@ def query(q):
 
         return [result, otherresult, str(list(df[df['Question'] == result]['Answers'])[0])]
     except:
-        return 'error none found'
+        return ["No results found", ["No results found"], "No results found"]

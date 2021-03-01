@@ -126,7 +126,7 @@ def query_results():
         if ques == '':
             return render_template("questions.html", error="Input cannot be empty")
         if x == 'error none found':
-            return render_template("query-results.html", q=ques, o='', a='''No need to count cups. Research shows people who gulp a glass of H2O when they’re thirsty get enough to stay healthy and hydrated. Water-rich foods like soup, fruit, and vegetables and drinks like juice, tea, and coffee all help you get your fill.''', useful_results=y)
+            return render_template("query-results.html", q=ques, o='', a='Sorry, no results were found.', useful_results=y)
         return render_template("query-results.html", q=x[0], o=x[1], a=x[2], useful_results=y)
 
 
